@@ -28,7 +28,7 @@ get_header(); ?>
 		Телефон: <strong>$_POST[phone]</strong><br>
 		E-mail: <strong>$_POST[email]</strong><br>
 		<p align=justify><strong>$_POST[Remarks]</strong></p>";
-		mail($toemail,"mode.in.ua",$message,"From: ".$_POST[Name]." <".$_POST[email].">\nContent-type: text/html; charset=utf-8\nContent-Transfer-Encoding: 8bit\n") or die("error sending message");
+		mail($toemail,"mode.ua",$message,"From: ".$_POST[Name]." <".$_POST[email].">\nContent-type: text/html; charset=utf-8\nContent-Transfer-Encoding: 8bit\n") or die("error sending message");
 ?>
 				<p align="justify" style="margin: 3 0 3 0;">  <font size="2px" color="#676166"><strong>Спасибо, Ваше письмо очень важно для нас!</strong> <br><br>Сообщение будет отправлено администратору сайта, Вы обязательно получите ответ!</font>
 	<? } else { ?>

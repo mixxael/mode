@@ -9,3 +9,10 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.mode.in.ua$ [NC]
+RewriteRule ^(.*)$ http://mode.ua/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^mode.in.ua$ [NC]
+RewriteRule ^(.*)$ http://mode.ua/$1 [R=301,L]
+
+Redirect 301 /glavnaya-novost/ /category/novosti/

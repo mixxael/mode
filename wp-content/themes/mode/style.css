@@ -51,6 +51,7 @@ small {
 #footer {background-color: #000; height: 31px;	width: 950px; padding: 0;	margin: 0 auto;	clear: both;}
 
 #footer a {color: #ffffff; /*8b7f48*/}
+#footer a:hover {font-weight: normal;}
 #footer p {
 	margin: 0 0 0 -5px;
 	padding: 5px 0;

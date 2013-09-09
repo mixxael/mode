@@ -100,7 +100,8 @@ get_sidebar('left');
 				</div>
 				</td>
 <td width=130 align="right">
-<div style="margin-right: -15px; margin-top: 0px">
+<div style="margin-right: 0px; margin-top: 15px">
+<!--<div style="margin-right: -15px; margin-top: 0px">-->
 <div class="ngg-galleryoverview">
 	<!-- Thumbnails -->
 		

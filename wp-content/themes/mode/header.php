@@ -62,20 +62,23 @@ jQuery(document).ready(function() {
 <div style="margin: 0 auto;	position: relative;">
 <?php if (!is_front_page()) {echo '<div class="fon">&nbsp;</div>';} ?>
 <div id="page">
-<a href="/"><img  src="/wp-content/themes/mode/images/logo.png" style="margin-left: -10px; margin-top:10px;" /></a>
-<?php if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php } ?>
+<a href="/" title="кухни на заказ, шкафы купе на заказ"><img  src="/wp-content/themes/mode/images/logo.png" alt="шкафы купе на заказ, кухни на заказ" style="margin-left: -10px; margin-top:10px;" /></a>
+<?php /*if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php }
+*/ ?>
 <div id="header">
-	
+
 		<?php //wp_list_categories('title_li='); ?>
-		<?php if (!is_front_page()) { require "inc.menu.php"; } ?>
-		
+		<?php //if (!is_front_page()) {
+					require "inc.menu.php";
+				//} ?>
+
 	</div>
-		<?php 
+		<?php
 	if (!is_front_page()) {
 		if (is_single()) echo '<div id="content" class="narrowcolumn">';//echo '<div id="content" class="widecolumn">';
 				else echo '<div id="content" class="narrowcolumn">';
 		} ?>
-		
+
 		<?php	//if (!is_category(13)) require "inc.submenu.php"; ?>
 <!--
 

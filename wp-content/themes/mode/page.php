@@ -24,15 +24,15 @@ get_header(); ?>
 	//if ($_POST[firstname]!="" && $_POST[lastname]!=""  && $_POST[phone]!="" && $_POST[email]!="" && $_POST[msgtext]!="" && $_POST[capcha]==$_POST[sum]) {
 	if ( $_POST[securecode]==$_POST[sum]) {
 
-		//$toemail = "info@mode.in.ua";
-		$toemail = "info@mode.in.ua";
+		//$toemail = "mixxael@ukr.net";
+		$toemail = "info@mode.ua";
 
 		$message = "
 		От: <strong> $_POST[Title] $_POST[Name]</strong><br>
 		Телефон: <strong>$_POST[phone]</strong><br>
 		E-mail: <strong>$_POST[email]</strong><br>
 		<p align=justify><strong>$_POST[Remarks]</strong></p>";
-		mail($toemail,"mode.in.ua",$message,"From:  <".$_POST[email].">\nContent-type: text/html; charset=cp-1251\nContent-Transfer-Encoding: 8bit\n") or die("error sending message");
+		mail($toemail,"mode.ua",$message,"From:  <".$_POST[email].">\nContent-type: text/html; charset=utf-8\nContent-Transfer-Encoding: 8bit\n") or die("error sending message");
 ?>
 				<p align="justify" style="margin: 3 0 3 0;">  <font size="2px" ><strong>Спасибо, Ваше письмо очень важно для нас!</strong> <br><br>Сообщение будет отправлено администратору сайта, Вы обязательно получите ответ!</font>
 	<? } else { ?>
