@@ -17,7 +17,7 @@ get_sidebar('left');
 		if (have_posts()) : 
 				query_posts($query_string . '&p=178'); ?>
 		<div class="scroll-big">
-		<div class="scroll-pane">
+		<div class="without-scroll-pane">
 		<table width="100%" style="float: left;">
 		<?php while (have_posts()) : the_post(); ?>
 				<tr><td valign="top">
@@ -42,7 +42,31 @@ get_sidebar('left');
 	<?php	endif; ?>
 
 	</div>
-		 <?php } else
+		 <?php } else 	
+		 if (is_category(37)) 	{
+		if (have_posts()) :  ?>
+		<div class="scroll-big">
+		<div class="without-scroll-pane">
+		<table width="100%" style="float: left;">
+		<?php while (have_posts()) : the_post(); ?>
+				<tr><td valign="top">
+				<div class="news post-178">
+					<strong> <?php the_title(); ?></strong><br /><br />
+					<?php the_content() ?>
+				</div>
+				</td>
+		<?php
+			echo "</tr>";
+			endwhile; ?>
+		</tr></table>
+
+		</div>
+		</div>
+	<?php	endif; ?>
+
+	</div>
+		 <?php }
+		 else
 		
 		if (is_category(28) || is_category(29) || is_category(30) || is_category(31) || is_category(32) || is_category(33)) 
 		{
@@ -51,7 +75,7 @@ get_sidebar('left');
 				//query_posts($query_string . '&posts_per_page=10');
 				?>
 		<div class="scroll-big">
-		<div class="scroll-pane">
+		<div class="without-scroll-pane">
 		<table width="100%" style="float: left;">
 		<?php while (have_posts()) : the_post(); ?>
 				<tr><td valign="top">
@@ -76,44 +100,28 @@ get_sidebar('left');
 	<?php	endif; ?>
 
 	</div>
-		 <?php } else if (is_category(20) || is_category(21) || is_category(22) || is_category(23))
-		 { 
+		 <?php } else if (is_category(20) || is_category(21) || is_category(22) || is_category(23) || is_category(36))
+		 {
 		 ?>
-		 <table width="688" style="float: right; margin: -18px 0px 0 0;">
-		<tr><td>
+<div class="post1">	
+	<div class="gallery_wrap">
 		<?php
 		$i = 1;
 		if (have_posts()) : 
 		// 165
 		
-				query_posts($query_string . '&posts_per_page=1&order=ASC');  ?>
+			query_posts($query_string . '&posts_per_page=1&order=ASC');  ?>
 		
 		<?php while (have_posts()) : the_post(); ?>
+	
 
-			<div class="scroll-big">
-		<div class="scroll-pane">
-				
-			<?php the_content(''); ?>
-
-					<?php //the_excerpt() ?>
-				</div>
-				</div>
-				</td>
-<td width=130 align="right">
-<div style="margin-right: 0px; margin-top: 15px">
-<!--<div style="margin-right: -15px; margin-top: 0px">-->
-<div class="ngg-galleryoverview">
-	<!-- Thumbnails -->
-		
-	<div class="ngg-gallery-thumbnail-box"  >
-		<div class="ngg-gallery-thumbnail" >
- <ul id="mycarousel" class="jcarousel jcarousel-skin-tango">
- <?php 
-				$ngg = get_post_custom_values('ngg');
+    
+        <?php 
+	$ngg = get_post_custom_values('ngg');
 	$ngg = $ngg[0];
 	if ($ngg > 0)
 	{
-	$name = $wpdb->get_row("SELECT CONCAT( wp_ngg_gallery.path, '/', wp_ngg_pictures.filename ),wp_ngg_gallery.title,wp_ngg_pictures.imagedate FROM wp_ngg_gallery, wp_ngg_pictures WHERE wp_ngg_gallery.gid = '".$ngg."' and wp_ngg_gallery.gid = wp_ngg_pictures.galleryid and wp_ngg_pictures.exclude = 0 ORDER BY wp_ngg_pictures.sortorder DESC", ARRAY_N);
+	//$name = $wpdb->get_row("SELECT CONCAT( wp_ngg_gallery.path, '/', wp_ngg_pictures.filename ),wp_ngg_gallery.title,wp_ngg_pictures.imagedate FROM wp_ngg_gallery, wp_ngg_pictures WHERE wp_ngg_gallery.gid = '".$ngg."' and wp_ngg_gallery.gid = wp_ngg_pictures.galleryid and wp_ngg_pictures.exclude = 0 ORDER BY wp_ngg_pictures.sortorder DESC", ARRAY_N);
 	//$i = 0;
 	//echo $ngg;
 	//echo $name[0].$name[1].$name[2].$name[3].$name[4].$name[5].$name[6];
@@ -123,7 +131,7 @@ get_sidebar('left');
 	}*/
 	
 ?>
-<!--<img src="<?php echo "/modeinua/".$name[0]; ?>"  border=0 vspace=10 />-->
+<!--<img src="<?php //echo "/modeinua/".$name[0]; ?>"  border=0 vspace=10 />-->
 	<?php	//echo $img_src_glob;
 		//echo $img_src_glob;
 	echo nggShowGallery($ngg);
@@ -135,22 +143,16 @@ get_sidebar('left');
 	//echo $ngg;
 
 ?>
-  </ul>
-  		</div>
-	</div>
-  </div>
-    </div>
-
-			</td>
-				
+	
 		<?php 
 		//if ($i % 2 == 0 ) echo "</tr><tr>";
 		$i++;
 		endwhile; ?>
 	<?php 	endif; ?>
-		
-		
-		</tr></table>
+    </div>
+   </div>
+<script type="text/javascript">       </script>	
+			
 		<?php 
 		 }  else if (is_category(8)) {
 		 if (have_posts()) : 
@@ -158,7 +160,7 @@ get_sidebar('left');
 		 while (have_posts()) : the_post(); ?>	
 
 		<div class="post1" id="post-<?php the_ID(); ?>">
-			<div class="scroll-pane">
+			<div class="without-scroll-pane">
 			
 				<?php the_content(''); ?>
 
@@ -231,7 +233,7 @@ get_sidebar('left');
 	endif; }
 ?>
 
-	</div>
+	<!--</div>-->
 </div>
 <?php //get_sidebar(); ?>
 

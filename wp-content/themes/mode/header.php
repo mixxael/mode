@@ -16,14 +16,16 @@
 <!--[if IE 7]><link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/styleie567.css" /><![endif]-->
 <!--[if IE]><link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/styleie.css" /><![endif]-->
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<!--  jQuery library -->
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/lib/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.tools.min.js"></script>
 <!-- gallery-->
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/js_work.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.lightbox-0.5.css" />
 <!-- end gallery-->
 
-<!--  jQuery library -->
-<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/lib/jquery-1.4.2.min.js"></script>
+
 <!--  jCarousel library -->
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/lib/jquery.jcarousel.min.js"></script>
 <!--  jCarousel skin stylesheet -->
@@ -42,6 +44,7 @@ jQuery(document).ready(function() {
 <!-- scroll pane-->
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jScrollPane.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/new_carousel.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/jScrollPane.css" />
 <script type="text/javascript">
 			$(function()
@@ -58,26 +61,28 @@ jQuery(document).ready(function() {
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div style="position: relative; height: 1px; top: 15%; display: block;">
+<div style="position: relative; height: 1px; display: block;">
 <div style="margin: 0 auto;	position: relative;">
-<?php if (!is_front_page()) {echo '<div class="fon">&nbsp;</div>';} ?>
+<?php //if (!is_front_page()) {echo '<div class="fon">&nbsp;</div>';} ?>
 <div id="page">
-<a href="/" title="кухни на заказ, шкафы купе на заказ"><img  src="/wp-content/themes/mode/images/logo.png" alt="шкафы купе на заказ, кухни на заказ" style="margin-left: -10px; margin-top:10px;" /></a>
-<?php /*if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php }
-*/ ?>
-<div id="header">
+	<div class="fixed">
+		<div class="logo"><a href="/" title="кухни на заказ, шкафы купе на заказ"><img  src="/wp-content/themes/mode/images/logo.png" alt="шкафы купе на заказ, кухни на заказ" style="margin-left: -10px; margin-top:10px;" /></a></div>
+		<div class="description"><?php bloginfo('description'); ?></div>
+		<?php /*if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php }
+		*/ ?>
+		<div id="header">
 
-		<?php //wp_list_categories('title_li='); ?>
-		<?php //if (!is_front_page()) {
-					require "inc.menu.php";
-				//} ?>
-
+			<?php //wp_list_categories('title_li='); ?>
+			<?php //if (!is_front_page()) {
+						require "inc.menu.php";
+					//} ?>
+		</div>
 	</div>
-		<?php
+		<?php /*
 	if (!is_front_page()) {
 		if (is_single()) echo '<div id="content" class="narrowcolumn">';//echo '<div id="content" class="widecolumn">';
 				else echo '<div id="content" class="narrowcolumn">';
-		} ?>
+		}*/ ?>
 
 		<?php	//if (!is_category(13)) require "inc.submenu.php"; ?>
 <!--

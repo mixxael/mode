@@ -20,7 +20,7 @@
 */		
 
 ?>
-<div style="float: left; width: 255px; margin: 0px 0 0 0;">
+<div style="float: left; width: 235px; margin: 0px 0 0 0;">
 		<?php if (!is_front_page()) { require "inc.submenu.php"; } ?>
 <!--<ul>
 	<?php 

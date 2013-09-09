@@ -21,13 +21,15 @@ Tags: black, fixed width, two columns, widgets
 body {
 	font-size: 13px; /* Resets 1em to 10px */
 	font-family: Tahoma, Times New Roman, Tahoma, serif;
-	background: #000 url('images/background.png') repeat-x left;
-	color: #ffffff;
+	color: #000;
 	text-align: center;
-	overflow-y: hidden;
 	overflow-x: hidden;
 	}
-a, h2 a:hover, h3 a:hover {
+a{
+	color: #000;
+	text-decoration: none;
+}
+h2 a:hover, h3 a:hover {
 	color: #d0c8a5;
 	text-decoration: none;
 	}
@@ -46,9 +48,12 @@ small {
 	font-size: 14px;
 	}
 
-#content {	font-size: 14px; /*background: url('images/fon.png') no-repeat top left;*/	}	
+#content {
+	font-size: 14px; 
+	/*background: url('images/fon.png') no-repeat top left;*/	
+}	
 
-#footer {background-color: #000; height: 31px;	width: 950px; padding: 0;	margin: 0 auto;	clear: both;}
+#footer {height: 31px;	width: 950px; padding: 0;	margin: 0 auto;	clear: both;}
 
 #footer a {color: #ffffff; /*8b7f48*/}
 #footer a:hover {font-weight: normal;}
@@ -56,10 +61,27 @@ small {
 	margin: 0 0 0 -5px;
 	padding: 5px 0;
 	text-align: left;
-	color: #ffffff; /*8b7f48*/
+	color: #000; /*8b7f48*/
 	font-size: 12px;
 	}
-#header {height: 31px; width: 782px; padding: 1px 0 0 0; margin-top: -30px;}
+.fixed{
+	position: fixed;
+	z-index: 999999;
+	background-color: white;
+	width: 973px;
+	top: 0;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.description{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+#header {height: 31px; padding: 1px 0 20px 0; margin-top: 10px;}
 #header ul li a {color: #d0c8a5; font-size: 16px;}
 #header ul li {list-style: inline; list-style-type: none;}
 #headerimg 	{
@@ -68,11 +90,24 @@ small {
 	width: 740px;
 	}
 #mainmenu {position: relative;}
-#mainmenu a {font-size:12px; font-weight: bold;}
+#header #mainmenu a {font-size:12px; font-weight: bold;text-transform: lowercase;}
 td.active { background: url('images/menu.png') no-repeat bottom center; width: 209px; margin-bottom: 5px; padding: 10px}
 td.active2 a{ color:#ffffff; font-size: 13px;}
 td.active2 {background: url('images/menu_active.png') no-repeat bottom center; width: 209px; margin-bottom: 5px; padding: 10px}
 #mainmenu img {border: 0;}
+.menu_border{
+	width: 3px;
+	height: 10px;
+}
+ul.left_menu{
+	list-style-type: none;
+	padding-left: 15px;
+	margin: 0;
+}
+ul.left_menu li.active a{
+	color: #d0c8a5; 
+}
+ul.left_menu a:hover {font-weight: normal;}
 #page {
 	width: 969px;
 	/*height: 567px;*/
@@ -124,6 +159,9 @@ img.wp-smiley {border: 0;}
 	}
 .banner {margin: 0 0 0 10px; border: 0;}
 
+.clearleft{
+	clear: left;
+}
 .caption {
 	text-align: center;
 	/*background-color: #000;*/
@@ -156,20 +194,47 @@ img.wp-smiley {border: 0;}
 .entry {float: left;}
 .enter {margin: 40px 10px 0 0;}
 .gallery a {color: #d6be53;}
-.fon  {position: absolute; margin-top: 77px; margin-left: 0px; background: url('images/fon.png') repeat-x top left; left: 0; width: 100%; height: 474px; z-index: -1;}
 
-.narrowcolumn {	float: left;	padding: 0 0 0px 10px;	margin: 0px 0 0 0px;	width: 943px;	height: 474px;	background: url('images/texture.png') no-repeat top left;	}
-.narrowcolumn_f {	float: left;	padding: 0 0 0px 10px;	margin: 0px 0 0 0px;	width: 943px;	height: 474px;	}
+
+.narrowcolumn {	
+	float: left;	
+	padding: 0 0 0px 0px;	
+	margin: 0px 0 0 0px;	
+	width: 955px;	
+	border: #666666;
+	margin-top: 160px;
+}
+.narrowcolumn_f {
+	float: left;
+	padding: 0 0 0px 10px;	
+	margin: 0px 0 0 0px;	
+	width: 943px;
+	margin-top: 160px;	
+	/*height: 474px;*/
+}
 .news { float: left; }
 .news img { float: left; border: 1px solid #e9dfb4; margin: 05px 10px 10px 10px; display: inline; padding: 0px;}
-.news a, a:hover {color: #ffffff; font-weight: bold;} /*d6be53*/
+.news a{
+	color: #000;
+	font-weight: bold;
+}
+
+a:hover 
+{
+	color: #d0c8a5; 
+	font-weight: bold;
+	} /*d6be53*/
+
 .news p {margin: 0;}
-.post {	float: left; margin: 0 0 0px;	text-align: justify; width: 930px;	height: 474px;}
-.post1 {	 margin: 40px 20px 0 0px;	text-align: justify; }
+.post {	float: left; margin: 0 0 0px;	text-align: justify; /*width: 930px;	height: 474px;*/}
+.post1 {	 
+	margin: 35px 0px 0 0px;	
+	text-align: justify; 
+}
 /*.post {	float: left; margin: 0 0 40px;	text-align: justify; width: 830px;	}*/
-.post h2 {color: #ffffff; margin: 5px 0 0 10px; font-size: 15px; font-weight: bold;} /*d6be53*/
+.post h2 {color: #000; margin: 5px 0 0 10px; font-size: 15px; font-weight: bold;} /*d6be53*/
 /*.post a, a:hover {color: #d6be53; }*/
-.post1 h2 {color: #ffffff; margin: 5px 0 0 0px; font-size: 16px; font-weight: bold;}
+.post1 h2 {color: #000; margin: 5px 0 0 0px; font-size: 16px; font-weight: bold;}
 /*.post1 a, a:hover {color: #d6be53; }*/
 .post-178 p {margin-bottom: 5px;}
 .widecolumn {	float: left;	padding: 0 0 0px 0px;	margin: 0px 0 0 0;	width: 943px;	/*height: 505px;*/	background: #000 url('images/texture.png') no-repeat top center;	/*line-height: 1.6em; */	}
@@ -187,10 +252,11 @@ scrollbar-highlight-color: #999999;
 scrollbar-shadow-color: #333333;
 scrollbar-track-color: #777777;
 	}
-.scroll-big {margin: 40px 18px 40px 0;}
+.scroll-big {margin: 30px 18px 40px 0;}
+.without-scroll-pane,
 .scroll-pane{
-    /*width: 670px;*/
-	height: 396px;
+    /*width: 670px;
+	height: 396px;*/
 	/*border: 1px solid black;*/
     padding: 0px 0 0 0px;
 	/*margin-right: 15px;*/
@@ -261,7 +327,133 @@ div.aligncenter {
 }
 /* End captions */
 
+/* nextgengallery */
 .ngg-galleryoverview img {max-width: 700px !important;}
+
+.gallery_wrap {
+background-color: black;
+text-align: center;
+float: left;
+width: 720px;
+height: 390px;
+padding-top: 5px;
+overflow: hidden;
+}
+
+.scrollable_wrap {
+background-color: black;
+float: left;
+margin: auto;
+text-align: center;
+padding: 2px 0;
+}
+
+.scrollable {
+position: relative;
+overflow: hidden;
+float: left;
+width: 652px;
+height: 52px;
+text-align: center;
+}
+.scrollable .items {
+width: 20000em;
+position: absolute;
+}
+.items .image_holder {
+float: left;
+}
+.items .image_holder .image_holder_in {
+width: 73px;
+text-align: right;
+float: left;
+}
+
+.items .image_holder .image_holder_in:first-child {
+width: 65px;
+}
+.items img {
+opacity: 0.3;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+/*img.img_big{	width: 708px;}*/
+a.browse {
+background: url(images/arrow-gallery.png) no-repeat;
+display: block;
+width: 21px;
+height: 30px;
+cursor: pointer;
+float: left;
+}
+
+a.left {
+margin-left: 0px;
+opacity: 0.3;
+margin: 7px 0 0 10px;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+a.right {
+background-position: -21px 0;
+clear: right;
+margin-right: 0px;
+opacity: 0.3;
+margin: 7px 10px 0 0;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+#left_gallery {
+margin: 147px 0px 0 10px;
+}
+#right_gallery {
+margin: 147px 10px 0 0px;
+}
+div.photo_number {
+position: absolute;
+color: white;
+bottom: 85px;
+left: 10px;
+opacity: 0.5;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+img.img_loading{
+	border: none;
+}
+#image_wrap {
+height: 333px;
+width: 652px;
+margin: auto;
+text-align: center;
+float: left;
+}
+#photo_description {
+position: absolute;
+left: 0;
+top: 0;
+padding: 50px 0 0 10px;
+text-align: left;
+display: none;
+width: 230px;
+height: 276px;
+background: white;
+opacity: 0.7;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+#photo_description_a {
+position: absolute;
+left: 0;
+top: 0;
+padding: 10px 0 0 10px;
+text-align: left;
+}
+#photo_description_a a {
+color: black;
+font-size: 12px;
+text-decoration: underline;
+outline: none;
+font-weight: bold;
+}
+/*# nextgengallery*/
+
+
 #shDisplay div#shNext{
 	float:none !important;
 	margin: 0 auto;
@@ -277,6 +469,24 @@ div.aligncenter {
 #shDisplay div#shCount {
 	margin: 0 auto;
 	margin-top:-18px;
+}
+
+.vertical_tabs, .horizontal_tabs{
+	float: left;
+	width: 980px;
+	margin-top: 30px;
+}
+.vertical_post{
+	float: left;
+	width: 235px;
+	height: 220px;
+	margin-right: 10px;
+}
+.vertical_post .title a{
+	font-weight: bold;
+}
+.horizontal_post img{
+	width: 195px;
 }
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
 	It won't be a stylish marriage, I can't afford a carriage.

@@ -4,14 +4,56 @@
  * @subpackage Winter-fur_Theme
  */
 ?>
+<?php if (is_front_page()) { /* ?>
+
+<div class="horizontal_tabs">
+	<?php query_posts('cat=35&showposts=4'); while (have_posts()) : the_post(); ?>
+	<div class="horizontal_post clearleft">
+		<?php $index_thumbnail = get_post_meta($post->ID, 'big_img', true);
+		if ($index_thumbnail) ?>
+			<div  ><a href="<?php the_permalink() ?>"><img src='<?php echo $index_thumbnail ?>' class='alignleft' /></a></div>
+		<div class="post_content"><p><?php 
+		print $content = mb_substr(get_the_content(), 0, 1100, 'UTF-8'); 
+		//print $content = get_the_excerpt(); 
+		?></p></div>
+	</div>
+	<?php endwhile; wp_reset_query(); ?>
+</div>
+<?php */ ?>
+<div class="vertical_tabs">
+	<?php query_posts('cat=34&showposts=16'); while (have_posts()) : the_post(); ?>
+	<div class="vertical_post">
+		<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a></div>
+		<div class="post_content"><p><?php print $content = get_the_excerpt(); ?></p></div>
+	</div>
+	<?php endwhile; wp_reset_query(); ?>
+</div>
+<?php }?>
+<?php 
+$post_id = get_post_custom_values('post_id');
+if(!empty($post_id)){
+	print '<div class="vertical_tabs">';
+	foreach($post_id as $post){
+		query_posts('p='.$post);
+		while (have_posts()) : the_post(); ?>
+		<div class="vertical_post">
+			<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a></div>
+			<div class="post_content"><p><?php print $content = get_the_excerpt(); ?></p></div>
+		</div>
+		<?php endwhile; wp_reset_query();
+	}
+	print '</div>';
+}
+?>
  <div id="footer"  >
-	<table width="900">
+	<table width="950">
 	<tr>
 	<td><p>
 
 		<b>кухни на заказ</b> |
 		<b>шкафы-купе на заказ</b> |
-		гардеробные на заказ.  Copyright © MODE. Все права защищены.
+		<b>гардеробные на заказ</b> |
+		<b>межкомнатные перегородки</b>.  Copyright © MODE. Все права защищены.
 		<!--<a href="<?php //bloginfo('rss2_url'); ?>">Записи (RSS)</a>
 		и <a href="<?php //bloginfo('comments_rss2_url'); ?>">Комментарии (RSS)</a>.-->
 		<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
@@ -34,7 +76,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 </div>
 </div>
 
-
+<?php /* ?>
 <table>
 <tr height="200"><td></td></tr>
 	<tr>
@@ -91,7 +133,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 </table>
    <br>
 
-
+<?php */ ?>
 
 
 
