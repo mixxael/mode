@@ -5,6 +5,15 @@
  */
 
 get_header();
+$category = get_the_category();
+
+	if (!empty($category[1]->cat_ID)) {
+			$shparent = $category[1]->category_parent;
+			$category = $category[1];
+		} else {
+			$shparent = $category[0]->category_parent;
+			$category = $category[0];
+		}
 ?>
 	<div id="content" class="narrowcolumn">
 		<?php get_sidebar('left'); ?>
@@ -64,12 +73,14 @@ get_header();
 	<?php } else { ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
-
+	
 		<div class="post1" id="post-<?php the_ID(); ?>">
-			<?php if(!in_category(array(20,21,22,36))) {?>
-				<h2><?php the_title(); ?></h2>
+			<div class="gallery_wrap back_white">
+			<?php /*if(!in_category(array(20,21,22,36,51)) && $shparent != 51) {?>
+				<h2><?php the_title(); print $shparent ?></h2>
 				<?php 
-			}
+			}*/
+
 			if (in_category(1) || in_category(4) || in_category(5) || in_category(6)) { ?>
 				
 				<small style="font-size: 11px;"><?php the_time('d.m.Y') ?></small> <? } ?>
@@ -105,25 +116,29 @@ get_header();
 				<?php if( !in_array($post->ID, array(506,689,145,520,498))){?>
 				<h2><?php the_title(); ?></h2>
 				<?php }
-				the_content(''); ?>
-				
-				<?php //wp_link_pages(array('before' => '<p><strong>Страницы:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-				<?php //the_tags( '<p>Тэги: ', ', ', '</p>'); ?>
-
-				<!--<p class="postmetadata alt">
-					<small>
-						Запись была опубликована
-						<?php 
-							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */ ?>
-						<?php the_time('l, F jS, Y') ?> в <?php the_time() ?>
-						в рубрике <?php the_category(', ') ?>.
-
-					</small>
-				</p>-->
-
+				?>
+			</div>
+			<?php 
+			//$post_id = get_post_custom_values('post_id');
+			/*if(!empty($post_id)){
+				print '<div class="vertical_tabs">';
+				foreach($post_id as $post){
+					query_posts('p='.$post);
+					while (have_posts()) : the_post(); ?>
+					<div class="vertical_post">
+						<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a></div>
+						<div class="post_content"><p><?php print $content = get_the_excerpt(); ?></p></div>
+					</div>
+					<?php endwhile; wp_reset_query();
+				}
+				print '</div>';
+			}*/
+			print "<div class='body'>";
+			the_content('');
+			print "</div>";
+			 ?>
 			</div>
 		</div>
-
 	<?php endwhile; else: ?>
 
 		<p>Извините, ни одна запись не подошла под Ваши критерии.</p>

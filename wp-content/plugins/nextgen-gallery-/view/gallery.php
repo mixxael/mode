@@ -83,7 +83,7 @@ Follow variables are useable :
     <div class="photo_number"></div>
     <div id="image_wrap" style="overflow: hidden; position: relative; opacity: 1; ">
             <div id="photo_description" style="display: none; "><?=$big_img_description?></div>
-            <div id="photo_description_a" style="display: none;"><a href="javascript:void(0);" onclick="$('#photo_description').slideToggle();">
+            <div id="photo_description_a" style="display: none;"><a href="javascript:void(0);" onclick="jQuery('#photo_description').slideToggle();">
 				<?php 
 				if($gallery->ID == 10) 
 					print "ОПИСАНИЕ";

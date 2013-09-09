@@ -7,7 +7,7 @@
 get_header(); ?>
 		<?php 
 	if (is_front_page()) { ?>
-	<div id="content" class="narrowcolumn_f">
+	<div id="content" class="narrowcolumn">
 	<?php } else {?>
 	<div id="content" class="narrowcolumn">
 		<?php } ?>

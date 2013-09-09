@@ -1,22 +1,7 @@
 <?php
-
-// делает меню на 35px шире
 function ru_extend_menu() { ?>
-	
-<style type="text/css">
-	#adminmenu {
-		width: 185px; /* default 145px + 10px */
-		margin-left: -200px; /* default 160px + 10px */
-	}
-	#wpbody {
-		margin-left: 215px; /* default 175px + 10px */
-	}
-	* html #adminmenu { /* for IE6 only */
-		margin-left: -115px; /* default 80px + 5px */
-	}
-</style>
-<?php
-}
+  <style type="text/css">.pressthis a { width: 135px;}</style>
+<?php }
 
 function change_update_url($options) {
 if (isset($options->updates) && is_array($options->updates))

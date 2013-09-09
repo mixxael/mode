@@ -82,7 +82,7 @@ Follow variables are useable :
     <div class="photo_number"></div>
     <div id="image_wrap" style="overflow: hidden; position: relative; opacity: 1; ">
             <div id="photo_description" style="display: none; "><?=$big_img_description?></div>
-            <div id="photo_description_a" style="display: none;"><a href="javascript:void(0);" onclick="$('#photo_description').slideToggle();">ОПИСАНИЕ<br>ЦЕНА</a></div>
+            <div id="photo_description_a" style="display: none;"><a href="javascript:void(0);" onclick="jQuery('#photo_description').slideToggle();">ОПИСАНИЕ<br>ЦЕНА</a></div>
     	   <img class="img_loading" src="/wp-content/themes/mode/images/loading_transparent.gif" width="32" height="32" style="padding-top: 150px; display: none; ">
     	   <img class="img_big" src="<?php print ($big_img) ?>" width="650" height="325" style="display: inline-block; padding-left: 0px; ">
         </div>

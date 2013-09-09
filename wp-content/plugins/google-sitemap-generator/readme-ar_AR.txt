@@ -1,4 +1,4 @@
-=== صانع خريطة الموقع لبرنامج ووردبريس ===
+﻿=== صانع خريطة الموقع لبرنامج ووردبريس ===
 
 
 المطورون: Arne, Michael, Rodney, Hirosama, James, John, Brad, Christian

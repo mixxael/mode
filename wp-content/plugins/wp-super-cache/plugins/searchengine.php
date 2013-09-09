@@ -2,7 +2,7 @@
 function wp_supercache_searchengine( $string ) {
 	global $passingthrough, $nevershowads, $cache_no_adverts_for_friends;
 
-	if( $cache_no_adverts_for_friends != 'yes' )
+	if( $cache_no_adverts_for_friends != 'yes' && $cache_no_adverts_for_friends != '1' )
 		return $string;
 
 	if( $string != '' )
@@ -58,24 +58,31 @@ function wp_supercache_searchengine_admin() {
 	$cache_no_adverts_for_friends = $cache_no_adverts_for_friends == '' ? 'no' : $cache_no_adverts_for_friends;
 
 	if(isset($_POST['cache_no_adverts_for_friends']) && $valid_nonce) {
-		$cache_no_adverts_for_friends = $_POST['cache_no_adverts_for_friends'] == 'Disable' ? 'no' : 'yes';
+		$cache_no_adverts_for_friends = $_POST['cache_no_adverts_for_friends'] == __( 'Disable', 'wp-super-cache' ) ? 'no' : 'yes';
 		wp_cache_replace_line('^ *\$cache_no_adverts_for_friends', "\$cache_no_adverts_for_friends = '$cache_no_adverts_for_friends';", $wp_cache_config_file);
 	}
-	echo '<form name="wp_supercache_searchengine_admin" action="'. $_SERVER["REQUEST_URI"] . '" method="post">';
+	$id = 'no_adverts_for_friends-section';
+	?>
+		<fieldset id="<?php echo $id; ?>" class="options"> 
+		<h4><?php _e( 'No Adverts for Friends', 'wp-super-cache' ); ?></h4>
+		<form name="wp_manager" action="<?php echo $_SERVER[ "REQUEST_URI" ]; ?>" method="post">
+		<label><input type="radio" name="cache_no_adverts_for_friends" value="1" <?php if( $cache_no_adverts_for_friends == 'yes' ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Enabled', 'wp-super-cache' ); ?></label>
+		<label><input type="radio" name="cache_no_adverts_for_friends" value="0" <?php if( $cache_no_adverts_for_friends == 'no' ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Disabled', 'wp-super-cache' ); ?></label>
+		<p><?php _e( '', 'wp-super-cache' ); ?></p><?php
+		echo '<p>' . __( 'Provides support for <a href="http://ocaoimh.ie/no-adverts-for-friends/">No Adverts for Friends</a>.', 'wp-super-cache' ) . '</p>';
+		if ( isset( $changed ) && $changed ) {
+			if ( 'yes' == $cache_no_adverts_for_friends )
+				$status = __( "enabled" );
+			else
+				$status = __( "disabled" );
+			echo "<p><strong>" . sprintf( __( "No Adverts for Friends support is now %s", 'wp-super-cache' ), $status ) . "</strong></p>";
+		}
+	echo '<div class="submit"><input ' . SUBMITDISABLED . 'type="submit" value="' . __( 'Update', 'wp-super-cache' ) . '" /></div>';
 	wp_nonce_field('wp-cache');
-	echo '<strong><a href="http://ocaoimh.ie/no-adverts-for-friends/">No Adverts for Friends</a> plugin is ';
-	if( $cache_no_adverts_for_friends == 'no' ) {
-		echo 'disabled';
-	} else {
-		echo 'enabled';
-	}
-	echo '.</strong> (requires <a href="http://ocaoimh.ie/no-adverts-for-friends/">friendsadverts.php</a> too) ';
-	if( $cache_no_adverts_for_friends == 'no' ) {
-		echo '<input type="submit" name="cache_no_adverts_for_friends" value="Enable &raquo;" />';
-	} else {
-		echo '<input type="submit" name="cache_no_adverts_for_friends" value="Disable &raquo;" />';
-	}
-	echo "</form>\n";
+	?>
+	</form>
+	</fieldset>
+<?php
 
 }
 add_cacheaction( 'cache_admin_page', 'wp_supercache_searchengine_admin' );

@@ -1,0 +1,47 @@
+Preset: sql only
+Schedule: scheduled
+WordPress Version: 2.9.2
+BackUpWordPress Version: 0.4.5
+## 9 March 2013 19:18:58: BackUpWordPress starting at 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: BackUpWordPress using Preset sql only
+## 9 March 2013 19:18:58: BackUpWordPress temporary Directory '/var/www/mode8g/mode.ua/wp-content/backup/2013-03-09-19-18-58' created
+## 9 March 2013 19:18:58: MySQL server connected successfully  9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_commentmeta created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_comments created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_links created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_ngg_album created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_ngg_gallery created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_ngg_pictures created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_nggcf_field_values created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_nggcf_fields created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_nggcf_fields_link created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_options created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_postmeta created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_posts created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_term_relationships created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_term_taxonomy created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_terms created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_usermeta created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for newwp_users created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_commentmeta created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_comments created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_links created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_ngg_album created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_ngg_gallery created 9 March 2013 19:18:58
+## 9 March 2013 19:18:58: sql-dump for wp_ngg_pictures created 9 March 2013 19:18:58
+## 9 March 2013 19:18:59: sql-dump for wp_options created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_postmeta created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_posts created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_term_relationships created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_term_taxonomy created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_terms created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_usermeta created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: sql-dump for wp_users created 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: SQL Dump created.
+## 9 March 2013 19:18:59: Failed to change backup archive permissions /var/www/mode8g/mode.ua/wp-content/backup/2013-03-09-19-18-58-sql.tar.gz
+## 9 March 2013 19:18:59: Archive File created/compressed successfully: /var/www/mode8g/mode.ua/wp-content/backup/2013-03-09-19-18-58-sql.tar.gz
+## 9 March 2013 19:18:59: 2 Temporary Directories and Files deleted successfully
+## 9 March 2013 19:18:59: No old BackUpWordPress Archives to delete
+## 9 March 2013 19:18:59: No old BackUpWordPress Log Files to delete
+## 9 March 2013 19:18:59: BackUpWordPress done at 9 March 2013 19:18:59
+## 9 March 2013 19:18:59: BackUpWordPress was running for 1.21 Seconds

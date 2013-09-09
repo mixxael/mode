@@ -1,70 +1,24 @@
 /*
-+----------------------------------------------------------------+
-|																							|
-|	WordPress 2.8 Plugin: WP-PageNavi 2.50									|
-|	Copyright (c) 2009 Lester "GaMerZ" Chan									|
-|																							|
-|	File Written By:																	|
-|	- Lester "GaMerZ" Chan															|
-|	- http://lesterchan.net															|
-|																							|
-|	File Information:																	|
-|	- Page Navigation CSS Style													|
-|	- wp-content/plugins/wp-pagenavi/pagenavi-css.css					|
-|																							|
-+----------------------------------------------------------------+
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
 */
 
+.wp-pagenavi {
+	clear: both;
+}
 
-.wp-pagenavi a, .wp-pagenavi a:link {
-	padding: 2px 4px 2px 4px; 
-	margin: 2px;
+.wp-pagenavi a, .wp-pagenavi span {
 	text-decoration: none;
-	/*border: 1px solid #d6be53;*/
-	color: #ffffff;
-	//background-color: #FFFFFF;	
-}
-.wp-pagenavi a:visited {
-	padding: 2px 4px 2px 4px; 
+	border: 1px solid #BFBFBF;
+	padding: 3px 5px;
 	margin: 2px;
-	text-decoration: none;
-	/*border: 1px solid #d6be53;*/
-	color: #ffffff;
-	//background-color: #FFFFFF;	
 }
-.wp-pagenavi a:hover {	
-	/*border: 1px solid #000000;*/
-	color: #ffffff;
-	text-decoration: underline;
-	background-color: #000000;
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #000;
 }
-.wp-pagenavi a:active {
-	padding: 2px 4px 2px 4px; 
-	margin: 2px;
-	text-decoration: none;
-	/*border: 1px solid #d6be53;*/
-	color: #d6be53;
-	background-color: #FFFFFF;	
-}
-.wp-pagenavi span.pages {
-	padding: 2px 4px 2px 4px; 
-	margin: 2px 2px 2px 2px;
-	color: #ffffff;
-	/*border: 1px solid #000000;*/
-	//background-color: #FFFFFF;
-}
+
 .wp-pagenavi span.current {
-	padding: 2px 4px 2px 4px; 
-	margin: 2px;
 	font-weight: bold;
-	/*border: 1px solid #000000;*/
-	color: #ffffff;
-	//background-color: #FFFFFF;
-}
-.wp-pagenavi span.extend {
-	padding: 2px 4px 2px 4px; 
-	margin: 2px;	
-	/*border: 1px solid #000000;*/
-	color: #d6be53;
-	background-color: #FFFFFF;
 }

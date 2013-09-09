@@ -1,8 +1,281 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Winter-fur_Theme
+ * @subpackage Mode_Theme
  */
+//wordpress 3.x
+
+//breadcrumbs
+function dimox_breadcrumbs() {
+
+  /* === ОПЦИИ === */
+  $text['home']     = 'Главная'; // текст ссылки "Главная"
+  $text['category'] = '%s'; // текст для страницы рубрики
+  $text['search']   = 'Результаты поиска по запросу "%s"'; // текст для страницы с результатами поиска
+  $text['tag']      = 'Записи с тегом "%s"'; // текст для страницы тега
+  $text['author']   = 'Статьи автора %s'; // текст для страницы автора
+  $text['404']      = 'Ошибка 404'; // текст для страницы 404
+
+  $show_current   = 1; // 1 - показывать название текущей статьи/страницы/рубрики, 0 - не показывать
+  $show_on_home   = 0; // 1 - показывать "хлебные крошки" на главной странице, 0 - не показывать
+  $show_home_link = 1; // 1 - показывать ссылку "Главная", 0 - не показывать
+  $show_title     = 1; // 1 - показывать подсказку (title) для ссылок, 0 - не показывать
+  $delimiter      = ' &raquo; '; // разделить между "крошками"
+  $before         = '<span class="current">'; // тег перед текущей "крошкой"
+  $after          = '</span>'; // тег после текущей "крошки"
+  /* === КОНЕЦ ОПЦИЙ === */
+
+  global $post;
+  $home_link    = home_url('/');
+  $link_before  = '<span typeof="v:Breadcrumb">';
+  $link_after   = '</span>';
+  $link_attr    = ' rel="v:url" property="v:title"';
+  $link         = $link_before . '<a' . $link_attr . ' href="%1$s">%2$s</a>' . $link_after;
+  $parent_id    = $parent_id_2 = $post->post_parent;
+  $frontpage_id = get_option('page_on_front');
+
+  if (is_home() || is_front_page()) {
+
+    if ($show_on_home == 1) echo '<div class="breadcrumbs"><a href="' . $home_link . '">' . $text['home'] . '</a></div>';
+
+  } else {
+
+    echo '<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">';
+    if ($show_home_link == 1) {
+      echo sprintf($link, $home_link, $text['home']);
+      if ($frontpage_id == 0 || $parent_id != $frontpage_id) echo $delimiter;
+    }
+
+    if ( is_category() ) {
+      $this_cat = get_category(get_query_var('cat'), false);
+      if ($this_cat->parent != 0) {
+        $cats = get_category_parents($this_cat->parent, TRUE, $delimiter);
+        $cats = preg_replace('#(<a href="http:\/\/mode\.ua\/category\/others\/".*?</a>\s+&raquo;)#', "", $cats);
+        $cats = preg_replace('#(<a href="http:\/\/mode\.ua\/category\/gorizontalnyj-blok-na-glavnoj\/".*?</a>\s+&raquo;)#', "", $cats);
+        if ($show_current == 0) $cats = preg_replace("#^(.+)$delimiter$#", "$1", $cats);
+        $cats = str_replace('<a', $link_before . '<a' . $link_attr, $cats);
+        $cats = str_replace('</a>', '</a>' . $link_after, $cats);
+        if ($show_title == 0) $cats = preg_replace('/ title="(.*?)"/', '', $cats);
+        echo $cats;
+      }
+      if ($show_current == 1) echo $before . sprintf($text['category'], single_cat_title('', false)) . $after;
+
+    } elseif ( is_search() ) {
+      echo $before . sprintf($text['search'], get_search_query()) . $after;
+
+    } elseif ( is_day() ) {
+      echo sprintf($link, get_year_link(get_the_time('Y')), get_the_time('Y')) . $delimiter;
+      echo sprintf($link, get_month_link(get_the_time('Y'),get_the_time('m')), get_the_time('F')) . $delimiter;
+      echo $before . get_the_time('d') . $after;
+
+    } elseif ( is_month() ) {
+      echo sprintf($link, get_year_link(get_the_time('Y')), get_the_time('Y')) . $delimiter;
+      echo $before . get_the_time('F') . $after;
+
+    } elseif ( is_year() ) {
+      echo $before . get_the_time('Y') . $after;
+
+    } elseif ( is_single() && !is_attachment() ) {
+      if ( get_post_type() != 'post' ) {
+        $post_type = get_post_type_object(get_post_type());
+        $slug = $post_type->rewrite;
+        printf($link, $home_link . '/' . $slug['slug'] . '/', $post_type->labels->singular_name);
+        if ($show_current == 1) echo $delimiter . $before . get_the_title() . $after;
+      } else {
+        $cat = get_the_category(); $cat = $cat[0];
+        $cats = get_category_parents($cat, TRUE, $delimiter);
+        //print_r($cats);
+        //<a href="http://mode.ua/category/kollekcii/" title="Просмотреть все записи в Коллекции">Коллекции</a>
+        $cats = preg_replace('#(<a href="http:\/\/mode\.ua\/category\/kollekcii\/".*?</a>\s+&raquo;)#', "", $cats);
+        $cats = preg_replace('#(<a href="http:\/\/mode\.ua\/category\/others\/".*?</a>\s+&raquo;)#', "", $cats);
+        $cats = preg_replace('#(<a href="http:\/\/mode\.ua\/category\/gorizontalnyj-blok-na-glavnoj\/".*?</a>\s+&raquo;)#', "", $cats);
+        ///?p=847
+        $cats = preg_replace('#(\/category\/kollekcii\/kuxni\/)#', "\?p=506", $cats);
+        $cats = preg_replace('#(\/category\/kollekcii\/shkafy-kupe\/)#', "\?p=145", $cats);
+        $cats = preg_replace('#(\/category\/kollekcii\/garderobnye\/)#', "\?p=520", $cats);
+        
+        if ($show_current == 0) $cats = preg_replace("#^(.+)$delimiter$#", "$1", $cats);
+        $cats = str_replace('<a', $link_before . '<a' . $link_attr, $cats);
+        $cats = str_replace('</a>', '</a>' . $link_after, $cats);
+        if ($show_title == 0) $cats = preg_replace('/ title="(.*?)"/', '', $cats);
+        echo $cats;
+        if ($show_current == 1) echo $before . get_the_title() . $after;
+      }
+
+    } elseif ( !is_single() && !is_page() && get_post_type() != 'post' && !is_404() ) {
+      $post_type = get_post_type_object(get_post_type());
+      echo $before . $post_type->labels->singular_name . $after;
+
+    } elseif ( is_attachment() ) {
+      $parent = get_post($parent_id);
+      $cat = get_the_category($parent->ID); $cat = $cat[0];
+      $cats = get_category_parents($cat, TRUE, $delimiter);
+      $cats = str_replace('<a', $link_before . '<a' . $link_attr, $cats);
+      $cats = str_replace('</a>', '</a>' . $link_after, $cats);
+      if ($show_title == 0) $cats = preg_replace('/ title="(.*?)"/', '', $cats);
+      echo $cats;
+      printf($link, get_permalink($parent), $parent->post_title);
+      if ($show_current == 1) echo $delimiter . $before . get_the_title() . $after;
+
+    } elseif ( is_page() && !$parent_id ) {
+      if ($show_current == 1) echo $before . get_the_title() . $after;
+
+    } elseif ( is_page() && $parent_id ) {
+      if ($parent_id != $frontpage_id) {
+        $breadcrumbs = array();
+        while ($parent_id) {
+          $page = get_page($parent_id);
+          if ($parent_id != $frontpage_id) {
+            $breadcrumbs[] = sprintf($link, get_permalink($page->ID), get_the_title($page->ID));
+          }
+          $parent_id = $page->post_parent;
+        }
+        $breadcrumbs = array_reverse($breadcrumbs);
+        for ($i = 0; $i < count($breadcrumbs); $i++) {
+          echo $breadcrumbs[$i];
+          if ($i != count($breadcrumbs)-1) echo $delimiter;
+        }
+      }
+      if ($show_current == 1) {
+        if ($show_home_link == 1 || ($parent_id_2 != 0 && $parent_id_2 != $frontpage_id)) echo $delimiter;
+        echo $before . get_the_title() . $after;
+      }
+
+    } elseif ( is_tag() ) {
+      echo $before . sprintf($text['tag'], single_tag_title('', false)) . $after;
+
+    } elseif ( is_author() ) {
+      global $author;
+      $userdata = get_userdata($author);
+      echo $before . sprintf($text['author'], $userdata->display_name) . $after;
+
+    } elseif ( is_404() ) {
+      echo $before . $text['404'] . $after;
+    }
+
+    if ( get_query_var('paged') ) {
+      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
+      echo __('Page') . ' ' . get_query_var('paged');
+      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
+    }
+
+    echo '</div><!-- .breadcrumbs -->';
+
+  }
+} // end dimox_breadcrumbs()
+
+if (function_exists('add_theme_support')) {
+    add_theme_support('menus');
+}
+// Часть меню(подменю) с wp_nav_menu()
+add_filter( 'wp_nav_menu_objects', 'submenu_limit', 10, 2 );
+function submenu_limit( $items, $args ) {
+if(dev_ip()){
+	//print_r($args);
+	}
+    if ( empty($args->submenu) )
+        return $items;
+
+    // Преобразование в UTF-8
+    //$args->submenu = iconv('windows-1251','utf-8',$args->submenu);
+
+    //'menu_item_parent' => 0 ищет эелеметы только первого уровня
+    //$parent_id = array_pop( wp_filter_object_list( $items, array( 'title' => $args->submenu, 'menu_item_parent' => 0 ), 'and', 'ID' ) );
+    if(!empty($args->submenu['title']))
+		$parent_id = array_shift( wp_filter_object_list( $items, array( 'title' => $args->submenu['title'], 'menu_item_parent' => 0 ), 'and', 'ID' ) );
+    else
+		$parent_id = array_shift( wp_filter_object_list( $items, array( 'ID' => $args->submenu['ID'], 'menu_item_parent' => 0 ), 'and', 'ID' ) );
+	
+
+    $children  = submenu_get_children_ids( $parent_id, $items );
+
+    foreach ( $items as $key => $item ) {
+        if ( !in_array($item->ID, $children) )
+            unset($items[$key]);
+    }
+
+    return $items;
+}
+
+function submenu_get_children_ids( $id, $items ) {
+
+    $ids = wp_filter_object_list( $items, array( 'menu_item_parent' => $id ), 'and', 'ID' );
+    foreach ( $ids as $id ) {
+        $ids = array_merge( $ids, submenu_get_children_ids( $id, $items ) );
+    }
+
+    return $ids;
+}
+
+add_filter( 'wp_nav_menu_objects', 'wpse16243_wp_nav_menu_objects' );
+function wpse16243_wp_nav_menu_objects( $sorted_menu_items )
+{
+	if(dev_ip()){
+	//print_r(  $sorted_menu_items);
+	//print_r( get_the_ID());
+}
+    foreach ( $sorted_menu_items as $menu_item ) {
+		
+		if(is_single()){
+			$current_id = get_the_ID();
+			$post_categories = wp_get_post_categories( $current_id );
+			$cats = array();
+			foreach($post_categories as $c){
+				$cat = get_category( $c );
+				if($cat->name == $menu_item->title){
+					$menu_item->current_item_parent = 1;
+					$menu_item->current = 1;
+					//$menu_item->classes[] = 'current-menu-item';
+				}
+			}
+		}
+		if($menu_item->current_item_parent == 1){
+			$GLOBALS['wpse_current_item_parent_object'] = $menu_item;
+			//$GLOBALS['wpse_current_item_parent'] = $menu_item->title;
+		}
+        if ( $menu_item->current ) {
+            $GLOBALS['wpse16243_title'] = $menu_item->title;
+            break;
+        }
+    }
+    return $sorted_menu_items;
+}
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Home right sidebar',
+		'id' => 'home_right_1',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="rounded">',
+		'after_title' => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+//add post thumbnail
+if (function_exists('add_theme_support')) {
+  add_theme_support('post-thumbnails');
+  set_post_thumbnail_size(160,160);
+}
+
+/* проверяет IP, если это девелоперский, то TRUE
+ * return true or false
+ * @$ip = current user IP 
+ * */
+function dev_ip(){
+	$dev_ip = array('176.120.36.37');
+	if(in_array($_SERVER['REMOTE_ADDR'], $dev_ip))
+		return TRUE;
+	else
+		return FALSE;
+}
+//#wordpress 3.x
+ 
 function new_excerpt_length($length) {
 	return 30;
 }

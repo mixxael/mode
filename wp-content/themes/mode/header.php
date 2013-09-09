@@ -16,8 +16,11 @@
 <!--[if IE 7]><link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/styleie567.css" /><![endif]-->
 <!--[if IE]><link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/styleie.css" /><![endif]-->
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+
+<?php wp_head(); ?>
+
 <!--  jQuery library -->
-<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/lib/jquery-1.4.2.min.js"></script>
+<!--<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/lib/jquery-1.4.2.min.js"></script>-->
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.tools.min.js"></script>
 <!-- gallery-->
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.lightbox-0.5.js"></script>
@@ -32,8 +35,8 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/js/jcarousel/skin/skin.css" />
 <script type="text/javascript">
 
-jQuery(document).ready(function() {
-    jQuery('#mycarousel').jcarousel({
+jQuery(document).ready(function($) {
+    $('#mycarousel').jcarousel({
         vertical: true,
         scroll: 1
     });
@@ -47,7 +50,7 @@ jQuery(document).ready(function() {
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/new_carousel.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/jScrollPane.css" />
 <script type="text/javascript">
-			$(function()
+			jQuery(document).ready(function($)
 			{
 				$('.scroll-pane').jScrollPane({showArrows:false, scrollbarWidth:6, dragMaxHeight:400});
 			});
@@ -58,7 +61,7 @@ jQuery(document).ready(function() {
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
-<?php wp_head(); ?>
+
 </head>
 <body <?php body_class(); ?>>
 <div style="position: relative; height: 1px; display: block;">
@@ -70,7 +73,7 @@ jQuery(document).ready(function() {
 			<?php print do_shortcode('[monoslideshow id=9 w=160 h=80]'); ?>
 		</div>
 		<div class="logo"><a href="/" title="кухни на заказ, шкафы купе на заказ"><img  src="/wp-content/themes/mode/images/logo.png" alt="шкафы купе на заказ, кухни на заказ" style="margin-left: -10px; margin-top:10px;" /></a></div>
-		<div class="description"><?php bloginfo('description'); ?></div>
+		<!--<div class="description"><?php bloginfo('description'); ?></div>-->
 		<?php /*if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php }
 		*/ ?>
 		<div class="contacts">
@@ -83,7 +86,8 @@ jQuery(document).ready(function() {
 
 			<?php //wp_list_categories('title_li='); ?>
 			<?php //if (!is_front_page()) {
-						require "inc.menu.php";
+						//require "inc.menu.php";
+						wp_nav_menu('menu=glavnoe-menyu&depth=1');
 					//} ?>
 		</div>
 	</div>

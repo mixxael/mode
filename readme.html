@@ -1,181 +1,106 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Русский WordPress версия 2.9.2 &rsaquo; ReadMe</title>
-	<link rel="stylesheet" href="wordpress/wp-admin/css/install.css" type="text/css" />
-	<style type="text/css">
-	a { text-decoration: underline;}
-	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
-<h1 id="logo" style="text-align: center;"> <img alt="WordPress" src="wordpress/wp-admin/images/wordpress-logo.png" /><br />
-Версия 2.9.2
+<h1 id="logo">
+	<a href="http://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<br /> Версия 3.4.2
 </h1>
+<p style="text-align: center">Платформа персональных публикаций</p>
 
-<p style="text-align: center;">Семантическая персональная платформа для
-публикаций</p>
+<h1>Первым делом</h1>
+<p>Добро пожаловать. WordPress - очень необычный проект для для меня. Каждый разработчик вносит в него что-то уникальное, и вместе мы создаем что-то действительно красивое, быть частью чего - гордость для меня. Тысячи часов ушли на WordPress, и мы преданно делаем его еще лучше каждый день. Спасибо, что сделали его частью Вашего мира.</p>
+<p style="text-align: right">&#8212; Мэтт Мюлленвег (Matt Mullenweg)</p>
 
-<h1>Добро пожаловать</h1>
-<div style="margin-top: 10px">
-Слова разработчика и основателя WordPress:
-</div>
-<div style="font-size: 80%; font-style: italic; margin-top: 10px; margin-bottom: 10px">
-Добро пожаловать! WordPress - очень особенный проект для меня. Каждый
-разработчик и участник добавляет что-то уникальное, и вместе мы
-создадим нечто красивое, чем я буду гордиться как часть этого. Тысячи
-часов были направлены на WordPress, и мы прилагаем все усилия, чтобы
-сделать его лучше каждый день. Спасибо за то, что Вы делаете его частью
-Вашего мира (Matt Mullenweg)
-</div>
-<div style="margin-top: 10px; margin-bottom: 20px">
-Спасибо за выбор сборки от команды <a href="http://mywordpress.ru/" target="_blank">MyWordPress.Ru</a>, давайте приступим!
-</div>
-
-<h1>Прочитайте перед установкой</h1>
-
-<div style="margin-top: 10px; margin-bottom: 20px; line-height: 22px">
-<p>Пожалуйста, перед установкой ознакомьтесь с <a href="http://mywordpress.ru/support/viewtopic.php?id=7076" target="_blank">нашими рекомендациями</a>.</p><p>В них в том числе описано, <b>что делать, если Вы получаете ошибку &quot;Cannot Modify Header Information&quot;</b>. Если вам есть что добавить, <a href="http://mywordpress.ru/support/viewtopic.php?id=7076">напишите</a> это на нашем <a href="http://mywordpress.ru/support/" target="_blank">форуме</a> и Ваши замечания увидят все остальные пользователи этой сборки.</p>
-</div>
-
-<h1>Установка: Знаменитая установка за 5 минут</h1>
-
+<h1>Установка: Знаменитая 5-минутная установка</h1>
 <ol>
-
-  <li>Распакуйте архив в пустую директорию.</li>
-
-  <li>Откройте <code>wp-config-sample.php</code> <a href="http://mywordpress.ru/support/viewtopic.php?id=2461" target="_blank">текстовым редактором</a>,
-например WordPad или аналогичным и заполните данные для подключения к
-базе данных.</li>
-
-  <li>Сохраните файл как <code>wp-config.php</code></li>
-
-  <li>Загрузите все на сервер.</li>
-
-  <li>Откройте <span class="file"><a href="wordpress/wp-admin/install.php">/wp-admin/install.php</a></span>
-в вашем браузере. Это должно настроить таблицы, необходимые для блога.
-Если будет ошибка, то дважды проверьте ваш <span class="file">файл
-wp-config.php</span> и попробуйте заново. Если ошибка произойдет снова,
-пожалуйста обратитесь на наш <a href="http://mywordpress.ru/support/">форум поддержки</a>.
-  </li>
-
-  <li><strong>Пароль дается вам при установке.</strong></li>
-
-  <li>Далее скрипт установки отправит Вас на&nbsp;<a href="wordpress/wp-login.php">страницу входа</a>.
-Войдите с именем пользователя&nbsp;<code style="font-weight: bold;">admin</code>
-и паролем, сгенерированным для Вас во время установки. Затем Вы можете перейти в раздел 'Профиль' и изменить пароль, созданный при установке.</li>
-
+	<li>Распакуйте архив в пустой каталог и загрузите его содержимое на сервер</li>
+	<li>Откройте <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> в Вашем браузере. Система проведет Вас через процесс настройки файла <code>wp-config.php</code>, в котором Вы заполните информацию о подключении к БД.
+		<ol>
+			<li>Если по какой-то причине это не сработало, не переживайте. На некоторых хостингах это может не работать. Откройте файл <code>wp-config-sample.php</code> текстовым редактором и заполните информацию о подключении к БД вручную.</li>
+			<li>Сохраните файл как <code>wp-config.php</code> и загрузите его на сервер.</li>
+			<li>Откройте страницу <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> в Вашем браузере.</li>
+		</ol>
+	</li>
+	<li>После того, как конфигурационный файл был создан, установщик создаст таблицы, необходимые для Вашего блога. Если в процессе возникает ошибка, проверьте файл <code>wp-config.php</code> и попробуйте еще раз. Если проблемы так и остались, обратитесь на <a href="http://mywordpress.ru/support/">форум поддержки</a>, собрав как можно больше информации о своей ошибке.</li>
+	<li><strong>Если Вы не введете свой пароль, система сама сгенерирует его для Вас.</strong> Если Вы не введете собственное имя пользователя, то оно будет <code>admin</code>.</li>
+	<li>После этого установщик перенаправит Вас на страницу <a href="wp-login.php">входа в систему</a>. Зайдите, используя имя пользователя и пароль, которые были выбраны при установке. Если пароль был сгенерирован автоматически, Вы можете поменять его, зайдя в раздел 'Профиль'.</li>
 </ol>
 
 <h1>Обновление</h1>
-
-<p>Прежде, чем Вы что-либо обновляете, будьте уверены, что у Вас имеются архивные копии всех файлов, которые могут быть модифицированы, например <code>index.php</code>.
-Не забывайте также сделать архивную копию базы данных, например, с помощью PhpMyAdmin или плагина для архивации базы данных.</p>
-
-<h2>Обновление с любой предыдущей версии до WordPress&nbsp;2.9.2:</h2>
-
+<h2>Автоматическое Обновление</h2>
+<p>Если Вы обновляетесь с версии 2.7 и выше, Вы можете использовать автоматическое обновление:</p>
 <ol>
-
-  <li>Удалите Ваши старые файлы WP, сохраните то, что Вы изменили.</li>
-
-  <li>Загрузите новые файлы.</li>
-
-  <li>Введите в Вашем браузере <span class="file"><a href="/wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
-
-  <li>Возможно, Вы ожидали большего? Это все! (в большинстве случаев)</li>
-
-  <li>Если у вас возникли затруднения, прочитайте о <a href="http://mywordpress.ru/faq/">типичных проблемах</a> или обратитесь на наш <a href="http://mywordpress.ru/support/">форум</a></li>
-
+	<li>Зайдите по адресу <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> и следуйте инструкциям.</li>
+	<li>Хотели сделать что-то еще для обновления? Увы, это все!</li>
 </ol>
 
-<h2>Изменения в шаблонах</h2>
+<h2>Обновление вручную</h2>
+<ol>
+	<li>До того, как Вы начнете обновление, убедитесь, что у Вас есть копии всех файлов, которые Вы меняли. Например, файла <code>index.php</code>.</li>
+	<li>Удалите старые файлы WordPress, сохраняя те, которые Вы изменяли.</li>
+	<li>Загрузите новые файлы.</li>
+	<li>Зайдите по адресу <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
 
-<p>Если у Вас есть свои настроенные шаблоны, возможно, Вам потребуется сделать некоторые идменения в них. 
-Если Вы конвертируете Ваши шаблоны от WordPress 1.2 или ранее,&nbsp;<a href="http://codex.wordpress.org/Upgrade_1.2_to_1.5">мы создали
-специальную инструкцию для Вас (англ)</a>. </p>
+<h2>Шаблоны тем оформления</h2>
+<p>Если Вы изменяли темы оформления, возможно, Вам придется немного подстроить их при значительных изменениях движка (например, при обновлении до 3.0 с 2.7).</p>
+
+<h1>Миграция из других систем</h1>
+<p>WordPress может <a href="http://codex.wordpress.org/Importing_Content">импортировать данные из других систем</a>. В первую очередь Вам необходимо установить WordPress, как описано выше. После этого Вы сможете прибегнуть <a href="wp-admin/import.php" title="Импортировать в WordPress">к инструментам импорта</a>.</p>
 
 <h1>Системные требования</h1>
-
 <ul>
-
-  <li>PHP версии <strong>4.3</strong> или выше. Некоторые плагины требуют обязательно PHP версии <strong>5.0</strong> или выше</li>
-
-  <li>MySQL версии <strong>4.1.2</strong> или выше. Корректная работа с русскими буквами гарантирована только при использовании версий <strong>4.1</strong> или выше</li>
-
-  <li>... и ссылка на&nbsp;<a href="http://wordpress.org/">http://wordpress.org</a>
-на Вашем сайте.</li>
-
+	<li><a href="http://php.net/">PHP</a> версии <strong>5.2.4</strong> и выше.</li>
+	<li><a href="http://www.mysql.com/">MySQL</a> версии <strong>5.0</strong> и выше.</li>
 </ul>
 
-<p>WordPress является официальным продолжением <a href="http://cafelog.com/">b2/caf&eacute;log</a>, который пришел от
-Michel V. Работа была продолжена <a href="http://wordpress.org/about/">WordPress
-разработчиками</a>. Если Вы хотите поддержать WordPress, пожалуйста
-рассмотрите возможность <a href="http://wordpress.org/donate/">пожертвования</a>.</p>
-
-<h1>Переход с другой системы</h1>
-
-<p>WordPress может&nbsp;<a href="http://codex.wordpress.org/Importing_Content">импортировать
-данные из некоторого количества систем</a>. Для начала Вы должны иметь
-установленный и работающий&nbsp;WordPress.</p>
-
-<h1>XML-RPC и Atom интерфейс</h1>
-
-<p>Вы можете писать в Ваш блог WordPress с помощью инструментов <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>,
-<a href="http://ecto.kung-foo.tv/">Ecto</a>, <a href="http://bloggar.com/">Bloggar</a>, <a href="http://radio.userland.com/">Radio Userland</a> (это означает,
-можно использовать функцию Radio емейл-в-блог), <a href="http://www.newzcrawler.com/">NewzCrawler</a>, и другие
-инструменты, которые поддерживают Blogging API! :) Вы можете прочитать
-больше о <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC
-поддержке в Кодексе</a>.</p>
-
-<h1>Постинг через Email</h1>
-
-<p>Вы можете постить в блог через почтовый&nbsp;клиент! Для установки
-перейдите в экран настроек "Написание" и заполните детали подключения
-для вашего секретного аккаунта POP3. Затем Вы должны настроить <code style="font-weight: bold;">wp-mail.php</code>
-выполняться периодически для проверки новых записей. Вы можете сделать
-это с помощью Cron-jobs, или, если Ваш хостинг не поддерживает это, Вы
-можете присмотреться к некоторым сервисам мониторинга сайтов, и
-заставить их проверять Ваш <code style="font-weight: bold;">wp-mail.php</code><span style="font-weight: bold;"> URL</span>.</p>
-
-<p>Постинг очень простой: Любое электронное письмо, отправленное на
-адрес будет автоматически опубликовано, с темой письма в качестве
-заголовка. Лучше держать этот адрес в секрете. Скрипт <i>удаляет</i>
-электронные письма, которые были опубликованы.</p>
-
-<h1>Роли пользователей</h1>
-
-<p>Мы ликвидировали уровни пользователей, т.к. гораздо более гибкие
-функции системы были введены в 2.0. Вы можете&nbsp;<a href="http://codex.wordpress.org/Roles_and_Capabilities">прочитать
-больше о Ролях и Способностях в Кодексе</a>.</p>
-
-<h1>Последние примечания</h1>
-
+<h2>Системные рекомендации</h2>
 <ul>
-
-  <li>Если у Вас есть предложения, идеи, замечания или (вдруг!) Вы
-обнаружили ошибку, добро пожаловать в&nbsp;<a href="http://mywordpress.ru/support/">форумы поддержки</a>.</li>
-
-  <li>WordPress сейчас имеет надежный API плагинов, которые делают
-расширение кода очень простым. Если Вы разработчик, заинтересованный в написании новых плагинов, смотрите&nbsp;<a href="http://codex.wordpress.org/Plugin_API">документацию по плагинам
-в Кодексе</a>. В большинстве случаев Вам не нужно модифицировать код
-ядра системы.</li>
-
+	<li>Модуль <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> веб-сервера Apache.</li>
+	<li>Ссылки на <a href="http://wordpress.org/">http://wordpress.org</a> и <a href="http://mywordpress.ru/">http://mywordpress.ru</a> на Вашем сайте.</li>
 </ul>
 
-<h1>Поделитесь любовью</h1>
+<h1>Онлайн-ресурсы</h1>
+<p>Если у Вас возникли вопросы, не раскрытые в данном документе, рекомендуем обратитесь к многочисленным онлайн ресурсам по WordPress:</p>
+<dl>
+	<dt><a href="http://codex.wordpress.org/">Кодекс WordPress</a></dt>
+		<dd>Кодекс - это энциклопедия обо всем, что связано с WordPress. Это наиболее полный из всех существующих источников информации по WordPress.</dd>
+	<dt><a href="http://wordpress.org/news/">Блог WordPress</a></dt>
+		<dd>Там Вы найдете самую свежую информацию о WordPress. Свежие новости WordPress также автоматически выводятся на приборной панели WordPress в интерфейсе администратора.</dd>
+	<dt><a href="http://planet.wordpress.org/">Планета WordPress</a></dt>
+		<dd>Планета WordPress - это новостной агрегатор, который объединяет все новости о WordPress по всему миру.</dd>
+	<dt><a href="http://mywordpress.ru/support/">Форум поддержки WordPress</a></dt>
+		<dd>Если Вы прочитали все, что только можно, и никак не можете найти ответ, обращайтесь на форум, где обширное сообщество пользователей WordPress обязательно Вам поможет. Не забывайте, что лучший способ, чтобы Вам помогли быстро и качественно: быть вежливым, дать теме в форуме правильный, описывающий ситуацию заголовок, а в самом посте дать максимум информации о Вашей проблеме.</dd>
+	<dt><a href="http://codex.wordpress.org/IRC">WordPress <abbr title="Internet Relay Chat">IRC</abbr> канал</a></dt>
+		<dd>Существует канал онлайн-чата, который используется для общения среди людей, пользующихся WordPress. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
 
-<p>WordPress не имеет многомилионной долларовой рекламной кампании или
-знаменитости авторов, у нас есть кое-что получше - Вы. Если Вам
-нравится WordPress,&nbsp; пожалуйста расскажите о нем друзьям, помогите
-установить его тем, кто не может разобраться самостоятельно, или
-напишите статью в средствах массовой информации с обзором нас.</p>
+<h1>Интерфейсы <abbr title="eXtensible Markup Language">XML</abbr>-<abbr title="Remote Procedure Call">RPC</abbr> и Atom</h1>
+<p>Вы можете публиковать в Вашем блоге WordPress, пользуясь такими утилитами, как <a href="http://download.live.com/writer">Windows Live Writer</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://bloggar.com/">w.bloggar</a>, <a href="http://radio.userland.com/">Radio Userland</a> (что означает, что Вы можете использовать возможность Radio email-to-blog), <a href="http://www.newzcrawler.com/">NewzCrawler</a> и другими утилитами, поддерживающими нужный <abbr title="application programming interface">API</abbr>! :) Вы можете прочитать больше о поддержке <a href="http://codex.wordpress.org/XML-RPC_Support"><abbr>XML</abbr>-<abbr>RPC</abbr> в Кодексе</a>.</p>
 
-<h1>Копирайт</h1>
+<h1>Публикация через Email</h1>
+<p>Вы можете делат публикации при помощи Вашего email-клиента! Для активации этой возможности перейдите на страницу &quot;Публикации&quot; и заполните информацию о Вашей секретной учетной записи <abbr title="Post Office Protocol version 3">POP3</abbr>. Затем Вам нужно будет сделтаь так, чтобы файл <code>wp-mail.php</code> периодически выполнялся. Это необходимо для того, чтобы он регулярно проверял указанный ящик на наличие новых постов. Вы можете сделать это при помощи демона <a href="http://en.wikipedia.org/wiki/Cron">cron</a> или, в случае, если Ваш хостер не поддерживает эту возможность, использовать любое из средств мониторинга Веб-сайтов, направив его на регулярное посещение <code>wp-mail.php</code> <abbr title="Uniform Resource Locator">URL</abbr>.</p>
+  
+<p>Сам процесс публикации предельно прост: любое письмо, которое Вы отправите на ящик, будет опубликовано. Заголовок письма будет использован в качестве заголовка поста. Конечно, разумно держать адрес в секрете. После публикации скрипт автоматически будет <em>удалять</em> сообщения из ящика.</p>
 
-<p>WordPress выпущен по&nbsp; <abbr title="GNU Public License">GPL</abbr>
-(смотрите <a href="wordpress/license.txt">license.txt</a>).
-Сборка от <a href="http://mywordpress.ru/">MyWordPress.Ru</a> &copy;
-2007-2009</p>
+<h1>Пользовательские роли</h1>
+<p>В версии 2.0 мы ввели очень гибкую систему управления ролями. Вы можете почитать об <a href="http://codex.wordpress.org/Roles_and_Capabilities" title="Роли WordPress">этом подробнее в Кодексе</a>.</p>
+
+<h1>Последние наставления</h1>
+<ul>
+	<li>Если у Вас есть предложения, идеи, комментарии или если Вы (о, Боже!) нашли баг, обращайтесь на <a href="http://mywordpress.ru/support/">форум поддержки</a>.</li>
+	<li>WordPress имеет развитый <abbr title="application programming interface">API</abbr> для подключаемых модулей. Если Вы являетесь разработчиком, которому было бы интересно воспользоваться этим, обращайтесь к <a href="http://codex.wordpress.org/Plugin_API" title="WordPress API плагинов">документации по написанию плагинов</a>. Вам не следует модифицировать код ядра WordPress.</li>
+</ul>
+
+<h1>Делитесь и любите</h1>
+<p>WordPress не поддерживается многомиллионными рекламными кампаниями и спонсорами-знаменитостями, но у нас есть кое-что получше &#8212; Вы. Если Вам нравится WordPress, расскажите об этом друзьям, помогите установить его тем, кто располагает меньшим багажом знаний, чем Вы, или напишите статью о нас.</p>
+
+<p>WordPress является официальным продолжением <a href="http://cafelog.com/">b2/caf&#233;log</a> Michel V. Работа была продолжена <a href="http://wordpress.org/about/">разработчиками WordPress</a>. Если Вы хотите поддержать WordPress, рассмотрите возможность <a href="http://wordpress.org/donate/" title="Пожертвовать на WordPress">пожертвования</a>.</p>
 
 </body>
 </html>

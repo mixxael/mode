@@ -3,7 +3,7 @@
 Plugin Name: MaxSite Russian Date
 Plugin URI: http://maxsite.org/
 Description: Русские даты 
-Version: 1.01
+Version: 1.02
 Author: MAX
 Author URI: http://maxsite.org/russian-date
 */
@@ -64,7 +64,11 @@ function maxsite_the_russian_time($tdate = '') {
 }
 
 add_filter('the_time', 'maxsite_the_russian_time');
-add_filter('get_comment_date', 'maxsite_the_russian_time');
+add_filter('get_the_time', 'maxsite_the_russian_time');
+add_filter('the_date', 'maxsite_the_russian_time');
+add_filter('get_the_date', 'maxsite_the_russian_time');
 add_filter('the_modified_time', 'maxsite_the_russian_time');
+add_filter('get_the_modified_date', 'maxsite_the_russian_time');
+add_filter('get_post_time', 'maxsite_the_russian_time');
+add_filter('get_comment_date', 'maxsite_the_russian_time');
 
-?>
