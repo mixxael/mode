@@ -1,0 +1,3081 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGEN Gallery 1.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-23 23:45+0300\n"
+"PO-Revision-Date: 2009-06-24 02:05+0300\n"
+"Last-Translator: Sofia Panchenko <sonika@sonika.ru>\n"
+"Language-Team: olart.ru & sonika.ru <sonika@sonika.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../nggallery.php:160
+msgid "Sorry, NextGEN Gallery works only with a Memory Limit of 16 MB higher"
+msgstr "Извините, для NextGEN Gallery требуется памяти минимум 16 мб (Memory Limit)"
+
+#: ../nggallery.php:185
+msgid "Picture tag"
+msgstr "Метка изображения"
+
+#: ../nggallery.php:186
+msgid "Picture tag: %2$l."
+msgstr "Метка изображения: %2$l."
+
+#: ../nggallery.php:187
+msgid "Separate picture tags with commas."
+msgstr "Разделяйте метки изображений запятыми."
+
+#: ../nggallery.php:278
+msgid "L O A D I N G"
+msgstr "З А Г Р У З К А"
+
+#: ../nggallery.php:279
+msgid "Click to Close"
+msgstr "Закрыть"
+
+#: ../nggallery.php:293
+msgid "loading"
+msgstr "загрузка"
+
+#: ../nggfunctions.php:37
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and <a href=\"http://www.mozilla.com/firefox/\">a browser with Javascript support</a> are needed.."
+msgstr "Необходимы <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> и <a href=\"http://www.mozilla.com/firefox/\">браузер с поддержкой Javascript</a>."
+
+#: ../nggfunctions.php:101
+#: ../nggfunctions.php:489
+msgid "[Gallery not found]"
+msgstr "[Галерея не найдена]"
+
+#: ../nggfunctions.php:312
+msgid "[Album not found]"
+msgstr "[Альбом не найден]"
+
+#: ../nggfunctions.php:601
+msgid "[SinglePic not found]"
+msgstr "[Изобржение не найдено]"
+
+#: ../nggfunctions.php:734
+msgid "Related images for"
+msgstr "Связанные изображения для"
+
+#: ../nggfunctions.php:769
+#: ../admin/admin.php:30
+msgid "Overview"
+msgstr "Обзор"
+
+#: ../admin/about.php:9
+msgid "Copyright notes / Credits"
+msgstr "Авторское право / Список участников"
+
+#: ../admin/about.php:12
+msgid "NextGEN DEV Team"
+msgstr "Команда разработчиков NextGEN"
+
+#: ../admin/about.php:14
+msgid "This plugin is primarily developed, maintained, supported, documented by"
+msgstr "Этот плагин создает, поддерживает и пишет к нему документацию "
+
+#: ../admin/about.php:14
+msgid "There are many other folks who have made contributions to this project :"
+msgstr "Здесь также перечислены люди, которые внесли вклад в этот проект:"
+
+#: ../admin/about.php:19
+msgid "Contributors / Tribute to"
+msgstr "Помощники / Те, кем восхищаемся"
+
+#: ../admin/about.php:21
+msgid "If you study the code of this plugin, you will find out that we mixed a lot of good already existing code and ideas together."
+msgstr "Если вы будите исследовать код, то обнаружите, что мы взяли и смешали вместе много уже существующих кодов и идей."
+
+#: ../admin/about.php:22
+msgid "So, we would like to thank the following people for their pioneer work (without this work it's impossible to create such a plugin so fast)"
+msgstr "Поэтому мы бы хотели поблагодорить следующих людей, за их новаторскую работу (без этой работы не было бы возможным создать подобный плагин так быстро)"
+
+#: ../admin/about.php:24
+msgid "for their great documented code"
+msgstr "за их великолепно документированный код"
+
+#: ../admin/about.php:25
+msgid "for jQuery, which is the best Web2.0 framework"
+msgstr "за jQuery, который является лучшим Web2.0 framework"
+
+#: ../admin/about.php:26
+msgid "for the fantastic PHP Thumbnail Class"
+msgstr "за фантастический PHP Thumbnail Class"
+
+#: ../admin/about.php:27
+msgid "for PclZip , a PHP library that manage ZIP archives"
+msgstr "за PclZip, PHP библиотеку, которая управляет ZIP архивами"
+
+#: ../admin/about.php:28
+msgid "for a lot of very useful plugins and ideas"
+msgstr "за большое количество полезных плагинов и идей"
+
+#: ../admin/about.php:29
+msgid "for Shutter Reloaded, a real lightweight image effect"
+msgstr "для Shutter Reloaded"
+
+#: ../admin/about.php:30
+msgid "for the best Media Flash Scripts on earth"
+msgstr "за лучшие Media Flash Scripts на Земле"
+
+#: ../admin/about.php:31
+msgid "for the Fugue Iconset"
+msgstr "для набора иконок Fugue"
+
+#: ../admin/about.php:32
+msgid "for the Watermark plugin"
+msgstr "за Watermark плагин"
+
+#: ../admin/about.php:34
+msgid "If you didn't find your name on this list and there is some code which I integrate in my plugin, don't hesitate to send me a mail."
+msgstr "Если вы не нашли свое имя в этом списке, а ваш код используется в этом плагине, то без колебаний шлите мне письмо."
+
+#: ../admin/about.php:38
+msgid "How to support ?"
+msgstr "Как поддержать?"
+
+#: ../admin/about.php:40
+msgid "There exist several ways to contribute, help or support us in this work. Non of them are mandatory."
+msgstr "Существует несколько путей, чтобы внести свой вклад, помочь или поддержать нас в этой работе. Не один из них не является обязательным."
+
+#: ../admin/about.php:42
+msgid "Send us bugfixes / code changes"
+msgstr "Пришлите нам исправление ошибок / изменения в коде"
+
+#: ../admin/about.php:42
+msgid "The most motivated support for this plugin are your ideas and brain work"
+msgstr "Самая побудительная поддержка для этого плагина &#8212; это ваши идеи и умственный труд"
+
+#: ../admin/about.php:43
+msgid "Translate the plugin"
+msgstr "Переведите плагин"
+
+#: ../admin/about.php:43
+msgid "To help people to work with this plugin, I would like to have it in all available languages"
+msgstr "Чтобы помочь людям работать с этим плагином, я бы хотел иметь его перевод на всех языках"
+
+#: ../admin/about.php:44
+msgid "Donate the work via paypal"
+msgstr "Пожертвовать через paypal"
+
+#: ../admin/about.php:55
+msgid "No doubt a very useful and easy motivation :-)"
+msgstr "Без сомнения очень полезная и легкая мотивация :-)"
+
+#: ../admin/about.php:57
+msgid "Place a link to the plugin in your blog/webpage"
+msgstr "Поместите ссылку на плагин на вашем благе / сайте"
+
+#: ../admin/about.php:57
+msgid "Yes, share and trackback is also a good support for this work "
+msgstr "Да, share и trackback также хорошая поддержка для этой работы"
+
+#: ../admin/about.php:62
+msgid "Thanks!"
+msgstr "Спасибо!"
+
+#: ../admin/about.php:64
+msgid "We would like to thank this people which support us in the work :"
+msgstr "Мы хотели бы поблагодарить людей, которые поддерживают нас в работе:"
+
+#: ../admin/about.php:162
+msgid "and all donators..."
+msgstr "и все спонсоры..."
+
+#: ../admin/addgallery.php:37
+#: ../admin/addgallery.php:52
+msgid "Upload failed!"
+msgstr "Загрузка закончилась неудачей!"
+
+#: ../admin/addgallery.php:57
+#: ../admin/functions.php:679
+#: ../admin/functions.php:780
+msgid "No gallery selected !"
+msgstr "Галерея не выбрана!"
+
+#: ../admin/addgallery.php:104
+msgid "Image Files"
+msgstr "Список изображений"
+
+#: ../admin/addgallery.php:123
+#: ../admin/addgallery.php:154
+msgid "remove"
+msgstr "удалить"
+
+#: ../admin/addgallery.php:124
+msgid "Browse..."
+msgstr "Обзор…"
+
+#: ../admin/addgallery.php:125
+#: ../admin/addgallery.php:292
+msgid "Upload images"
+msgstr "Загрузить изображения"
+
+#: ../admin/addgallery.php:173
+#: ../admin/addgallery.php:185
+#: ../admin/manage-galleries.php:56
+msgid "Add new gallery"
+msgstr "Добавить новую галерею"
+
+#: ../admin/addgallery.php:175
+#: ../admin/addgallery.php:204
+msgid "Upload a Zip-File"
+msgstr "Загрузить zip-файл"
+
+#: ../admin/addgallery.php:178
+#: ../admin/addgallery.php:245
+msgid "Import image folder"
+msgstr "Импортировать папку с изображениями"
+
+#: ../admin/addgallery.php:180
+#: ../admin/addgallery.php:262
+msgid "Upload Images"
+msgstr "Загрузить изображения"
+
+#: ../admin/addgallery.php:190
+#: ../admin/manage-galleries.php:129
+msgid "New Gallery"
+msgstr "Новая галерея"
+
+#: ../admin/addgallery.php:193
+#: ../admin/manage-galleries.php:131
+msgid "Create a new , empty gallery below the folder"
+msgstr "Создать новую, пустую галерею в папке"
+
+#: ../admin/addgallery.php:195
+#: ../admin/manage-galleries.php:133
+msgid "Allowed characters for file and folder names are"
+msgstr "Допустимые символы в имени папки"
+
+#: ../admin/addgallery.php:198
+msgid "Add gallery"
+msgstr "Добавить галерею"
+
+#: ../admin/addgallery.php:209
+msgid "Select Zip-File"
+msgstr "Выбрать zip-файл"
+
+#: ../admin/addgallery.php:211
+msgid "Upload a zip file with images"
+msgstr "Загрузить zip-файл с изображениями"
+
+#: ../admin/addgallery.php:215
+msgid "or enter a Zip-File URL"
+msgstr "или впишите URL(ссылку) к zip-файлу"
+
+#: ../admin/addgallery.php:217
+msgid "Import a zip file with images from a url"
+msgstr "Импорт zip-файла с изображениями по ссылке (URL)"
+
+#: ../admin/addgallery.php:221
+#: ../admin/addgallery.php:271
+msgid "in to"
+msgstr "в"
+
+#: ../admin/addgallery.php:223
+msgid "a new gallery"
+msgstr "новая галерея"
+
+#: ../admin/addgallery.php:234
+msgid "Note : The upload limit on your server is "
+msgstr "обратите внимание: ограничение по загрузке на вашем сервере "
+
+#: ../admin/addgallery.php:238
+msgid "Start upload"
+msgstr "Начать загрузку"
+
+#: ../admin/addgallery.php:250
+msgid "Import from Server path:"
+msgstr "Импортировать из пути сервера"
+
+#: ../admin/addgallery.php:253
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "Обратите внимание: если на сервере установлено save_mode = ON, то вам нужно добавить подпапку &#171;thumbs&#187; вручную."
+
+#: ../admin/addgallery.php:256
+msgid "Import folder"
+msgstr "Импортировать папку"
+
+#: ../admin/addgallery.php:267
+msgid "Upload image"
+msgstr "Загрузить изображение"
+
+#: ../admin/addgallery.php:273
+msgid "Choose gallery"
+msgstr "Выбрать галерею"
+
+#: ../admin/addgallery.php:288
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "Для пакетной загрузки необходим Adobe Flash 10, отключите его, если возникают проблемы"
+
+#: ../admin/addgallery.php:288
+msgid "Disable flash upload"
+msgstr "Отключить загрузчик на основе flash"
+
+#: ../admin/addgallery.php:290
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "Загрузка несколько файлов сразу: используйте при выборе файлов кливиши ctrl или shift"
+
+#: ../admin/addgallery.php:290
+msgid "Enable flash based upload"
+msgstr "Включить загрузчик на основе  flash"
+
+#: ../admin/admin.php:31
+msgid "Add Gallery / Images"
+msgstr "Загрузить галерею/изображения"
+
+#: ../admin/admin.php:32
+msgid "Manage Gallery"
+msgstr "Галереи"
+
+#: ../admin/admin.php:34
+msgid "Tags"
+msgstr "Метки"
+
+#: ../admin/admin.php:35
+msgid "Options"
+msgstr "Настройки"
+
+#: ../admin/admin.php:37
+msgid "Style"
+msgstr "Внешний вид"
+
+#: ../admin/admin.php:38
+msgid "Setup Gallery"
+msgstr "Настройка галереи"
+
+#: ../admin/admin.php:38
+msgid "Setup"
+msgstr "Удаление / Сброс"
+
+#: ../admin/admin.php:40
+msgid "Roles"
+msgstr "Доступ"
+
+#: ../admin/admin.php:41
+msgid "About this Gallery"
+msgstr "Об этой галереи"
+
+#: ../admin/admin.php:41
+msgid "About"
+msgstr "О NextGEN Gallery"
+
+#: ../admin/admin.php:43
+msgid "NextGEN Gallery"
+msgstr "NextGEN галерея"
+
+#: ../admin/admin.php:71
+msgid "A new version of NextGEN Gallery is available !"
+msgstr "Появилась новая версия NextGEN Gallery!"
+
+#: ../admin/admin.php:71
+msgid "Download here"
+msgstr "Загрузить здесь"
+
+#: ../admin/admin.php:147
+msgid "You do not have the correct permission"
+msgstr "У вас нет прав"
+
+#: ../admin/admin.php:148
+msgid "Unexpected Error"
+msgstr "Неопознанная ошибка"
+
+#: ../admin/admin.php:149
+msgid "A failure occurred"
+msgstr "произошла ошибка"
+
+#: ../admin/admin.php:222
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Introduction</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Введение</a>"
+
+#: ../admin/admin.php:225
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Setup</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Установка</a>"
+
+#: ../admin/admin.php:228
+msgid "<a href=\"http://alexrabe.boelinger.com/wordpress-plugins/nextgen-gallery/languages/\" target=\"_blank\">Translation by alex rabe</a>"
+msgstr "<a href=\"http://alexrabe.boelinger.com/wordpress-plugins/nextgen-gallery/languages/\" target=\"_blank\">Перевод alex rabe</a>"
+
+#: ../admin/admin.php:231
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Roles / Capabilities</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Роли / Права</a>"
+
+#: ../admin/admin.php:234
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Styles</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Внешний вид</a>"
+
+#: ../admin/admin.php:235
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: ../admin/admin.php:238
+#: ../admin/admin.php:244
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Gallery management</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Управление галереями</a>"
+
+#: ../admin/admin.php:239
+msgid "Gallery example"
+msgstr "Пример галереи"
+
+#: ../admin/admin.php:245
+#: ../admin/admin.php:255
+msgid "Gallery tags"
+msgstr "Метки галереи"
+
+#: ../admin/admin.php:248
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Album management</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Управление альбомами</a>"
+
+#: ../admin/admin.php:249
+msgid "Album example"
+msgstr "Пример альбома"
+
+#: ../admin/admin.php:250
+#: ../admin/admin.php:256
+msgid "Album tags"
+msgstr "Теги альбома"
+
+#: ../admin/admin.php:253
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Gallery tags</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-introduction/\" target=\"_blank\">Метки галерей</a>"
+
+#: ../admin/admin.php:254
+msgid "Related images"
+msgstr "Связанные  изображения"
+
+#: ../admin/admin.php:259
+msgid "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-image-management/\" target=\"_blank\">Image management</a>"
+msgstr "<a href=\"http://dpotter.net/Technical/2008/03/nextgen-gallery-review-image-management/\" target=\"_blank\">Управление изображениями</a>"
+
+#: ../admin/admin.php:260
+msgid "Custom fields"
+msgstr "произвольные поля"
+
+#: ../admin/admin.php:265
+msgid "Get help with NextGEN Gallery"
+msgstr "Помощь по  NextGEN Gallery!"
+
+#: ../admin/admin.php:269
+msgid "More Help & Info"
+msgstr "Помощь и информация"
+
+#: ../admin/admin.php:271
+msgid "<a href=\"http://wordpress.org/tags/nextgen-gallery\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://wordpress.org/tags/nextgen-gallery\" target=\"_blank\">Форум поддержки (англ.)</a>, русские: <a href=\"http://forum.maxsite.org\" target=\"_blank\">forum.maxsite.org</a> и <a href=\"http://mywordpress.ru/support/\" target=\"_blank\">mywordpress.ru/support</a>"
+
+#: ../admin/admin.php:272
+msgid "FAQ"
+msgstr ""
+
+#: ../admin/admin.php:273
+msgid "Feature request"
+msgstr "Запрос новых фич"
+
+#: ../admin/admin.php:274
+msgid "Get your language pack"
+msgstr "Локализация"
+
+#: ../admin/admin.php:275
+msgid "Contribute development"
+msgstr ""
+
+#: ../admin/admin.php:276
+msgid "Download latest version"
+msgstr "Загрузить последнюю версию"
+
+#: ../admin/album.php:78
+#: ../admin/album.php:91
+#: ../admin/album.php:116
+msgid "Update Successfully"
+msgstr "Обновлено"
+
+#: ../admin/album.php:99
+msgid "Album deleted"
+msgstr "Альбом удален"
+
+#: ../admin/album.php:226
+msgid "Manage Albums"
+msgstr "Управление альбомами"
+
+#: ../admin/album.php:232
+#: ../admin/album.php:275
+msgid "Select album"
+msgstr "Выбрать альбом"
+
+#: ../admin/album.php:234
+msgid "No album selected"
+msgstr "Альбом не выбран"
+
+#: ../admin/album.php:245
+msgid "Update"
+msgstr "Обновить"
+
+#: ../admin/album.php:246
+msgid "Edit album"
+msgstr "Редактировать альбом"
+
+#: ../admin/album.php:247
+#: ../admin/manage-galleries.php:109
+#: ../admin/manage-images.php:376
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../admin/album.php:247
+msgid "Delete album ?"
+msgstr "Удалить альбом?"
+
+#: ../admin/album.php:249
+msgid "Add new album"
+msgstr "Добавить новый альбом"
+
+#: ../admin/album.php:251
+msgid "Add"
+msgstr "Добавить"
+
+#: ../admin/album.php:261
+msgid "Show / hide used galleries"
+msgstr "Показать / скрыть используемые галереи"
+
+#: ../admin/album.php:261
+msgid "[Show all]"
+msgstr "[Показать все]"
+
+#: ../admin/album.php:262
+msgid "Maximize the widget content"
+msgstr "Раскрыть содержимое виджета"
+
+#: ../admin/album.php:262
+msgid "[Maximize]"
+msgstr "[Развернуть]"
+
+#: ../admin/album.php:263
+msgid "Minimize the widget content"
+msgstr "Свернуть содержимое виджета"
+
+#: ../admin/album.php:263
+msgid "[Minimize]"
+msgstr "[Свернуть]"
+
+#: ../admin/album.php:265
+msgid "After you create and select a album, you can drag and drop a gallery or another album into your new album below"
+msgstr "После создания и выбора альбома  вы можете перетаскивать галереи / другие альбомы в этот новый альбом"
+
+#: ../admin/album.php:291
+msgid "Select gallery"
+msgstr "Выбрать галерею"
+
+#: ../admin/album.php:320
+msgid "Album ID"
+msgstr "ID альбома"
+
+#: ../admin/album.php:333
+msgid "No album selected!"
+msgstr "Альбом не выбран!"
+
+#: ../admin/album.php:353
+msgid "Album name:"
+msgstr "Название альбома:"
+
+#: ../admin/album.php:359
+msgid "Album description:"
+msgstr "Описание для альбома:"
+
+#: ../admin/album.php:365
+msgid "Select a preview image:"
+msgstr "Выберать миниатюру:"
+
+#: ../admin/album.php:367
+msgid "No picture"
+msgstr "Нет изображения"
+
+#: ../admin/album.php:381
+#: ../admin/manage-galleries.php:138
+#: ../admin/manage-images.php:289
+#: ../admin/manage-images.php:456
+#: ../admin/manage-images.php:491
+msgid "OK"
+msgstr "ОК"
+
+#: ../admin/album.php:383
+#: ../admin/manage-galleries.php:140
+#: ../admin/manage-images.php:458
+#: ../admin/manage-images.php:493
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../admin/album.php:455
+msgid "Name"
+msgstr "Имя"
+
+#: ../admin/album.php:456
+#: ../admin/manage-galleries.php:74
+#: ../admin/manage-images.php:200
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../admin/album.php:457
+msgid "Page"
+msgstr "Страница"
+
+#: ../admin/functions.php:38
+msgid "No valid gallery name!"
+msgstr "Не допустимое имя галереи!"
+
+#: ../admin/functions.php:45
+#: ../admin/functions.php:54
+#: ../admin/functions.php:68
+#: ../admin/functions.php:136
+#: ../admin/functions.php:143
+msgid "Directory"
+msgstr "Директория"
+
+#: ../admin/functions.php:45
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "не существует. Пожалуйста создайте основную папку галереи."
+
+#: ../admin/functions.php:46
+#: ../admin/functions.php:55
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "Воспользуйтесь этой ссылкой, если вы не знаете как установить права:"
+
+#: ../admin/functions.php:54
+#: ../admin/functions.php:68
+msgid "is not writeable !"
+msgstr "Некоторые изображения не перезаписываемы"
+
+#: ../admin/functions.php:63
+#: ../admin/functions.php:73
+#: ../admin/functions.php:638
+msgid "Unable to create directory "
+msgstr "Невозможно создать директорию"
+
+#: ../admin/functions.php:77
+msgid "The server setting Safe-Mode is on !"
+msgstr "На сервере включен Safe-Mode!"
+
+#: ../admin/functions.php:78
+msgid "If you have problems, please create directory"
+msgstr "Пожалуйста, создайте директорию"
+
+#: ../admin/functions.php:79
+msgid "and the thumbnails directory"
+msgstr "и директорию с миниатюрами"
+
+#: ../admin/functions.php:79
+msgid "with permission 777 manually !"
+msgstr "с правами 777 вручную!"
+
+#: ../admin/functions.php:97
+msgid "already exists"
+msgstr "уже существует"
+
+#: ../admin/functions.php:102
+#, php-format
+msgid "Gallery %1$s successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "Галерея %1$s создана.<br/> Вы можете отображать эту галерею по метке %2$s.<br/>"
+
+#: ../admin/functions.php:105
+msgid "Edit gallery"
+msgstr "Редактировать галерею"
+
+#: ../admin/functions.php:136
+msgid "doesn&#96;t exist!"
+msgstr "не существует"
+
+#: ../admin/functions.php:143
+msgid "contains no pictures"
+msgstr "не содержит изображений"
+
+#: ../admin/functions.php:161
+msgid "Database error. Could not add gallery!"
+msgstr "Ошибка базы данных. Не возможно добавит галерею!"
+
+#: ../admin/functions.php:164
+msgid "successfully created!"
+msgstr "успешно создана!"
+
+#: ../admin/functions.php:193
+#: ../admin/functions.php:756
+#: ../admin/manage-images.php:279
+msgid "Create new thumbnails"
+msgstr "Создать новые миниатюры"
+
+#: ../admin/functions.php:196
+msgid " picture(s) successfully added"
+msgstr " изображений  добавлено"
+
+#: ../admin/functions.php:243
+#: ../admin/functions.php:323
+#: ../admin/functions.php:365
+msgid "Object didn't contain correct data"
+msgstr "Объект не содержит правильных данных"
+
+#: ../admin/functions.php:248
+msgid " is not writeable "
+msgstr " не перезаписываемо"
+
+#: ../admin/functions.php:330
+#: ../admin/functions.php:368
+msgid " is not writeable"
+msgstr " не перезаписываемо"
+
+#: ../admin/functions.php:575
+msgid "No valid URL path "
+msgstr "Неверная ссылка (URL)"
+
+#: ../admin/functions.php:591
+msgid "Import via cURL failed."
+msgstr "Импорт через  cURL не получился."
+
+#: ../admin/functions.php:606
+msgid "Uploaded file was no or a faulty zip file ! The server recognize : "
+msgstr "Загруженный файл не был zip-архивом либо был поврежден! Сервер опознал:"
+
+#: ../admin/functions.php:622
+msgid "Could not get a valid foldername"
+msgstr "Невозможно получить правильное имя папки"
+
+#: ../admin/functions.php:633
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Невозможно создать папку  %s. Проверьте права CHMOD  на запись у родительской папки."
+
+#: ../admin/functions.php:648
+msgid "Zip-File successfully unpacked"
+msgstr "Zip-файл успешно распакован"
+
+#: ../admin/functions.php:687
+#: ../admin/functions.php:807
+msgid "Failure in database, no gallery path set !"
+msgstr "Неисправность в базе данных, не установлен путь к галереи!"
+
+#: ../admin/functions.php:712
+#: ../admin/functions.php:801
+msgid "is no valid image file!"
+msgstr "не является файлом изображения!"
+
+#: ../admin/functions.php:726
+#: ../admin/functions.php:943
+#: ../admin/functions.php:1016
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "Невозможно записать в директорию %s. Проверьте права на запись (CHMOD) для этой папки"
+
+#: ../admin/functions.php:733
+#: ../admin/functions.php:824
+msgid "Error, the file could not moved to : "
+msgstr "Ошибка, файл не возможно переместить в:"
+
+#: ../admin/functions.php:738
+#: ../admin/functions.php:828
+msgid "Error, the file permissions could not set"
+msgstr "Ошибка, не возможно установить права на файл"
+
+#: ../admin/functions.php:760
+msgid " Image(s) successfully added"
+msgstr " изображения добавлено успешно"
+
+#: ../admin/functions.php:789
+msgid "Invalid upload. Error Code : "
+msgstr "Загрузка не удалась. Код ошибки:"
+
+#: ../admin/functions.php:843
+msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgstr "Упс! Вы использовали все выделенное вам место на диске. Удалите некоторые файлы чтобы освободить место."
+
+#: ../admin/functions.php:883
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "В SAFE MODE есть ограничения! Вам нужно создать папку <strong>%s</strong> вручную"
+
+#: ../admin/functions.php:884
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "Когда safe_mode включен, PHP проверяет, чтобы совпадал владелец (%s) этого скрипта с владельцем (%s) файла, который управляется функцией файла или его директорией"
+
+#: ../admin/functions.php:937
+#: ../admin/functions.php:1010
+msgid "The destination gallery does not exist"
+msgstr "Эта галерея не существует."
+
+#: ../admin/functions.php:968
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "Не удалось мереместить изображение %1$s в %2$s"
+
+#: ../admin/functions.php:986
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "Перемещено %1$s изображений в галерею %2$s ."
+
+#: ../admin/functions.php:1043
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "Не удалось скопировать изображение %1$s в %2$s"
+
+#: ../admin/functions.php:1055
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "Не удалось скопировать скроку в базе данных для изображения %s"
+
+#: ../admin/functions.php:1063
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "Изображение %1$s (%2$s) скопировано как изображение %3$s (%4$s) &raquo; Файл с таким именем уже существует в галерее."
+
+#: ../admin/functions.php:1066
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "Изображение %1$s (%2$s)скопировано как изображение %3$s (%4$s)"
+
+#: ../admin/functions.php:1075
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "Скопировано %1$s изображений в галерею %2$s ."
+
+#: ../admin/install.php:23
+msgid "Sorry, NextGEN Gallery works only with a role called administrator"
+msgstr "Извините, NextGEN Gallery работает только с назначенным в настройках администратором"
+
+#: ../admin/install.php:107
+msgid "NextGEN Gallery : Tables could not created, please check your database settings"
+msgstr "NextGEN Gallery: невозможно создать таблицы в базе данных, проверьте ее настройки"
+
+#: ../admin/install.php:165
+msgid "[Show as slideshow]"
+msgstr "[Показать как слайдшоу]"
+
+#: ../admin/install.php:166
+msgid "[Show picture list]"
+msgstr "[Показать список изображений]"
+
+#: ../admin/manage-galleries.php:29
+#: ../admin/manage-images.php:54
+msgid "&laquo;"
+msgstr ""
+
+#: ../admin/manage-galleries.php:30
+#: ../admin/manage-images.php:55
+msgid "&raquo;"
+msgstr ""
+
+#: ../admin/manage-galleries.php:44
+msgid "Gallery Overview"
+msgstr "Обзор галереи"
+
+#: ../admin/manage-galleries.php:47
+#: ../admin/manage-galleries.php:50
+#: ../admin/manage-images.php:173
+#: ../admin/manage-images.php:176
+msgid "Search Images"
+msgstr "Найти изображения"
+
+#: ../admin/manage-galleries.php:62
+#: ../admin/manage-images.php:268
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Показано с %s&#8211;%s из %s"
+
+#: ../admin/manage-galleries.php:73
+#: ../admin/manage-images.php:516
+msgid "ID"
+msgstr "ID"
+
+#: ../admin/manage-galleries.php:75
+#: ../admin/manage-images.php:211
+#: ../admin/manage-images.php:521
+msgid "Description"
+msgstr "Описание"
+
+#: ../admin/manage-galleries.php:76
+#: ../admin/manage-images.php:231
+msgid "Author"
+msgstr "Автор"
+
+#: ../admin/manage-galleries.php:77
+msgid "Page ID"
+msgstr "ID Страницы"
+
+#: ../admin/manage-galleries.php:78
+msgid "Quantity"
+msgstr "Количество"
+
+#: ../admin/manage-galleries.php:79
+msgid "Action"
+msgstr "Действие"
+
+#: ../admin/manage-galleries.php:96
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../admin/manage-galleries.php:109
+msgid "Delete this gallery ?"
+msgstr "Удалить этоу галерею?"
+
+#: ../admin/manage-galleries.php:116
+#: ../admin/manage-images.php:433
+msgid "No entries found"
+msgstr "Содержимое не найдено"
+
+#: ../admin/manage-images.php:31
+msgid "Gallery not found."
+msgstr "Галерея не найдена."
+
+#: ../admin/manage-images.php:37
+msgid "Sorry, you have no access here"
+msgstr "У вас нет доступа"
+
+#: ../admin/manage-images.php:130
+msgid "No images selected"
+msgstr "Изображения не выбраны"
+
+#: ../admin/manage-images.php:150
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr "Вы действительно хотите изменить %s изображение(я)?"
+
+#: ../admin/manage-images.php:170
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результаты поиска для &#8220;%s&#8221;"
+
+#: ../admin/manage-images.php:196
+msgid "Gallery settings"
+msgstr "Настройка галереи"
+
+#: ../admin/manage-images.php:196
+msgid "Click here for more settings"
+msgstr "показать больше настроек"
+
+#: ../admin/manage-images.php:202
+msgid "Page Link to"
+msgstr "Ссылка на страницу"
+
+#: ../admin/manage-images.php:205
+msgid "Not linked"
+msgstr "Без ссылки"
+
+#: ../admin/manage-images.php:213
+msgid "Preview image"
+msgstr "Обложка для альбома"
+
+#: ../admin/manage-images.php:216
+msgid "No Picture"
+msgstr "Нет изображения"
+
+#: ../admin/manage-images.php:229
+msgid "Path"
+msgstr "Путь"
+
+#: ../admin/manage-images.php:245
+msgid "Create new page"
+msgstr "Создать новую страницу"
+
+#: ../admin/manage-images.php:248
+msgid "Main page (No parent)"
+msgstr "Главная страница (корень)"
+
+#: ../admin/manage-images.php:251
+msgid "Add page"
+msgstr "Добавить страницу"
+
+#: ../admin/manage-images.php:257
+msgid "Scan Folder for new images"
+msgstr "Сканировать папку в поисках новых изображений"
+
+#: ../admin/manage-images.php:258
+#: ../admin/manage-images.php:295
+#: ../admin/manage-images.php:439
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../admin/manage-images.php:277
+msgid "No action"
+msgstr "Без действия"
+
+#: ../admin/manage-images.php:278
+msgid "Set watermark"
+msgstr "Установить водяной знак"
+
+#: ../admin/manage-images.php:280
+msgid "Resize images"
+msgstr "Изменить размер изображений"
+
+#: ../admin/manage-images.php:281
+msgid "Delete images"
+msgstr "Удалить изображения"
+
+#: ../admin/manage-images.php:282
+msgid "Import metadata"
+msgstr "Импортировать Мета данные"
+
+#: ../admin/manage-images.php:283
+msgid "Copy to..."
+msgstr "Копировать в..."
+
+#: ../admin/manage-images.php:284
+msgid "Move to..."
+msgstr "Переместить в..."
+
+#: ../admin/manage-images.php:285
+msgid "Add tags"
+msgstr "Добавить метку"
+
+#: ../admin/manage-images.php:286
+msgid "Delete tags"
+msgstr "Удалить метки"
+
+#: ../admin/manage-images.php:287
+msgid "Overwrite tags"
+msgstr "Переписать метки"
+
+#: ../admin/manage-images.php:292
+msgid "Sort gallery"
+msgstr "Сортировка"
+
+#: ../admin/manage-images.php:373
+#, php-format
+msgid "View \"%s\""
+msgstr "Посмотреть \"%s\""
+
+#: ../admin/manage-images.php:373
+msgid "View"
+msgstr "Смотреть"
+
+#: ../admin/manage-images.php:374
+msgid "Show Meta data"
+msgstr "Показать мета данные"
+
+#: ../admin/manage-images.php:374
+msgid "Meta"
+msgstr "Мета"
+
+#: ../admin/manage-images.php:375
+msgid "Customize thumbnail"
+msgstr "Настроить миниатюру"
+
+#: ../admin/manage-images.php:375
+msgid "Edit thumb"
+msgstr "Редактировать миниатюру"
+
+#: ../admin/manage-images.php:376
+#, php-format
+msgid "Delete \"%s\""
+msgstr "Удалить \"%s\""
+
+#: ../admin/manage-images.php:452
+msgid "Enter the tags"
+msgstr "Введите метки"
+
+#: ../admin/manage-images.php:475
+msgid "Select the destination gallery:"
+msgstr "Выберите галерею, куда перемещать:"
+
+#: ../admin/manage-images.php:517
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: ../admin/manage-images.php:519
+#: ../admin/manage-sort.php:72
+msgid "Filename"
+msgstr "имя файла"
+
+#: ../admin/manage-images.php:521
+msgid "Alt &amp; Title Text"
+msgstr "Alt &amp; Title текст"
+
+#: ../admin/manage-images.php:522
+msgid "Tags (comma separated list)"
+msgstr "Метки (несколько меток разделяйте запятыми)"
+
+#: ../admin/manage-images.php:524
+msgid "exclude"
+msgstr "исключить"
+
+#: ../admin/manage-sort.php:30
+msgid "Sort order changed"
+msgstr "Порядок миниатюр сохранен"
+
+#: ../admin/manage-sort.php:57
+msgid "Sort Gallery"
+msgstr "Сортировка"
+
+#: ../admin/manage-sort.php:61
+msgid "Update Sort Order"
+msgstr "Сохранить сортировку"
+
+#: ../admin/manage-sort.php:64
+msgid "Back to gallery"
+msgstr "Вернуться в галерею"
+
+#: ../admin/manage-sort.php:69
+msgid "Presort"
+msgstr "Отсортировать"
+
+#: ../admin/manage-sort.php:70
+msgid "Unsorted"
+msgstr "без сортировки"
+
+#: ../admin/manage-sort.php:71
+msgid "Image ID"
+msgstr "по ID изображения"
+
+#: ../admin/manage-sort.php:73
+msgid "Alt/Title text"
+msgstr " Alt / Title текст"
+
+#: ../admin/manage-sort.php:74
+msgid "Date/Time"
+msgstr "Дата/ время"
+
+#: ../admin/manage-sort.php:75
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: ../admin/manage-sort.php:76
+msgid "Descending"
+msgstr "По убыванию"
+
+#: ../admin/manage.php:82
+#: ../admin/manage.php:100
+msgid "deleted successfully"
+msgstr "успешно удалено"
+
+#: ../admin/manage.php:100
+#: ../admin/tinymce/window.php:31
+msgid "Picture"
+msgstr "Изображение"
+
+#: ../admin/manage.php:141
+msgid "Pictures deleted successfully "
+msgstr "Изображения успешно удалены"
+
+#: ../admin/manage.php:147
+msgid "Import metadata finished"
+msgstr "Импорт мета данных закончен"
+
+#: ../admin/manage.php:155
+msgid "Operation successful. Please clear your browser cache."
+msgstr "Все прошло ок. Пожалуйста, очистите кэш в вашем браузере."
+
+#: ../admin/manage.php:218
+msgid "Tags changed"
+msgstr "Теги изменены"
+
+#: ../admin/manage.php:245
+msgid "Update successful"
+msgstr "Успешно обновлено"
+
+#: ../admin/manage.php:279
+msgid "New gallery page ID"
+msgstr "Новый ID страницы галереи"
+
+#: ../admin/manage.php:279
+msgid "created"
+msgstr "создано"
+
+#: ../admin/manage_thumbnail.php:19
+#: ../admin/manage_thumbnail.php:22
+#: ../admin/showmeta.php:10
+#: ../admin/showmeta.php:13
+msgid "Cheatin&#8217; uh?"
+msgstr "Что вы делаете, эй?"
+
+#: ../admin/manage_thumbnail.php:116
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "Выберите мышкой область для новой миниатюры"
+
+#: ../admin/manage_thumbnail.php:130
+msgid "Thumbnail updated"
+msgstr "Миниатюра обновлена"
+
+#: ../admin/manage_thumbnail.php:135
+msgid "Error updating thumbnail."
+msgstr "Ошибка при обновлении миниатюры."
+
+#: ../admin/manage_thumbnail.php:152
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Выберите мышкой область для миниатюры на изображении слева."
+
+#: ../admin/media-upload.php:132
+#: ../admin/tinymce/window.php:43
+msgid "No gallery"
+msgstr "Нет галереи"
+
+#: ../admin/media-upload.php:144
+msgid "Select &#187;"
+msgstr "Выбрать  &#187;"
+
+#: ../admin/media-upload.php:175
+msgid "Show"
+msgstr "Показать"
+
+#: ../admin/media-upload.php:176
+msgid "Hide"
+msgstr "Скрыть"
+
+#: ../admin/media-upload.php:181
+msgid "Image ID:"
+msgstr "ID изображения:"
+
+#: ../admin/media-upload.php:195
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: ../admin/media-upload.php:198
+#: ../admin/settings.php:339
+msgid "None"
+msgstr "Нет"
+
+#: ../admin/media-upload.php:200
+#: ../admin/tinymce/window.php:129
+msgid "Left"
+msgstr "Слева"
+
+#: ../admin/media-upload.php:202
+#: ../admin/tinymce/window.php:130
+msgid "Center"
+msgstr "Посередине"
+
+#: ../admin/media-upload.php:204
+#: ../admin/tinymce/window.php:131
+msgid "Right"
+msgstr "Справа"
+
+#: ../admin/media-upload.php:208
+#: ../admin/settings.php:442
+msgid "Size"
+msgstr "Размер"
+
+#: ../admin/media-upload.php:214
+msgid "Full size"
+msgstr "Размер файла"
+
+#: ../admin/media-upload.php:216
+msgid "Singlepic"
+msgstr "Одно изображение"
+
+#: ../admin/media-upload.php:224
+msgid "Insert into Post"
+msgstr "Вставить"
+
+#: ../admin/media-upload.php:234
+msgid "Save all changes"
+msgstr "Сохранить изменения"
+
+#: ../admin/overview.php:16
+#: ../admin/overview.php:46
+msgid "NextGEN Gallery Overview"
+msgstr "Обзор NextGEN Gallery"
+
+#: ../admin/overview.php:126
+msgid "Thanks to all donators..."
+msgstr "Спасибо всем спонсорам..."
+
+#: ../admin/overview.php:148
+msgid "View all"
+msgstr "Смотреть все"
+
+#: ../admin/overview.php:187
+#, php-format
+msgid "Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to check for updates."
+msgstr "Ленту новостей не возможно загрузить. Проверьте <a href=\"%s\">Главную страницу</a>, чтобы увидеть обновления."
+
+#: ../admin/overview.php:207
+msgid "At a Glance"
+msgstr "Статистика"
+
+#: ../admin/overview.php:234
+msgid "Upload pictures"
+msgstr "Загрузить изображения"
+
+#: ../admin/overview.php:235
+msgid "Here you can control your images, galleries and albums."
+msgstr "Здесь вы можете управлять вашими изображениями, галереями и альбомами. "
+
+#: ../admin/overview.php:239
+msgid "Gallery Administrator"
+msgstr "администратора галереи"
+
+#: ../admin/overview.php:239
+msgid "Gallery Editor"
+msgstr "редактор галереи"
+
+#: ../admin/overview.php:240
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Сейчас у вас права %s."
+
+#: ../admin/overview.php:247
+msgid "Welcome to NextGEN Gallery !"
+msgstr "Добро пожаловать  в NextGEN Gallery !"
+
+#: ../admin/overview.php:248
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: ../admin/overview.php:249
+msgid "Recent donators"
+msgstr "Новые спонсоры"
+
+#: ../admin/overview.php:250
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: ../admin/overview.php:251
+msgid "Graphic Library"
+msgstr "Графическая библиотека"
+
+#: ../admin/overview.php:267
+msgid "No GD support"
+msgstr "GD не поддерживается"
+
+#: ../admin/overview.php:274
+#: ../admin/overview.php:313
+#: ../admin/overview.php:316
+#: ../admin/overview.php:319
+msgid "Yes"
+msgstr "Да"
+
+#: ../admin/overview.php:276
+#: ../admin/overview.php:314
+#: ../admin/overview.php:317
+#: ../admin/overview.php:320
+msgid "No"
+msgstr "Нет"
+
+#: ../admin/overview.php:290
+msgid "Not set"
+msgstr "Не установлено"
+
+#: ../admin/overview.php:292
+#: ../admin/overview.php:295
+msgid "On"
+msgstr "Включено"
+
+#: ../admin/overview.php:293
+#: ../admin/overview.php:296
+msgid "Off"
+msgstr "Выключено"
+
+#: ../admin/overview.php:299
+#: ../admin/overview.php:302
+#: ../admin/overview.php:305
+#: ../admin/overview.php:308
+#: ../admin/overview.php:311
+msgid "N/A"
+msgstr "Не доступно"
+
+#: ../admin/overview.php:310
+msgid " MByte"
+msgstr "МБ"
+
+#: ../admin/overview.php:323
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: ../admin/overview.php:324
+msgid "Server"
+msgstr "Сервер"
+
+#: ../admin/overview.php:325
+msgid "Memory usage"
+msgstr "Использовано памяти (memory usage)"
+
+#: ../admin/overview.php:326
+msgid "MYSQL Version"
+msgstr "MYSQL версия"
+
+#: ../admin/overview.php:327
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: ../admin/overview.php:328
+msgid "PHP Version"
+msgstr "PHP версия"
+
+#: ../admin/overview.php:329
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: ../admin/overview.php:330
+msgid "PHP Allow URL fopen"
+msgstr ""
+
+#: ../admin/overview.php:331
+msgid "PHP Memory Limit"
+msgstr "PHP лимит памяти"
+
+#: ../admin/overview.php:332
+msgid "PHP Max Upload Size"
+msgstr "PHP макс. размер загрузки"
+
+#: ../admin/overview.php:333
+msgid "PHP Max Post Size"
+msgstr "PHP макс. размер Post-запроса"
+
+#: ../admin/overview.php:334
+msgid "PHP Max Script Execute Time"
+msgstr "PHP макс. время выполнения скрипта"
+
+#: ../admin/overview.php:335
+msgid "PHP Exif support"
+msgstr "Поддержка PHP Exif"
+
+#: ../admin/overview.php:336
+msgid "PHP IPTC support"
+msgstr "Поддержка PHP IPTC"
+
+#: ../admin/overview.php:337
+msgid "PHP XML support"
+msgstr "Поддержка PHP XML"
+
+#: ../admin/overview.php:395
+msgid "Storage Space"
+msgstr "Сколько места на диске"
+
+#: ../admin/overview.php:398
+msgid "Upload Space Used:"
+msgstr "Использовано места:"
+
+#: ../admin/overview.php:404
+msgid "Upload Space Remaining:"
+msgstr "Осталось места на диске:"
+
+#: ../admin/roles.php:22
+msgid "Updated capabilities"
+msgstr "Обновить права"
+
+#: ../admin/roles.php:27
+msgid "Roles / capabilities"
+msgstr "Права доступа"
+
+#: ../admin/roles.php:28
+msgid "Select the lowest role which should be able to access the follow capabilities. NextGEN Gallery supports the standard roles from WordPress."
+msgstr "Вы можете установить права доступа в к разным функциям NextGEN Gallery. Поддерживаются стандартные роли WordPress."
+
+#: ../admin/roles.php:29
+msgid "For a more flexible user management you can use the"
+msgstr "Для более сложного управления ролями в Wordpress воспользуйтесь плагином "
+
+#: ../admin/roles.php:34
+msgid "Main NextGEN Gallery overview"
+msgstr "Работать с основным разделом"
+
+#: ../admin/roles.php:38
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "Работать с кнопками в TinyMCE"
+
+#: ../admin/roles.php:42
+msgid "Add gallery / Upload images"
+msgstr "Загружать изображения"
+
+#: ../admin/roles.php:46
+msgid "Manage gallery"
+msgstr "Управлять галереями"
+
+#: ../admin/roles.php:50
+msgid "Manage others gallery"
+msgstr "Управлять другими  галереями"
+
+#: ../admin/roles.php:54
+msgid "Manage tags"
+msgstr "Управление метками"
+
+#: ../admin/roles.php:58
+msgid "Edit Album"
+msgstr "Редактировать альбомы"
+
+#: ../admin/roles.php:62
+msgid "Change style"
+msgstr "Изменять стили"
+
+#: ../admin/roles.php:66
+msgid "Change options"
+msgstr "Изменять настройки"
+
+#: ../admin/roles.php:70
+msgid "Update capabilities"
+msgstr "Обновить права"
+
+#: ../admin/settings.php:61
+msgid "Cache cleared"
+msgstr "Папка с кэшем очищена."
+
+#: ../admin/settings.php:109
+#: ../admin/settings.php:121
+msgid "General Options"
+msgstr "Главные настройки"
+
+#: ../admin/settings.php:110
+#: ../admin/settings.php:291
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: ../admin/settings.php:111
+msgid "Images"
+msgstr "Изображения"
+
+#: ../admin/settings.php:113
+#: ../admin/settings.php:328
+msgid "Effects"
+msgstr "Эффекты"
+
+#: ../admin/settings.php:114
+#: ../admin/settings.php:366
+#: ../admin/tinymce/window.php:119
+msgid "Watermark"
+msgstr "Водяной знак"
+
+#: ../admin/settings.php:115
+#: ../admin/settings.php:292
+#: ../admin/settings.php:470
+#: ../admin/tinymce/window.php:58
+msgid "Slideshow"
+msgstr "Слайдшоу"
+
+#: ../admin/settings.php:127
+#: ../admin/wpmu.php:48
+msgid "Gallery path"
+msgstr "Путь к галереи"
+
+#: ../admin/settings.php:129
+msgid "This is the default path for all galleries"
+msgstr "Это путь по умолчанию для всех галерей"
+
+#: ../admin/settings.php:132
+msgid "Delete image files"
+msgstr "Удалять файлы изображений"
+
+#: ../admin/settings.php:134
+msgid "Delete files, when removing a gallery in the database"
+msgstr "Удалять изображения галереи, когда удаляете её в базе данных"
+
+#: ../admin/settings.php:137
+msgid "Activate permalinks"
+msgstr "Включить красивые урлы"
+
+#: ../admin/settings.php:139
+msgid "When you activate this option, you need to update your permalink structure one time."
+msgstr "После активации этой опции нужно обновить структуру постоянных ссылок (ЧПУ)."
+
+#: ../admin/settings.php:142
+msgid "Select graphic library"
+msgstr "Графическая библиотека"
+
+#: ../admin/settings.php:143
+msgid "GD Library"
+msgstr ""
+
+#: ../admin/settings.php:144
+msgid "ImageMagick (Experimental). Path to the library :"
+msgstr "ImageMagick (экспериментально). Путь к библиотеке :"
+
+#: ../admin/settings.php:149
+msgid "Activate Media RSS feed"
+msgstr "Включить RSS галерей"
+
+#: ../admin/settings.php:151
+msgid "A RSS feed will be added to you blog header. Useful for CoolIris/PicLens"
+msgstr "RSS лента будет добавлена шапку (header). Полезно для  CoolIris/PicLens"
+
+#: ../admin/settings.php:154
+msgid "Activate PicLens/CoolIris support"
+msgstr "Включить поддержку PicLens/CoolIris"
+
+#: ../admin/settings.php:156
+msgid "When you activate this option, some javascript is added to your site footer. Make sure that wp_footer is called in your theme."
+msgstr "При включении этой опции добавляется вызов javascript скрипта. Убедитесь, что в вашей Теме присутствует wp_footer (в footer.php)."
+
+#: ../admin/settings.php:159
+msgid "Tags / Categories"
+msgstr "Метки / Рубрики"
+
+#: ../admin/settings.php:162
+msgid "Activate related images"
+msgstr "Включить связь изображений"
+
+#: ../admin/settings.php:164
+msgid "This option will append related images to every post"
+msgstr "Автоматически вставлять изображения в записи связанные с ними меткой или категорией."
+
+#: ../admin/settings.php:168
+msgid "Match with"
+msgstr "Связать изображения с&nbsp;помощью"
+
+#: ../admin/settings.php:169
+msgid "Categories"
+msgstr "Рубрики"
+
+#: ../admin/settings.php:174
+msgid "Max. number of images"
+msgstr "Макс. количество изображений"
+
+#: ../admin/settings.php:176
+msgid "0 will show all images"
+msgstr "0 &#8212; для отображения всех связанных изображений"
+
+#: ../admin/settings.php:187
+msgid "Thumbnail settings"
+msgstr "Настройки миниатюр"
+
+#: ../admin/settings.php:191
+msgid "Please note : If you change the settings, you need to recreate the thumbnails under -> Manage Gallery ."
+msgstr "Обратите внимание: если вы изменяете настройки, то вам нужно заново создать миниатюры в каждой галерее: «Галереи» —> «изменить» —> «создать новые миниатюры»."
+
+#: ../admin/settings.php:194
+msgid "Width x height (in pixel)"
+msgstr "Высота и ширина (в пикселях)"
+
+#: ../admin/settings.php:196
+msgid "These values are maximum values "
+msgstr "Это максимальные значения"
+
+#: ../admin/settings.php:199
+msgid "Set fix dimension"
+msgstr "Установить фиксированные размеры"
+
+#: ../admin/settings.php:201
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Игнорировать соотношение сторон, НЕ портретные (книжные) ориентации у миниатюр"
+
+#: ../admin/settings.php:204
+msgid "Crop square thumbnail from image"
+msgstr "Создать квадратные миниатюры из изображения"
+
+#: ../admin/settings.php:206
+msgid "Create square thumbnails, use only the width setting :"
+msgstr "Создать квадратные миниатюры, используя только настройки ширины:"
+
+#: ../admin/settings.php:209
+msgid "Thumbnail quality"
+msgstr "Качество миниатюр"
+
+#: ../admin/settings.php:220
+msgid "Image settings"
+msgstr "Настройки изображения"
+
+#: ../admin/settings.php:226
+msgid "Resize Images"
+msgstr "Изменять размер изображений"
+
+#: ../admin/settings.php:230
+msgid "Width x height (in pixel). NextGEN Gallery will keep ratio size"
+msgstr "Ширина х высота (в пикселях). NextGEN Gallery будет сохранять пропорции"
+
+#: ../admin/settings.php:233
+msgid "Image quality"
+msgstr "Качество изображения"
+
+#: ../admin/settings.php:238
+msgid "Single picture"
+msgstr "Изображение"
+
+#: ../admin/settings.php:241
+msgid "Cache single pictures"
+msgstr "Кэшировать  изображения"
+
+#: ../admin/settings.php:244
+msgid "Creates a file for each singlepic settings. Reduce the CPU load"
+msgstr "Создавать файл для каждой настройки отдельного изображения. Уменьшает нагрузку на ЦПУ(CPU)"
+
+#: ../admin/settings.php:247
+msgid "Clear cache folder"
+msgstr "Очитстить папку с кэшем"
+
+#: ../admin/settings.php:249
+msgid "Proceed now"
+msgstr "ОК"
+
+#: ../admin/settings.php:265
+msgid "Deactivate gallery page link"
+msgstr "Динамические страницы галерей"
+
+#: ../admin/settings.php:267
+msgid "The album will not link to a gallery subpage. The gallery is shown on the same page."
+msgstr "Работать с динамическими страницами галерей (не нужно создавать отдельную страницу для каждой галереи они будут генерироваться динамически)."
+
+#: ../admin/settings.php:271
+msgid "Number of images per page"
+msgstr "Количество изображений на странице"
+
+#: ../admin/settings.php:273
+msgid "0 will disable pagination, all images on one page"
+msgstr "0 (ноль) —  выводить все изображения на одной странице."
+
+#: ../admin/settings.php:277
+msgid "Number of columns"
+msgstr "Количество колонок"
+
+#: ../admin/settings.php:279
+msgid "0 will display as much as possible based on the width of your theme. Setting normally only required for captions below the images"
+msgstr "0  (ноль)  — отобразится столько миниатюр в ряд, сколько позволит ширина вашей Темы."
+
+#: ../admin/settings.php:283
+msgid "Integrate slideshow"
+msgstr "Добавить слайдшоу"
+
+#: ../admin/settings.php:290
+msgid "Show first"
+msgstr "Показывать сначала"
+
+#: ../admin/settings.php:296
+msgid "Show ImageBrowser"
+msgstr "Динамические страницы изображений"
+
+#: ../admin/settings.php:298
+msgid "The gallery will open the ImageBrowser instead the effect."
+msgstr "Каждое изображение галереи отображается на отдельной динамически сгенерированной странице. При включенной функции эфекты не работают."
+
+#: ../admin/settings.php:302
+msgid "Sort options"
+msgstr "Основные настройки"
+
+#: ../admin/settings.php:305
+msgid "Sort thumbnails"
+msgstr "Сортировать миниатюры"
+
+#: ../admin/settings.php:307
+msgid "Custom order"
+msgstr "Вручную"
+
+#: ../admin/settings.php:309
+msgid "File name"
+msgstr "Название файла"
+
+#: ../admin/settings.php:310
+msgid "Alt / Title text"
+msgstr "Alt / Title текст"
+
+#: ../admin/settings.php:311
+msgid "Date / Time"
+msgstr "дата/ время"
+
+#: ../admin/settings.php:315
+msgid "Sort direction"
+msgstr "Сортировка"
+
+#: ../admin/settings.php:332
+msgid "Here you can select the thumbnail effect, NextGEN Gallery will integrate the required HTML code in the images. Please note that only the Thickbox effect will automatic added to your theme."
+msgstr "Здесь вы можете выбрать эффект для миниатюр, NextGEN Gallery добавит требуемый HTML код в изображения. Пожалуйста, обратите внимание, что только Thickbox эффект будет автоматически добавлен к вашей теме."
+
+#: ../admin/settings.php:333
+msgid "With the placeholder"
+msgstr "С помощью"
+
+#: ../admin/settings.php:333
+msgid "you can activate a navigation through the images (depend on the effect). Change the code line only , when you use a different thumbnail effect or you know what you do."
+msgstr "вы можете активировать навигацию по изображениям (зависит от эффекта). Изменяйте  эту строку только тогда, когда вы используете различные эффекты для миниатюр или вы знаете, что вы делаете."
+
+#: ../admin/settings.php:336
+msgid "JavaScript Thumbnail effect"
+msgstr "JavaScript эффект для миниатюры"
+
+#: ../admin/settings.php:340
+msgid "Thickbox"
+msgstr "Thickbox"
+
+#: ../admin/settings.php:341
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: ../admin/settings.php:342
+msgid "Highslide"
+msgstr "Highslide"
+
+#: ../admin/settings.php:343
+msgid "Shutter"
+msgstr "Жалюзи"
+
+#: ../admin/settings.php:344
+msgid "Custom"
+msgstr "Другой"
+
+#: ../admin/settings.php:349
+msgid "Link Code line"
+msgstr "Строка кода для ссылки"
+
+#: ../admin/settings.php:367
+msgid "Please note : You can only activate the watermark under -> Manage Gallery . This action cannot be undone."
+msgstr "Обратите внимание: вы можете установить водяной знак на изображения при редактировании галереи в разделе «Галереи». Это действие нельзя отменить — водяной знак накладывается на изображение навсегда."
+
+#: ../admin/settings.php:372
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: ../admin/settings.php:374
+#: ../admin/settings.php:379
+msgid "Position"
+msgstr "Расположение"
+
+#: ../admin/settings.php:399
+msgid "Offset"
+msgstr "Смещение"
+
+#: ../admin/settings.php:415
+msgid "Use image as watermark"
+msgstr "Использовать изображение:"
+
+#: ../admin/settings.php:418
+msgid "URL to file"
+msgstr "Адрес (URL) изображения"
+
+#: ../admin/settings.php:420
+msgid "The accessing of URL files is disabled at your server (allow_url_fopen)"
+msgstr "Доступ к файлам (URL) отключен на вашем сервере (allow_url_fopen). "
+
+#: ../admin/settings.php:423
+msgid "Use text as watermark"
+msgstr "Использовать текст:"
+
+#: ../admin/settings.php:426
+msgid "Font"
+msgstr "Шрифт"
+
+#: ../admin/settings.php:435
+msgid "This function will not work, cause you need the FreeType library"
+msgstr "Эта функция не будет работать, для нее требуется билбиотека FreeType"
+
+#: ../admin/settings.php:437
+msgid "You can upload more fonts in the folder <strong>nggallery/fonts</strong>"
+msgstr "Вы может использовать больше шрифтов, загрузив их в папку <strong>&#171;nextgen-gallery/fonts&#187;</strong>"
+
+#: ../admin/settings.php:446
+msgid "Color"
+msgstr "Цвет"
+
+#: ../admin/settings.php:448
+msgid "(hex w/o #)"
+msgstr "(без #)"
+
+#: ../admin/settings.php:451
+msgid "Text"
+msgstr "Текст"
+
+#: ../admin/settings.php:455
+msgid "Opaque"
+msgstr "Прозрачность"
+
+#: ../admin/settings.php:475
+msgid "The path to imagerotator.swf is not defined, the slideshow will not work."
+msgstr "Путь к imagerotator.swf не определен, слайдшоу не будет работать."
+
+#: ../admin/settings.php:476
+msgid "If you would like to use the JW Image Rotatator, please download the player <a href=\"http://www.longtailvideo.com/players/jw-image-rotator/\" target=\"_blank\" >here</a> and upload it to your Upload folder (Default is wp-content/uploads)."
+msgstr "Если вы хотите использовать JW Image Rotatator, скачайте плеер <a href=\"http://www.longtailvideo.com/players/jw-image-rotator/\" target=\"_blank\" >отсюда</a> и загрузите его в свою папку (по умолчанию — wp-content/uploads)."
+
+#: ../admin/settings.php:481
+msgid "The settings are used in the JW Image Rotator Version"
+msgstr "Настройки, используемые в JW Image Rotator версии"
+
+#: ../admin/settings.php:482
+msgid "See more information for the Flash Player on the web page"
+msgstr "Больше информации о Flash Player доступно на странице"
+
+#: ../admin/settings.php:486
+msgid "Path to the Imagerotator (URL)"
+msgstr "Путь к Imagerotator (URL)"
+
+#: ../admin/settings.php:489
+msgid "Search now"
+msgstr "Искать"
+
+#: ../admin/settings.php:490
+msgid "Press the button to search automatic for the imagerotator, if you uploaded it to wp-content/uploads or a subfolder"
+msgstr "Нажмите кнопку, чтобы автоматически найти imagerotator, если вы загрузили его в папку wp-content/uploads или в вложенную папку в wp-content/uploads"
+
+#: ../admin/settings.php:494
+msgid "Default size (W x H)"
+msgstr "Размер по умолчанию (высота х ширина)"
+
+#: ../admin/settings.php:499
+msgid "Shuffle mode"
+msgstr "Случайная смена изображений"
+
+#: ../admin/settings.php:503
+msgid "Show next image on click"
+msgstr "Показывать следующее изображение по клику"
+
+#: ../admin/settings.php:507
+msgid "Show navigation bar"
+msgstr "Показывать навигационную панель"
+
+#: ../admin/settings.php:511
+msgid "Show loading icon"
+msgstr "Показывать значок загрузки"
+
+#: ../admin/settings.php:515
+msgid "Use watermark logo"
+msgstr "Использовать водяной знак"
+
+#: ../admin/settings.php:517
+msgid "You can change the logo at the watermark settings"
+msgstr "Вы можете изменить водяной знак в настройках"
+
+#: ../admin/settings.php:520
+msgid "Stretch image"
+msgstr "Растягивать изображение"
+
+#: ../admin/settings.php:523
+msgid "true"
+msgstr "с обрезкой"
+
+#: ../admin/settings.php:524
+msgid "false"
+msgstr "сохранить пропорции"
+
+#: ../admin/settings.php:525
+msgid "fit"
+msgstr "да"
+
+#: ../admin/settings.php:526
+msgid "none"
+msgstr "нет"
+
+#: ../admin/settings.php:531
+msgid "Duration time"
+msgstr "Продолжительность одного слайда"
+
+#: ../admin/settings.php:532
+msgid "sec."
+msgstr "секунд"
+
+#: ../admin/settings.php:535
+msgid "Transition / Fade effect"
+msgstr "Эффект перехода"
+
+#: ../admin/settings.php:538
+msgid "fade"
+msgstr "затухание"
+
+#: ../admin/settings.php:539
+msgid "bgfade"
+msgstr "затухание ч/б"
+
+#: ../admin/settings.php:540
+msgid "slowfade"
+msgstr "медленное затухание"
+
+#: ../admin/settings.php:541
+msgid "circles"
+msgstr "круги"
+
+#: ../admin/settings.php:542
+msgid "bubbles"
+msgstr "пузыри"
+
+#: ../admin/settings.php:543
+msgid "blocks"
+msgstr "блоки"
+
+#: ../admin/settings.php:544
+msgid "fluids"
+msgstr "текучий"
+
+#: ../admin/settings.php:545
+msgid "flash"
+msgstr "вспышка"
+
+#: ../admin/settings.php:546
+msgid "lines"
+msgstr "линии"
+
+#: ../admin/settings.php:547
+msgid "random"
+msgstr "в случайном порядке"
+
+#: ../admin/settings.php:551
+msgid "Use slow zooming effect"
+msgstr "Эффект медленного приближения"
+
+#: ../admin/settings.php:555
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: ../admin/settings.php:560
+msgid "Texts / Buttons Color"
+msgstr "Цвет текста / кнопок"
+
+#: ../admin/settings.php:565
+msgid "Rollover / Active Color"
+msgstr "Цвет при наведении курсора"
+
+#: ../admin/settings.php:570
+msgid "Screen Color"
+msgstr "Цвет фона"
+
+#: ../admin/settings.php:575
+msgid "Background music (URL)"
+msgstr "Фоновая музыка (URL)"
+
+#: ../admin/settings.php:579
+msgid "Try XHTML validation (with CDATA)"
+msgstr "XHTML валидный код (добавить CDATA)"
+
+#: ../admin/settings.php:581
+msgid "Important : Could causes problem at some browser. Please recheck your page."
+msgstr "Важно: Могут быть проблемы в некоторых браузерах. Пожалуйста, проверьте слайдшоу после этого."
+
+#: ../admin/setup.php:15
+msgid "Reset all settings to default parameter"
+msgstr "Все настройки возвращены к значениям по умолчанию"
+
+#: ../admin/setup.php:26
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "Успешно удалено! Теперь удалите плагин и наслаждайтесь вашей жизнью! Удачи!"
+
+#: ../admin/setup.php:30
+msgid "Reset options"
+msgstr "Восстановление настроек"
+
+#: ../admin/setup.php:33
+msgid "Reset all options/settings to the default installation."
+msgstr "Вернуть все настройки, которые были по умолчанию."
+
+#: ../admin/setup.php:34
+msgid "Reset settings"
+msgstr "Восстановить настройки"
+
+#: ../admin/setup.php:34
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Вернуть все настройки по умолчанию?\\n"
+"\\n"
+
+#: ../admin/setup.php:39
+msgid "Uninstall plugin tables"
+msgstr "Удаление таблиц плагина"
+
+#: ../admin/setup.php:44
+msgid "You don't like NextGEN Gallery ?"
+msgstr "Вам не нравится NextGEN Gallery?"
+
+#: ../admin/setup.php:45
+msgid "No problem, before you deactivate this plugin press the Uninstall Button, because deactivating NextGEN Gallery does not remove any data that may have been created. "
+msgstr "Нет проблем, прежде чем деактивировать этот плагин нажмите &#171;Удалить плагин&#187;, потому что деактивация NextGEN Gallery не удаляет данные, которые могли быть созданы."
+
+#: ../admin/setup.php:47
+msgid "WARNING:"
+msgstr "ПРЕДУПРЕЖДЕНИЕ:"
+
+#: ../admin/setup.php:48
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to backup all the tables first. NextGEN gallery is stored in the tables"
+msgstr "Однажды удалив, ничего уже нельзя будет вернуть. Поэтому вначале лучше воспользоваться плагином &#171;Database Backup&#187; для WordPress, чтобы создать резервную копию всех таблиц. NextGEN Gallery хранится в таблицах (Базы Данных):"
+
+#: ../admin/setup.php:48
+msgid "and"
+msgstr "и"
+
+#: ../admin/setup.php:50
+msgid "Uninstall plugin"
+msgstr "Удалить плагин"
+
+#: ../admin/setup.php:50
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"Высобираетесь удалить этот плагин из WordPress.\\n"
+"Это действие необратимо.\\n"
+"\\n"
+"Выберите [Отмена] для&#8230; отмены, [OK] чтобы удалить плагин.\\n"
+
+#: ../admin/showmeta.php:46
+msgid "EXIF Data"
+msgstr "Данные EXIF"
+
+#: ../admin/showmeta.php:51
+#: ../admin/showmeta.php:75
+#: ../admin/showmeta.php:99
+msgid "Tag"
+msgstr "Метка"
+
+#: ../admin/showmeta.php:52
+#: ../admin/showmeta.php:76
+#: ../admin/showmeta.php:100
+msgid "Value"
+msgstr "Значение"
+
+#: ../admin/showmeta.php:65
+msgid "No exif data"
+msgstr "Нет EXIF данных"
+
+#: ../admin/showmeta.php:71
+msgid "IPTC Data"
+msgstr "Данные IPTC"
+
+#: ../admin/showmeta.php:95
+msgid "XMP Data"
+msgstr "Данные XMP"
+
+#: ../admin/style.php:11
+msgid "(From the theme folder)"
+msgstr "(из папки Темы)"
+
+#: ../admin/style.php:43
+msgid "You do not have sufficient permissions to edit templates for this blog."
+msgstr "У вас недостаточно прав для изменения шаблонов этого блога."
+
+#: ../admin/style.php:52
+msgid "CSS file successfully updated"
+msgstr "CSS файл успешно обновлен"
+
+#: ../admin/style.php:71
+msgid "Style Editor"
+msgstr "Редактор стилей (css)"
+
+#: ../admin/style.php:75
+msgid "Activate and use style sheet:"
+msgstr "Активировать и использовать таблицу стилей (CSS)"
+
+#: ../admin/style.php:95
+msgid "Activate"
+msgstr "Активировать"
+
+#: ../admin/style.php:105
+#, php-format
+msgid "Editing <strong>%s</strong>"
+msgstr "Редактирование <strong>%s</strong"
+
+#: ../admin/style.php:107
+#, php-format
+msgid "Browsing <strong>%s</strong>"
+msgstr "Просмотр <strong>%s</strong>"
+
+#: ../admin/style.php:117
+msgid "Version"
+msgstr "Версия"
+
+#: ../admin/style.php:120
+msgid "Tip : Copy your stylesheet (nggallery.css) to your theme folder, so it will be not lost during a upgrade"
+msgstr "Совет: скопируйте файл стилей для галереи  (nggallery.css) в папку вашей Темы, чтобы не потерять изменения в этом файле при обновлении плагина."
+
+#: ../admin/style.php:122
+msgid "Your theme contain a NextGEN Gallery stylesheet (nggallery.css), this file will be used"
+msgstr "В папке вашей Темы есть файл для NextGEN Gallery  (nggallery.css), именно он будет использован."
+
+#: ../admin/style.php:136
+msgid "Update File"
+msgstr "Обновить файл &raquo;"
+
+#: ../admin/style.php:139
+msgid "If this file were writable you could edit it."
+msgstr "Если бы этот файл был перезаписываемый, то вы могли бы его изменить."
+
+#: ../admin/style.php:144
+msgid "Oops, no such file exists! Double check the name and try again, merci."
+msgstr "Ой, такого файла нет! Проверьте имя и попробуйте снова, спасибо."
+
+#: ../admin/tags.php:38
+msgid "Most popular"
+msgstr "Самые популярные"
+
+#: ../admin/tags.php:39
+msgid "Least used"
+msgstr "посл. использованные"
+
+#: ../admin/tags.php:40
+msgid "Alphabetical"
+msgstr "По алфавиту"
+
+#: ../admin/tags.php:95
+msgid "Manage image tags"
+msgstr "Управление метками изображений"
+
+#: ../admin/tags.php:107
+msgid "Existing Tags"
+msgstr "Существующие метки"
+
+#: ../admin/tags.php:111
+msgid "Search tags"
+msgstr "Найти метки"
+
+#: ../admin/tags.php:115
+msgid "Go"
+msgstr "ОК"
+
+#: ../admin/tags.php:120
+msgid "Sort Order:"
+msgstr "Сортировать:"
+
+#: ../admin/tags.php:137
+#, php-format
+msgid "View all images tagged with %s"
+msgstr "Просмотр всех изображений с меткой %s"
+
+#: ../admin/tags.php:152
+#: ../admin/tags.php:156
+#: ../admin/tags.php:169
+msgid "Previous tags"
+msgstr "Предыдущие метки"
+
+#: ../admin/tags.php:165
+msgid "Next tags"
+msgstr "Следующие метки"
+
+#: ../admin/tags.php:177
+msgid "Rename Tag"
+msgstr "Переименование меток"
+
+#: ../admin/tags.php:185
+msgid "Enter the tag to rename and its new value.  You can use this feature to merge tags too. Click \"Rename\" and all posts which use this tag will be updated."
+msgstr "Для переименования впишите метку и ее короткую ссылку. Также тут можно «слить» 2 метки в одну. Нажмите на кнопку «Переименовать» и все данные записей с этой меткой будут обновлены."
+
+#: ../admin/tags.php:186
+#: ../admin/tags.php:234
+msgid "You can specify multiple tags to rename by separating them with commas."
+msgstr "Можно вписать несколько меток разделяя их запятыми."
+
+#: ../admin/tags.php:190
+msgid "Tag(s) to rename:"
+msgstr "Переименовать метки:"
+
+#: ../admin/tags.php:194
+msgid "New tag name(s):"
+msgstr "Новые имена меток:"
+
+#: ../admin/tags.php:197
+msgid "Rename"
+msgstr "Переименовать"
+
+#: ../admin/tags.php:203
+msgid "Delete Tag"
+msgstr "Удалить метки"
+
+#: ../admin/tags.php:211
+msgid "Enter the name of the tag to delete.  This tag will be removed from all posts."
+msgstr "Впишите метку, которую хотите удалить. Эта метка будет удалена из всех записей."
+
+#: ../admin/tags.php:212
+msgid "You can specify multiple tags to delete by separating them with commas"
+msgstr "Чтобы удалить  сразу несколько меток, разделяйте их запятыми"
+
+#: ../admin/tags.php:216
+msgid "Tag(s) to delete:"
+msgstr "Удалить метки:"
+
+#: ../admin/tags.php:225
+msgid "Edit Tag Slug"
+msgstr "Изменить короткую ссылку метки"
+
+#: ../admin/tags.php:233
+msgid "Enter the tag name to edit and its new slug. <a href=\"http://codex.wordpress.org/Glossary#Slug\">Slug definition</a>"
+msgstr "Впишите метку и её короткую ссылку. <a href=\"http://codex.wordpress.org/Glossary#Slug\">Что такое «короткая ссылка» (slug)</a>"
+
+#: ../admin/tags.php:238
+msgid "Tag(s) to match:"
+msgstr "Метка (метки):"
+
+#: ../admin/tags.php:242
+msgid "Slug(s) to set:"
+msgstr "Их короткие ссылки:"
+
+#: ../admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "Обновление страктуры дазы данных..."
+
+#: ../admin/upgrade.php:92
+#: ../admin/upgrade.php:102
+#: ../admin/upgrade.php:109
+#: ../admin/upgrade.php:120
+msgid "finished"
+msgstr "закончено"
+
+#: ../admin/upgrade.php:100
+msgid "Update file structure..."
+msgstr "Обновить структуру файлов..."
+
+#: ../admin/upgrade.php:107
+msgid "Import date and time information..."
+msgstr "Импорт информации о дате и времени..."
+
+#: ../admin/upgrade.php:115
+msgid "Move imagerotator to new location..."
+msgstr "Переместить imagerotator в новое место..."
+
+#: ../admin/upgrade.php:184
+msgid "Some folders/files could not renamed, please recheck the permission and rescan the folder in the manage gallery section."
+msgstr "Некоторые папки/файлы не могут быть переименованы, проверьте права (CHMOD) и начините сканирование папки заново, в редактировании галереи."
+
+#: ../admin/upgrade.php:186
+msgid "Rename failed"
+msgstr "Переименование не удалось"
+
+#: ../admin/upgrade.php:281
+#: ../admin/upgrade.php:300
+msgid "Upgrade NextGEN Gallery"
+msgstr "Обновить NextGEN Gallery"
+
+#: ../admin/upgrade.php:282
+msgid "The script detect that you upgrade from a older version."
+msgstr "Скрипт обнаружил, что вы обновляетесь со старой версии."
+
+#: ../admin/upgrade.php:283
+msgid "Your database tables for NextGEN Gallery is out-of-date, and must be upgraded before you can continue."
+msgstr "Таблицы NextGEN Gallery в базе данных являются устаревшими и должны быть обновлены прежде чем вы продолжите."
+
+#: ../admin/upgrade.php:284
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "Если Вы хотите обновить до более СТАРОЙ версии, пожалуйста, сделайте сначала бэкап базы данных и существующих изображений."
+
+#: ../admin/upgrade.php:285
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Процесс обновления может занять некоторое время, пожалуйста, подождите."
+
+#: ../admin/upgrade.php:286
+msgid "Start upgrade now"
+msgstr "Начать обновление"
+
+#: ../admin/upgrade.php:302
+msgid "Upgrade sucessful"
+msgstr "Обновление прошло успешно"
+
+#: ../admin/upgrade.php:303
+msgid "Continue"
+msgstr "Продолжить"
+
+#: ../admin/wpmu.php:32
+msgid "Update successfully"
+msgstr "Успешно обновлено"
+
+#: ../admin/wpmu.php:41
+msgid "General WordPress MU Settings"
+msgstr "Общие настройки для WordPress MU"
+
+#: ../admin/wpmu.php:50
+msgid "This is the default path for all blogs. With the placeholder %BLOG_ID% you can organize the folder structure better. The path must end with a /."
+msgstr "Это путь по умолчанию для всех блогов. Используя %BLOG_ID% Вы можете изменять структуру папки. В конце пути ставьте слэш /."
+
+#: ../admin/wpmu.php:53
+msgid "Enable upload quota check"
+msgstr "Включить проверку квоты загрузок"
+
+#: ../admin/wpmu.php:55
+msgid "Should work if the gallery is bellow the blog.dir"
+msgstr "В случае, если галерея находится ниже корневой директории блога"
+
+#: ../admin/wpmu.php:59
+msgid "Enable zip upload option"
+msgstr "Включить загрузку zip архивов"
+
+#: ../admin/wpmu.php:61
+msgid "Allow users to upload zip folders."
+msgstr "Разрешить пользователям загружать zip архивы."
+
+#: ../admin/wpmu.php:65
+msgid "Enable style selection"
+msgstr "Отключить выбор стиля (css)"
+
+#: ../admin/wpmu.php:67
+msgid "Allow users to choose a style for the gallery."
+msgstr "Разрешить пользователям выбирать стили (css) для галерей."
+
+#: ../admin/wpmu.php:71
+msgid "Enable roles/capabilities"
+msgstr "Права доступа"
+
+#: ../admin/wpmu.php:73
+msgid "Allow users to change the roles for other blog authors."
+msgstr "Разрешить пользователям менять права доступа для других авторов."
+
+#: ../admin/wpmu.php:77
+msgid "Default style"
+msgstr "Стиль по умолчанию"
+
+#: ../admin/wpmu.php:94
+msgid "Choose the default style for the galleries."
+msgstr "Выбрать путь по умолчанию для всех галерей"
+
+#: ../admin/tinymce/window.php:8
+msgid "You are not allowed to be here"
+msgstr "Вы не должны тут оказаться"
+
+#: ../admin/tinymce/window.php:56
+#: ../admin/tinymce/window.php:84
+msgid "Show as"
+msgstr "Показать как"
+
+#: ../admin/tinymce/window.php:57
+msgid "Image list"
+msgstr "Список изображений"
+
+#: ../admin/tinymce/window.php:59
+msgid "Imagebrowser"
+msgstr "Imagebrowser (просмотр изображения на отд. стр.)"
+
+#: ../admin/tinymce/window.php:72
+msgid "No album"
+msgstr "Нет альбома"
+
+#: ../admin/tinymce/window.php:85
+msgid "Extended version"
+msgstr "Расширенная версия"
+
+#: ../admin/tinymce/window.php:86
+msgid "Compact version"
+msgstr "Компактная версия"
+
+#: ../admin/tinymce/window.php:97
+msgid "Select picture"
+msgstr "Выбрать изображение"
+
+#: ../admin/tinymce/window.php:111
+msgid "Width x Height"
+msgstr "Высота х Ширина"
+
+#: ../admin/tinymce/window.php:115
+msgid "Effect"
+msgstr "Эффект"
+
+#: ../admin/tinymce/window.php:118
+msgid "No effect"
+msgstr "Нет эффекта"
+
+#: ../admin/tinymce/window.php:120
+msgid "Web 2.0"
+msgstr "Web 2.0"
+
+#: ../admin/tinymce/window.php:125
+msgid "Float"
+msgstr "Обтекание (Float)"
+
+#: ../admin/tinymce/window.php:128
+msgid "No float"
+msgstr "Нет"
+
+#: ../admin/tinymce/window.php:147
+msgid "Insert"
+msgstr "Вставить"
+
+#: ../lib/core.php:425
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Внимание: вы не можете загружать изображения более <strong>%d x %d</strong> пикс. шириной/высотой (ограничение memory limit — настройка вашего сервера)"
+
+#: ../lib/meta.php:87
+msgid " mm"
+msgstr " мм"
+
+#: ../lib/meta.php:93
+msgid " sec"
+msgstr " сек."
+
+#: ../lib/meta.php:371
+#: ../view/imagebrowser-exif.php:42
+msgid "Aperture"
+msgstr "Диафрагма"
+
+#: ../lib/meta.php:372
+#: ../lib/meta.php:397
+msgid "Credit"
+msgstr "Кредит"
+
+#: ../lib/meta.php:373
+msgid "Camera"
+msgstr "Камера"
+
+#: ../lib/meta.php:374
+msgid "Caption"
+msgstr "Заголовок"
+
+#: ../lib/meta.php:376
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../lib/meta.php:377
+msgid "Focal length"
+msgstr "Фокусное расстояние"
+
+#: ../lib/meta.php:378
+msgid "ISO"
+msgstr "ISO"
+
+#: ../lib/meta.php:379
+#: ../view/imagebrowser-exif.php:50
+msgid "Shutter speed"
+msgstr "Выдержка"
+
+#: ../lib/meta.php:383
+msgid "Subject"
+msgstr "Тема"
+
+#: ../lib/meta.php:384
+msgid "Make"
+msgstr "Создан"
+
+#: ../lib/meta.php:385
+msgid "Edit Status"
+msgstr "Статус редакирования"
+
+#: ../lib/meta.php:386
+msgid "Category"
+msgstr "Категория"
+
+#: ../lib/meta.php:387
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: ../lib/meta.php:388
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: ../lib/meta.php:389
+msgid "Time Created"
+msgstr "Время создания"
+
+#: ../lib/meta.php:390
+msgid "Author Position"
+msgstr "Расположение автора"
+
+#: ../lib/meta.php:391
+msgid "City"
+msgstr "Город"
+
+#: ../lib/meta.php:392
+msgid "Location"
+msgstr "Место"
+
+#: ../lib/meta.php:393
+msgid "Province/State"
+msgstr "Штат/провинция"
+
+#: ../lib/meta.php:394
+msgid "Country code"
+msgstr "Индекс"
+
+#: ../lib/meta.php:395
+msgid "Country"
+msgstr "Страна"
+
+#: ../lib/meta.php:396
+msgid "Headline"
+msgstr "Заглавие"
+
+#: ../lib/meta.php:398
+msgid "Source"
+msgstr "Источник"
+
+#: ../lib/meta.php:399
+msgid "Copyright Notice"
+msgstr "Авторское право"
+
+#: ../lib/meta.php:400
+msgid "Contact"
+msgstr "Контакт"
+
+#: ../lib/meta.php:401
+msgid "Last modified"
+msgstr "Изменен"
+
+#: ../lib/meta.php:402
+msgid "Program tool"
+msgstr "Программа"
+
+#: ../lib/meta.php:403
+msgid "Format"
+msgstr "Формат"
+
+#: ../lib/ngg-db.php:290
+#: ../lib/ngg-db.php:291
+msgid "Album overview"
+msgstr "Обзор альбома"
+
+#: ../lib/rewrite.php:181
+#: ../lib/rewrite.php:190
+msgid "Gallery"
+msgstr "Галерея"
+
+#: ../lib/rewrite.php:187
+msgid "Album"
+msgstr "Альбомы"
+
+#: ../lib/shortcodes.php:275
+msgid "[Pictures not found]"
+msgstr "[Изображения не найдены]"
+
+#: ../lib/tags.php:35
+msgid "No new tag specified!"
+msgstr "Не добавлено ни одной новой метки!"
+
+#: ../lib/tags.php:50
+msgid "No new/old valid tag specified!"
+msgstr "Не указано ни одной новой/старой правильной метки!"
+
+#: ../lib/tags.php:86
+msgid "No tag renamed."
+msgstr "Не переименовано ни одной метки."
+
+#: ../lib/tags.php:88
+#, php-format
+msgid "Renamed tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;"
+msgstr "Переименованы метки &laquo;%1$s&raquo; в  &laquo;%2$s&raquo;"
+
+#: ../lib/tags.php:95
+msgid "No valid new tag."
+msgstr "Не допустимое имя метки!"
+
+#: ../lib/tags.php:112
+msgid "No objects (post/page) found for specified old tags."
+msgstr "Не найдено объектов (запись/страница) для указанных старых меток."
+
+#: ../lib/tags.php:141
+msgid "No tag merged."
+msgstr "Не соединено в одну ни одной метки."
+
+#: ../lib/tags.php:143
+#, php-format
+msgid "Merge tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;. %3$s objects edited."
+msgstr "Слить метки &laquo;%1$s&raquo; в  &laquo;%2$s&raquo;. %3$s objects edited."
+
+#: ../lib/tags.php:146
+msgid "Error. No enough tags for rename. Too for merge. Choose !"
+msgstr "Ошибка. Нет достаточно тегов для переименования. И для слияния тоже. Выберите!"
+
+#: ../lib/tags.php:163
+msgid "No tag specified!"
+msgstr "Метка не задана!"
+
+#: ../lib/tags.php:186
+msgid "No tag deleted."
+msgstr "Ни одна метки не удалена."
+
+#: ../lib/tags.php:188
+#, php-format
+msgid "%1s tag(s) deleted."
+msgstr "%1s меток удалено."
+
+#: ../lib/tags.php:202
+msgid "No new slug(s) specified!"
+msgstr "Не заданы новые короткие ссылки меток!"
+
+#: ../lib/tags.php:214
+msgid "Tags number and slugs number isn't the same!"
+msgstr "Количество меток и коротких ссылок меток не совпадает!"
+
+#: ../lib/tags.php:241
+msgid "No slug edited."
+msgstr "Ни одна короткая ссылка не отредактирована."
+
+#: ../lib/tags.php:243
+#, php-format
+msgid "%s slug(s) edited."
+msgstr "%s короткие ссылки отредактированы."
+
+#: ../view/album-compact.php:32
+#: ../view/album-extend.php:30
+msgid "Photos"
+msgstr "фото"
+
+#: ../view/gallery-caption.php:32
+#: ../view/gallery.php:32
+msgid "[View with PicLens]"
+msgstr "[Просмотр с PicLens]"
+
+#: ../view/imagebrowser-exif.php:26
+#: ../view/imagebrowser.php:26
+msgid "Back"
+msgstr "Назад"
+
+#: ../view/imagebrowser-exif.php:29
+#: ../view/imagebrowser.php:29
+msgid "Next"
+msgstr "Вперед"
+
+#: ../view/imagebrowser-exif.php:31
+#: ../view/imagebrowser.php:31
+msgid "of"
+msgstr "из"
+
+#: ../view/imagebrowser-exif.php:34
+msgid "Meta data"
+msgstr "Мета данные"
+
+#: ../view/imagebrowser-exif.php:38
+msgid "Camera / Type"
+msgstr "Камера / Тип"
+
+#: ../view/imagebrowser-exif.php:46
+msgid "Focal Length"
+msgstr "Фокусное расстояние"
+
+#: ../widgets/media-rss-widget.php:31
+msgid "NextGEN Media RSS"
+msgstr "RSS галерей NextGEN "
+
+#: ../widgets/media-rss-widget.php:37
+msgid "Widget that displays Media RSS links for NextGEN Gallery."
+msgstr "Виджет, который отображает ленту RSS для  NextGEN Gallery."
+
+#: ../widgets/media-rss-widget.php:135
+#: ../widgets/media-rss-widget.php:203
+#: ../widgets/media-rss-widget.php:260
+msgid "Media RSS"
+msgstr "RSS галерей"
+
+#: ../widgets/media-rss-widget.php:136
+#: ../widgets/media-rss-widget.php:261
+msgid "Link to the main image feed"
+msgstr "Ссылка на иконку RSS"
+
+#: ../widgets/media-rss-widget.php:153
+#: ../widgets/widgets.php:133
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../widgets/media-rss-widget.php:160
+msgid "Media RSS icon:"
+msgstr "Иконка RSS:"
+
+#: ../widgets/media-rss-widget.php:168
+msgid "Show the global Media RSS link:"
+msgstr "Показать общую ленту RSS:"
+
+#: ../widgets/media-rss-widget.php:172
+msgid "Text for the global Media RSS link:"
+msgstr "Текст для  общей ленты RSS:"
+
+#: ../widgets/media-rss-widget.php:178
+msgid "Tooltip text for the global Media RSS link:"
+msgstr "Title-текст cссылки для  общей ленты RSS:"
+
+#: ../widgets/widgets.php:28
+msgid "Show a NextGEN Gallery Slideshow"
+msgstr "Показать слайдшоу  NextGEN Gallery"
+
+#: ../widgets/widgets.php:29
+#: ../widgets/widgets.php:30
+msgid "NextGEN Slideshow"
+msgstr "Слайдшоу NextGEN"
+
+#: ../widgets/widgets.php:54
+msgid "<a href=\"http://www.macromedia.com/go/getflashplayer\">Get the Flash Player</a> to see the slideshow."
+msgstr "<a href=\"http://www.macromedia.com/go/getflashplayer\">Скачать Flash Player</a> чтобы просмотреть слайдшоу."
+
+#: ../widgets/widgets.php:135
+msgid "Select Gallery:"
+msgstr "Выбрать галерею:"
+
+#: ../widgets/widgets.php:137
+msgid "All images"
+msgstr "Все изображения"
+
+#: ../widgets/widgets.php:150
+msgid "Height:"
+msgstr "Высота:"
+
+#: ../widgets/widgets.php:151
+msgid "Width:"
+msgstr "Ширина:"
+
+#: ../widgets/widgets.php:184
+msgid "Add recent or random images from the galleries"
+msgstr "Добавить последние или случайные изображения из галерей"
+
+#: ../widgets/widgets.php:186
+msgid "NextGEN Widget"
+msgstr "Виджет NextGEN"
+
+#: ../widgets/widgets.php:286
+msgid "Title :"
+msgstr "Заголовок:"
+
+#: ../widgets/widgets.php:292
+msgid "Show :"
+msgstr "Показать:"
+
+#: ../widgets/widgets.php:298
+msgid "Original images"
+msgstr "Исходные изображения"
+
+#: ../widgets/widgets.php:306
+msgid "recent added "
+msgstr "недавно добавленные"
+
+#: ../widgets/widgets.php:312
+msgid "Enable IE8 Web Slices"
+msgstr "Включить  IE8 Web Slices (микроформат)"
+
+#: ../widgets/widgets.php:317
+msgid "Width x Height :"
+msgstr "Высота х Ширина"
+
+#: ../widgets/widgets.php:324
+msgid "Select :"
+msgstr "Выбрать:"
+
+#: ../widgets/widgets.php:326
+msgid "All galleries"
+msgstr "Все галереи"
+
+#: ../widgets/widgets.php:327
+msgid "Only which are not listed"
+msgstr "Только те, которые не в списке"
+
+#: ../widgets/widgets.php:328
+msgid "Only which are listed"
+msgstr "Только те, которые в списке"
+
+#: ../widgets/widgets.php:334
+msgid "Gallery ID :"
+msgstr "ID галереи:"
+
+#: ../widgets/widgets.php:336
+msgid "Gallery IDs, separated by commas."
+msgstr "ID галерей разделенные запятыми."
+
+#: ../xml/media-rss.php:58
+msgid "No galleries have been yet created."
+msgstr "Не создано ни одной галереи."
+
+#: ../xml/media-rss.php:77
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "Галерея с ID=%s не существует."
+
+#: ../xml/media-rss.php:108
+msgid "No album ID has been provided as parameter"
+msgstr "У альбома не указан ID как параметр"
+
+#: ../xml/media-rss.php:116
+#, php-format
+msgid "The album ID=%s does not exist."
+msgstr "Альбом с ID=%s не существует."
+
+#: ../xml/media-rss.php:123
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "Неправильная RSS команда (%s)."
+
+#~ msgid "Select Gallery"
+#~ msgstr "Галереи"
+#~ msgid "Album Page ID"
+#~ msgstr "Старница альбома ID"
+#~ msgid "Import a folder with all images."
+#~ msgstr "Импортировать папку со всеми  изображениями."
+#~ msgid "Show thumbnails "
+#~ msgstr "Показать миниатюры"
+#~ msgid "Show tags"
+#~ msgstr "Показать метки"
+#~ msgid "Hide tags"
+#~ msgstr "Скрыть метки"
+#~ msgid "Delete this file ?"
+#~ msgstr "Удалить этот файл?"
+#~ msgid ""
+#~ "You are about to copy or move %s images \n"
+#~ " \n"
+#~ " 'Cancel' to stop, 'OK' to proceed."
+#~ msgstr ""
+#~ "Вы собираетесь скопировать или переместить %s изображений \n"
+#~ " \n"
+#~ " 'Отмена' или, 'OK'."
+#~ msgid "Date"
+#~ msgstr "Дата"
+#~ msgid "Sorry, NextGEN Gallery works only under WordPress 2.1 or higher"
+#~ msgstr "Извините, NextGEN Gallery работает только с WordPress 2.1 или выше"
+#~ msgid "Watch gallery"
+#~ msgstr "Смотреть галерею"
+#~ msgid "from"
+#~ msgstr "из"
+#~ msgid "NextGEN Gallery %d"
+#~ msgstr "NextGEN галерея  %d"
+#~ msgid "How many NextGEN Gallery widgets would you like?"
+#~ msgstr "Сколько виждетов NextGEN галереи необходимо?"
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+#~ msgid "for Simple:Press Forum, it saved me a lot of time"
+#~ msgstr "за форум Simple:Press, это сэкономило мне кучу времени"
+#~ msgid ""
+#~ "To help people to work with this plugin, I would like to have it in all "
+#~ "avaivable languages"
+#~ msgstr ""
+#~ "Чтобы помочь людям работать с этим плагином, я бы хотел иметь его перевод "
+#~ "на всех языках"
+#~ msgid "No doubt a very usefull and easy motivation :-)"
+#~ msgstr "Без сомнения очень полезная и легкая мотивация :-)"
+#~ msgid "Add Metadata :"
+#~ msgstr "Мета данные:"
+#~ msgid "Import EXIF, IPTC or XMP data (if available)"
+#~ msgstr "Импортировать данные EXIF, IPTC или XMP (если есть)"
+#~ msgid "Import a folder with images. Please note :"
+#~ msgstr "Импортировать папку с изображениями. Пожалуйста, обратите внимание:"
+#~ msgid "For safe-mode = ON you need to add the subfolder thumbs manually"
+#~ msgstr ""
+#~ "Если на сервере установлено save_mode = ON, то вам нужно добавить "
+#~ "подпапку &#171;thumbs&#187; вручную."
+#~ msgid "Add Gallery"
+#~ msgstr "Создать / Загрузить"
+#~ msgid "Running... Please wait"
+#~ msgstr "В процессе… ждите"
+#~ msgid " : Image resized..."
+#~ msgstr " : размер изменен..."
+#~ msgid "Some pictures are not writeable :"
+#~ msgstr "Некоторые изображения не перезаписываемы"
+#~ msgid " : Watermark created..."
+#~ msgstr " : водяной знак установлен..."
+#~ msgid " : Thumbnail created..."
+#~ msgstr " : миниатюры созданы..."
+#~ msgid "Follow thumbnails could not created."
+#~ msgstr "Некоторые миниатюры не перезаписываемы"
+#~ msgid "Some thumbnails are not writeable :"
+#~ msgstr "Некоторые миниатюры не перезаписываемы"
+#~ msgid "The Zip-file is too large. Exceed Memory limit !"
+#~ msgstr "Размер zip-файла слишком велик. Превышен лимит памяти!"
+#~ msgid "Watermark successfully added"
+#~ msgstr "Водяной знак успешно добавлен"
+#~ msgid "Images successfully resized"
+#~ msgstr "У изображений успешно изменен размер"
+#~ msgid "Main settings"
+#~ msgstr "Главные настройки"
+#~ msgid " : Import successfull"
+#~ msgstr ": успешно импортированно"
+#~ msgid "myGallery Import"
+#~ msgstr "Импорт из myGallery"
+#~ msgid "Import this gallery ?"
+#~ msgstr "Импортировать эту галерю?"
+#~ msgid "Import"
+#~ msgstr "Импортировать"
+#~ msgid "Summary"
+#~ msgstr "Статистика"
+#~ msgid ""
+#~ "There are totally %1$s pictures in %2$s galleries, which are spread "
+#~ "across %3$s albums."
+#~ msgstr ""
+#~ "Всего %1$s изображений в %2$s галереях, которые находятся в %3$s альбомах."
+#~ msgid "New Version available"
+#~ msgstr "Доступна новая версия"
+#~ msgid ""
+#~ "The server reports that a new NextGEN Gallery Version is now available. "
+#~ "Please visit the plugin homepage for more information."
+#~ msgstr ""
+#~ "Сервер сообщает, что новая версия NextGEN Gallery уже доступна. "
+#~ "Пожалуйста, посетите домашнюю страницу плагина для более подробной "
+#~ "информации."
+#~ msgid "Welcome"
+#~ msgstr "Добро пожаловать"
+#~ msgid ""
+#~ "Welcome to NextGEN Gallery. Here you can control your images, galleries "
+#~ "and albums. You currently have %s rights."
+#~ msgstr ""
+#~ "Добро пожаловать в NextGEN Gallery. Здесь вы можете управлять вашими "
+#~ "изображениями, галереями и альбомами. Сейчас у вас права %s"
+#~ msgid "Add a new gallery or import pictures"
+#~ msgstr "Добавить новую галерею или изображения"
+#~ msgid "Manage galleries and images"
+#~ msgstr "Управление галереями и изображениями"
+#~ msgid "Create and manage albums"
+#~ msgstr "Создать и управлять альбомом"
+#~ msgid "GD support"
+#~ msgstr "Поддержка GD"
+#~ msgid " (require WordPress 2.3 or higher)"
+#~ msgstr " (необходим WordPress версии 2.3 или выше)"
+#~ msgid "Resample Mode"
+#~ msgstr "Ресемплинг"
+#~ msgid "Value between 1-5 (higher value, more CPU load)"
+#~ msgstr "Доступны значения 1-5 (чем выше, тем больше нагрузка на ЦПУ(CPU)) "
+#~ msgid "Show thumbnail description"
+#~ msgstr "Показать описания миниатюр"
+#~ msgid "Description text"
+#~ msgstr "Описание"
+#~ msgid "URL"
+#~ msgstr "URL"
+#~ msgid "Delete File"
+#~ msgstr "Удалить файл"
+#~ msgid "Delete image ?"
+#~ msgstr "Удалить изображение?"
+#~ msgid "Browse your files"
+#~ msgstr "Обзор"
+#~ msgid "Direct link to file"
+#~ msgstr "Основная ссылка на файл"
+#~ msgid "Show:"
+#~ msgstr "Показать:"
+#~ msgid "Link to:"
+#~ msgstr "Сыылка на:"
+#~ msgid "File"
+#~ msgstr "Файл"
+#~ msgid "Send to editor &raquo;"
+#~ msgstr "Передать в редактор &raquo;"
+#~ msgid ""
+#~ "Are you sure you want to delete the file '%s'?\n"
+#~ "Click ok to delete or cancel to go back."
+#~ msgstr ""
+#~ "Вы собираетесь удалить файл '%s'?\n"
+#~ "Нажмите [ОК] для удаления или [ОТМЕНА] для возврата назад."
+#~ msgid "NextGEN Recent Image"
+#~ msgstr "NextGEN последнее изображение"
+#~ msgid "Display type"
+#~ msgstr "Показать тип"
+#~ msgid "Orginal"
+#~ msgstr "Оригинал"
+#~ msgid "Width (px)"
+#~ msgstr "Ширина (px)"
+#~ msgid "Height (px)"
+#~ msgstr "Высота (px)"
+#~ msgid "Mode"
+#~ msgstr "Состояние"
+#~ msgid "web2.0"
+#~ msgstr "web2.0"
+#~ msgid "yes"
+#~ msgstr "да"
+#~ msgid "no"
+#~ msgstr "нет"
+#~ msgid "Show in"
+#~ msgstr "Показать в"
+#~ msgid "Categories (id (use , to seperate)"
+#~ msgstr "Категории (id (используйте , для разделения)"
+#~ msgid "NextGEN Random Image"
+#~ msgstr "NextGEN случайное изображение"
+#~ msgid ""
+#~ "This plugin is a team work of a virtual developer team around the world. "
+#~ "Follow persons take part at the development till now :"
+#~ msgstr ""
+#~ "Этот плагин является работой виртуальной команды разработчиков по всему "
+#~ "миру. Следующие люди принимали участие в разработке до текущего момента:"
+#~ msgid "(Lead developer)"
+#~ msgstr "(Ведущий разработчик)"
+#~ msgid "(Core AJAX developer)"
+#~ msgstr "(Core AJAX разработчик)"
+#~ msgid "(Sidebar Widget developer)"
+#~ msgstr "(Sidebar Widget разработчик)"
+#~ msgid "already exists!"
+#~ msgstr "уже существует!"
+#~ msgid "Unable to set directory permissions "
+#~ msgstr "Не возможно установить права на директорию"
+#~ msgid "Unable to set directory permissions"
+#~ msgstr "Не возможно установить права на директорию"
+#~ msgid "Please create the folder <i>thumbs</i> in your gallery folder."
+#~ msgstr ""
+#~ "Пожалуйста, создайте папку &#171;<i>thumbs</i>&#187; в вашей папке с "
+#~ "галереей"
+#~ msgid " pictures added."
+#~ msgstr " изображения добавлены."
+#~ msgid "Unable to unlink zip file "
+#~ msgstr "Не возможно снять ссылку с zip-файла"
+#~ msgid "Unable to unlink file "
+#~ msgstr "Не возможно снять ссылку с файла"
+#~ msgid "Activate jQuery navigation"
+#~ msgstr "Активная jQuery навигация"
+#~ msgid ""
+#~ "Please note : This is still experimental. Requires the Thickbox effect"
+#~ msgstr ""
+#~ "Отображение навигации в всплывающих окнах созданых с помощью эффекта "
+#~ "Thickbox. Обратите внимание: данныая функция экспериментальная."
+#~ msgid "Titel"
+#~ msgstr "Заголовок"
+

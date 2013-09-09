@@ -1,0 +1,259 @@
+â/*
+Theme Name: Modeinua Theme
+Theme URI: http://michael.in.ua/
+Description: The WordPress theme for site <a href="mode.in.ua">mode.in.ua</a>.
+Version: 2.0
+Author: Michael Tsyganok, tsyganok.m@gmail.com
+Author URI: http://michael.in.ua/
+Tags: black, fixed width, two columns, widgets
+
+	Michael v2.0
+	 http://michael.in.ua/
+
+	This theme was designed and built by Michael Tsyganok,
+	whose blog you will find at http://michael.in.ua/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+/*////////////*/
+body {
+	font-size: 13px; /* Resets 1em to 10px */
+	font-family: Tahoma, Times New Roman, Tahoma, serif;
+	background: #000 url('images/background.png') no-repeat center;
+	color: #ffffff;
+	text-align: center;
+	overflow-y: hidden;
+	}
+a, h2 a:hover, h3 a:hover {
+	color: #d0c8a5;
+	text-decoration: none;
+	}
+
+a:hover {
+	/*color: #d0c8a5;*/
+	text-decoration: none;
+	}
+
+img {border: 1px solid #e9dfb4; }
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {	color: #fff; }
+small {
+	//font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+	//line-height: 1.5em;
+	}
+
+#content {	font-size: 14px;	}
+
+#footer {background-color: #000; height: 31px;	width: 950px; padding: 0;	margin: 0 auto;	clear: both;}
+
+#footer a {color: #ffffff; /*8b7f48*/}
+#footer p {
+	margin: 0 0 0 -5px;
+	padding: 5px 0;
+	text-align: left;
+	color: #ffffff; /*8b7f48*/
+	font-size: 12px;
+	}
+#header {height: 31px; width: 782px; padding: 1px 0 0 0; margin-top: -30px;}
+#header ul li a {color: #d0c8a5; font-size: 16px;}
+#header ul li {list-style: inline; list-style-type: none;}
+#headerimg 	{
+	margin: 7px 9px 0;
+	height: 192px;
+	width: 740px;
+	}
+#mainmenu {position: relative;}
+#mainmenu a {font-size:12px; font-weight: bold;}
+td.active { background: url('images/menu.png') no-repeat bottom center; width: 209px; margin-bottom: 5px; padding: 10px}
+td.active2 a{ color:#ffffff; font-size: 13px;}
+td.active2 {background: url('images/menu_active.png') no-repeat bottom center; width: 209px; margin-bottom: 5px; padding: 10px}
+#mainmenu img {border: 0;}
+#page {
+	width: 969px;
+	/*height: 567px;*/
+	/*background: #000;*/
+	text-align: left;
+	margin: 0px auto;
+	padding: 0 20px;
+	}
+/*
+.bgimg {padding: 12px; margin: 0 10px 0 0;
+background-color:#000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter:alpha(opacity=40);
+	-moz-opacity: 0.4;
+	opacity: 0.4;}
+*/
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+img.alignright {
+	padding: 0px;
+	margin: 0 0 10px 15px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 0px;
+	margin: 0 15px 10px 0;
+	display: inline;
+	}
+img.wp-smiley {border: 0;} 
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+.banner {margin: 0 0 0 10px; border: 0;}
+
+.caption {
+	text-align: center;
+	/*background-color: #000;*/
+	padding: 7px 7px 28px 7px;
+	margin: 18px 10px 10px 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	position: relative;
+	background: url('images/designer_bg_10.png') repeat bottom right !important; 
+	background-image: none; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/designer_bg_10.png', sizingMethod='scale');
+	zoom: 1;
+}
+
+.caption1 {
+	text-align: center;
+	/*background-color: #000;*/
+	padding: 14px;
+	margin: 5px 10px 10px 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	position: relative;
+	background: url('images/designer_bg_10.png') repeat bottom right !important; 
+	background-image: none; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/designer_bg_10.png', sizingMethod='scale');
+	zoom: 1;
+}
+.entry {float: left;}
+.gallery a {color: #d6be53;}
+
+.narrowcolumn {	float: left;	padding: 0 0 0px 10px;	margin: 0px 0 0 0px;	width: 943px;	height: 420px;	background: url('images/texture.png') no-repeat top left;	}
+.news { float: left; }
+.news img { float: left; border: 1px solid #e9dfb4; margin: 05px 10px 10px 10px; display: inline; padding: 0px;}
+.news a, a:hover {color: #ffffff; font-weight: bold;} /*d6be53*/
+.news p {margin: 0;}
+.post {	float: left; margin: 0 0 0px;	text-align: justify; width: 930px;	height: 420px;}
+.post1 {	 margin: 40px 20px 0 0px;	text-align: justify; }
+/*.post {	float: left; margin: 0 0 40px;	text-align: justify; width: 830px;	}*/
+.post h2 {color: #ffffff; margin: 5px 0 0 10px; font-size: 15px; font-weight: bold;} /*d6be53*/
+/*.post a, a:hover {color: #d6be53; }*/
+.post1 h2 {color: #ffffff; margin: 5px 0 0 0px; font-size: 16px; font-weight: bold;}
+/*.post1 a, a:hover {color: #d6be53; }*/
+.widecolumn {	float: left;	padding: 0 0 0px 0px;	margin: 0px 0 0;	width: 943px;	/*height: 505px;*/	background: #000 url('images/texture.png') no-repeat top left;	/*line-height: 1.6em; */	}
+.widecolumn .entry {
+	height: 420px;
+	//width: 98%;	 
+	overflow-x: hidden;
+	overflow-y: auto;
+	scrollbar-3dlight-color: #aaaaaa;
+scrollbar-arrow-color: #cccccc;
+scrollbar-base-color: #666666;
+scrollbar-darkshadow-color: #000000;
+scrollbar-face-color: #666666;
+scrollbar-highlight-color: #999999;
+scrollbar-shadow-color: #333333;
+scrollbar-track-color: #777777;
+	}
+.scroll-big {margin: 40px 0 40px 0;}
+.scroll-pane{
+    //width: 670px;
+	height: 420px;
+    padding: 0px 0 0 0px;
+	overflow: hidden;
+}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+	
+.screen-reader-text {
+     position: absolute;
+     left: -1000em;
+}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+
+//.ngg-galleryoverview img {width: 800px;}
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+	It won't be a stylish marriage, I can't afford a carriage.
+	But you'll look sweet upon the seat of a bicycle built for two." */
