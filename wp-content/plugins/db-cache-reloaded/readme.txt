@@ -1,4 +1,4 @@
-﻿=== Plugin Name ===
+=== Plugin Name ===
 Contributors: sirzooro
 Tags: performance, caching, wp-cache, db-cache, cache
 Requires at least: 2.8

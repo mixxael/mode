@@ -2,8 +2,8 @@
 Contributors: Alex Rabe
 Donate link: http://alexrabe.de/donation/
 Tags: nextgen gallery,photos,flash,slideshow,images,gallery,media,admin,post,photo-albums,pictures,widgets,photo,picture,image,nextgen-gallery
-Requires at least: 2.8
-Tested up to: 2.9
+Requires at least: 2.9
+Tested up to: 2.9.2
 Stable tag: trunk
 
 NextGEN Gallery is a full integrated Image Gallery plugin for WordPress with a Flash slideshow option.
@@ -17,7 +17,7 @@ Important Links:
 
 * <a href="http://nextgen-gallery.com/" title="Demonstration page">Demonstration</a>
 * <a href="http://alexrabe.de/wordpress-plugins/nextgen-gallery/languages/" title="Translation and Language files">Language files</a>
-* <a href="http://alexrabe.de/wordpress-plugins/nextgen-gallery/changelog/" title="NextGEN Gallery Changelog">Changelog</a>
+* <a href="http://wordpress.org/extend/plugins/nextgen-gallery/changelog/" title="NextGEN Gallery Changelog">Changelog</a>
 * <a href="http://alexrabe.de/wordpress-plugins/nextgen-gallery/faq/" title="NextGEN Gallery FAQ">NextGEN Gallery FAQ</a>
 * <a href="http://wordpress.org/tags/nextgen-gallery?forum_id=10" title="Wordpress Support Forum">Support Forum</a>
 
@@ -37,6 +37,7 @@ Important Links:
 * TinyMCE : Button integration for easy adding the gallery tags
 * Sidebar Widget : Show a slideshow, random or recent picture at your sidebar 
 * Language support : Translated in more than 30 languages
+* Translation downloader : Download with one click the new translation file
 * Upload tab integration : You have access to all pictures via the upload tab
 * Tag support for images : Append related images to your post, create a image tag-cloud
 * Meta data support : Import EXIF, IPTC or XMP meta data 
@@ -45,7 +46,7 @@ Important Links:
 
 == Credits ==
 
-Copyright 2007-2009 by Alex Rabe & NextGEN DEV-Team
+Copyright 2007-2010 by Alex Rabe & NextGEN DEV-Team
 
 The NextGEN button is taken from the Fugue Icons of http://www.pinvoke.com/.
 
@@ -87,6 +88,8 @@ For commercial use please look at the Jeroen's homepage : http://www.longtailvid
 
 That's it ... Have fun
 
+http://www.youtube.com/watch?v=Le_ZsNSuIvM
+
 == Screenshots ==
 
 1. Screenshot Admin Area 
@@ -97,8 +100,6 @@ That's it ... Have fun
 6. Screenshot Show Exif data
 
 == Frequently Asked Questions ==
-
-**Read as startup :** http://dpotter.net/Technical/index.php/2008/03/04/nextgen-gallery-review-introduction/
 
 When writing a page/post, you can use the follow tags:
 
@@ -139,6 +140,29 @@ To show the most recent added mages : **[recent max=x ]**
 **And at least request your question here :** http://alexrabe.de/forums/
 
 == Changelog == 
+
+= V1.5.1 - 23.03.2010 =
+* Bugfix : PHP4 compat issue for Add gallery & options page
+* Bugfix : Gallery widget can now have a empty title
+* Bugfix : Adding correct stripslash for gallery title
+
+= V1.5.0 - 18.03.2010 =
+* NEW : Support for Post thumbnail feature
+* NEW : Backup and Recover function for images (THX to Simone Fumagalli)
+* NEW : Resize images after upload (THX to Simone Fumagalli)
+* NEW : Added a JSON class for fetching galleries in a RESTful way (see xml/json.php)
+* NEW : Adding various new capabilities for user roles
+* NEW : Auto downloader for translation file
+* Changed : Rename query var from slideshow to callback for compat reason with other plugin
+* Changed : Convert widget function to new WP structure
+* Changed : Include lookup for tags into the backend search 
+* Changed : Restructure addgallery and settings page to enable custom tabs
+* Bugfix : Select album preview from gallery preview pics instead random list
+* Bugfix : Keep fix dimension in edit thumbnail operation
+* Bugfix : Import meta data didn't work correct for existing images
+* Bugfix : Fix onload bug for Chrome 4 in Shutter script
+* Bugfix : Remove various PHP notices for a better world
+* Removed : Canonical link is now part of Wordpress 2.9
 
 = V1.4.3 - 16.11.2009 =
 * Bugfix : Urlencode XML file path for sildeshow

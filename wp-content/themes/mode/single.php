@@ -71,11 +71,30 @@ get_header();
 				<?php 
 			}
 			if (in_category(1) || in_category(4) || in_category(5) || in_category(6)) { ?>
-						<small style="font-size: 11px;"><?php the_time('d.m.Y') ?></small> <? } ?>
+				
+				<small style="font-size: 11px;"><?php the_time('d.m.Y') ?></small> <? } ?>
 			<div class="without-scroll-pane">
 				<?php 
 				$ngg = get_post_custom_values('ngg');
 				$ngg = $ngg[0];
+				if($ngg == 0){
+					if(in_category(20)){
+						$ngg = get_post_custom_values('ngg', 145);
+						$ngg = $ngg[0];
+					}
+					else if(in_category(21)){
+						$ngg = get_post_custom_values('ngg', 506);
+						$ngg = $ngg[0];
+					}
+					else if(in_category(22)){
+						$ngg = get_post_custom_values('ngg', 520);
+						$ngg = $ngg[0];
+					}
+					else if(in_category(36)){
+						$ngg = get_post_custom_values('ngg', 498);
+						$ngg = $ngg[0];
+					}
+				}
 				if ($ngg > 0)
 				{ 
 					print '<div class="gallery_wrap">';
@@ -83,7 +102,10 @@ get_header();
 					print '</div>';
 				}
 				?>
-				<?php the_content(''); ?>
+				<?php if( !in_array($post->ID, array(506,689,145,520,498))){?>
+				<h2><?php the_title(); ?></h2>
+				<?php }
+				the_content(''); ?>
 				
 				<?php //wp_link_pages(array('before' => '<p><strong>Страницы:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php //the_tags( '<p>Тэги: ', ', ', '</p>'); ?>

@@ -1,4 +1,4 @@
-﻿ Google XML Sitemaps Generator for WordPress
+ Google XML Sitemaps Generator for WordPress
  ==============================================================================
  
  This generator will create a sitemaps.org compliant sitemap of your WordPress blog.

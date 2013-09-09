@@ -31,7 +31,7 @@ if ($cat == 1)	$shparent = 1;
 if(in_category(20) || in_category(21) || in_category(22) || in_category(36)){
 	
 	$current_id = get_the_ID();
-	$myposts = get_posts("numberposts=10&offset=0&category={$category->cat_ID}");
+	$myposts = get_posts("numberposts=10&offset=0&category={$category->cat_ID}&include=506,689,145,520,498");
 	if(is_category(20) || is_category(21) || is_category(22) || is_category(36)){
 		$cat = get_query_var('cat');
 		print "<a href='".get_category_link($cat)."' style='text-decoration:none;font-size:16px !important;font-weight:bold;display:block;padding:0px 0px 0px 15px; color: #000;'>".get_cat_name($cat)."</a>";
@@ -51,7 +51,7 @@ if(in_category(20) || in_category(21) || in_category(22) || in_category(36)){
 	?>
 	
 	<?php
-	print "<table id='mainmenu' cellspacing='5' cellpadding='0' style='float: left; padding: 15px 0 0px 0px;'>";
+	print "<table id='mainmenu2' cellspacing='5' cellpadding='0' style='float: left; padding: 15px 0 0px 0px;'>";
 	//print "<ul class='left_menu'>";
 	foreach($myposts as $post) :
 		setup_postdata($post);
@@ -62,7 +62,7 @@ if(in_category(20) || in_category(21) || in_category(22) || in_category(36)){
 			$active = " active";
 		?>
 		<!--<li class="post-<?php print $post->ID; if($current_id == $post->ID) print " active"?> "><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>-->
-		<tr><td <?php echo $active; ?> class='submenushka post-<?php print $post->ID; print $active ?> ' id='submenushka<?php print $post->ID; ?>' class="submenushka" <?php echo $active; ?> style='padding:0px 10px 0px 10px;'><a href='<?php the_permalink(); ?>' style='text-decoration:none;font-size:14px !important;font-weight:normal;display:block;padding:2px 0px 5px 10px; color: #ffffff;'><?php the_title(); ?></a></td></tr>
+		<tr><td class='submenushka post-<?php print $post->ID; print $active ?> ' id='submenushka<?php print $post->ID; ?>' style='padding:0px 10px 0px 10px;'><a href='<?php the_permalink(); ?>' style='text-decoration:none;font-size:14px !important;font-weight:normal;display:block;padding:2px 0px 5px 10px; color: #ffffff;'><?php the_title(); ?></a></td></tr>
 	<?php endforeach;
 	print "</table>";
 	
@@ -105,7 +105,7 @@ if ($cat == $cat1->cat_ID || in_category($cat1->cat_ID)) {
 		//if (($shparent == 13) || ($cat == 8) || ($shparent == 0)){} else {
  //echo '<div style=" border-bottom: 1px solid #59483a; width: 950px; float: left; margin: -5px 0 0 10px;;"> echo $shparent&nbsp;</div>'; 
 //} ?>
-<script>
+<script type="text/javascript">
 	function focus_submenu(id)
 	{
 		document.getElementById(id).className='active2';

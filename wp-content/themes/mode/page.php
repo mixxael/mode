@@ -40,69 +40,69 @@ get_header(); ?>
 	<? } ?>
 
 <? } else { ?>
-<script language="JavaScript1.2">
+<script language="JavaScript1.2" type="text/javascript">
 
 function text_kontrol()  
 	{
-		if (document.contactform.name.value== '' || document.contactform.Name.value.length <1 || document.contactform.Name.value.length > 50) { alert('Пожалуйста, проверьте ваше имя!'); document.contactform.Name.focus(); return false }
-		if (document.contactform.phone.value== '' || document.contactform.phone.value.length <1 || document.contactform.phone.value.length < 6) { alert('Пожалуйста, проверьте ваш телефон!'); document.contactform.phone.focus(); return false }
-		if (document.contactform.email.value == '' || document.contactform.email.value.indexOf('@') ==-1 || document.contactform.email.value.indexOf('.') ==-1) { alert('Пожалуйста, проверьте адрес e-mail!'); document.contactform.email.focus(); return false }
+		if (document.contactform.name.value == '' || document.contactform.Name.value.length < 1 || document.contactform.Name.value.length > 50) { alert('Пожалуйста, проверьте ваше имя!'); document.contactform.Name.focus(); return false }
+		if (document.contactform.phone.value == '' || document.contactform.phone.value.length < 1 || document.contactform.phone.value.length < 6) { alert('Пожалуйста, проверьте ваш телефон!'); document.contactform.phone.focus(); return false }
+		if (document.contactform.email.value == '' || document.contactform.email.value.indexOf('@') == -1 || document.contactform.email.value.indexOf('.') == -1) { alert('Пожалуйста, проверьте адрес e-mail!'); document.contactform.email.focus(); return false }
 			else
 				{
 					document.contactform.submit()
 				}
 	}
 </script>
-	<FORM action="" method="POST" id="form1" name="contactform" >
+	<form action="" method="post" id="form1" name="contactform" >
 	<!--<input type=hidden name=FBURL  value="contact.asp?lang=&propertyid=">
 	<input type=hidden name=FBSUBJECT  value="Contact - from your web page">
 	<input type=hidden name=FBMAIL value="info@newhomeinturkey.com">-->
-	<body leftmargin=0 topmargin=0 ></body>
+	<!--<body leftmargin=0 topmargin=0 ></body>-->
 
-	<TABLE cellPadding=0 style="border-collapse: collapse" bordercolor="#111111" class=graybg width="558">
+	<table style="border-collapse: collapse; border:2px solid #111111;" class="graybg" width="558">
 
-		<TBODY>
+		<tbody>
 			<tr>
-				<td class=etitle colspan=2>&#1050;&#1086;&#1085;&#1090;&#1072;&#1082;&#1090;&#1085;&#1072;&#1103; &#1092;&#1086;&#1088;&#1084;&#1072;</td>
+				<td class="etitle" colspan="2">&#1050;&#1086;&#1085;&#1090;&#1072;&#1082;&#1090;&#1085;&#1072;&#1103; &#1092;&#1086;&#1088;&#1084;&#1072;</td>
 			</tr>
 	<!--		<tr>
 				<td align=right></td>
 				<td width=350>Mr.<input type="radio" value="Mr." name="Title">Mrs.<input type="radio" value="Mrs." name="Title"></td></tr>
 -->
 			<tr>
-				<td align=right>&#1048;&#1084;&#1103; : </td>
-				<td width=350><input style="width: 330px;height:20px;" name=Name value="" size="20"><font color=red>*</font></td></tr>
+				<td align="right">&#1048;&#1084;&#1103; : </td>
+				<td width="350"><input style="width: 330px;height:20px;" name="Name" value="" size="20"/><font color="red">*</font></td></tr>
 			<tr>
-				<td align=right>&#1053;&#1086;&#1084;&#1077;&#1088; &#1090;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;&#1072; : </td>
-				<td align=left width=350><input style="width: 330px;height:20px;font-size:8pt;font-family:verdana;" name=phone value="" size="20"><font color=red>*</font></td></tr>
+				<td align="right">&#1053;&#1086;&#1084;&#1077;&#1088; &#1090;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;&#1072; : </td>
+				<td align="left" width="350"><input style="width: 330px;height:20px;font-size:8pt;font-family:verdana;" name="phone" value="" size="20"/><font color="red">*</font></td></tr>
 
 			<tr>
-				<td align=right>E-mail : </td>
-				<td width=350><input style="width: 330px;height:20px;font-size:8pt;font-family:verdana;" name=email value="" size="20"><font color=red>*</font></td></tr>
+				<td align="right">E-mail : </td>
+				<td width="350"><input style="width: 330px;height:20px;font-size:8pt;font-family:verdana;" name="email" value="" size="20"/><font color="red">*</font></td></tr>
 			
 			<tr>
-				<td align=right>&#1042;&#1072;&#1096;&#1077; &#1089;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; : </td>
-				<td width=350>
+				<td align="right">&#1042;&#1072;&#1096;&#1077; &#1089;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; : </td>
+				<td width="350">
 
-				<TEXTAREA style="width: 330px; HEIGHT: 120px;font-size:10pt !important" name=Remarks rows="1" cols="20"></TEXTAREA></td></tr>
+				<textarea style="width: 330px; HEIGHT: 120px;font-size:10pt !important" name="Remarks" rows="1" cols="20"></textarea></td></tr>
 			<tr>
-				<td align=right>Сколько будет&nbsp; <?php mt_srand((double)microtime()*1000000);	$ad1 = mt_rand(1, 50); /*echo $ad1; */?>  <?php mt_srand((double)microtime()*1000000);
+				<td align="right">Сколько будет&nbsp; <?php mt_srand((double)microtime()*1000000);	$ad1 = mt_rand(1, 50); /*echo $ad1; */?>  <?php mt_srand((double)microtime()*1000000);
 				$ad2 = mt_rand(1, 50);  
 				$sum = $ad1 + $ad2; ?></td>
-				<td align=left width=350><b><?=$ad1."+".$ad2?>  ?</b> <input type=hidden name=verify value="144">
-				<input type="hidden" name="sum" value="<?php echo $sum; ?>">
-				<input type=text name="securecode" type="text" size="3" />&nbsp; </td>
+				<td align="left" width="350"><b><?=$ad1."+".$ad2?>  ?</b> <input type="hidden" name="verify" value="144" />
+				<input type="hidden" name="sum" value="<?php echo $sum; ?>" />
+				<input type="text" name="securecode" size="3" />&nbsp; </td>
 			</tr>
 
 			<tr>
-				<td align=right colspan="2" height=42 style="padding-right:135px;"> 
-				<input style="width: 100px;font-size:8pt;font-family:verdana;" type="submit" value="&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1080;&#1090;&#1100;" onclick="return text_kontrol();" > 
-				  <input style="width: 100px;font-size:8pt;font-family:verdana;" type=reset value="&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100;" > <br>
+				<td align="right" colspan="2" height="42" style="padding-right:135px;"> 
+				<input style="width: 100px;font-size:8pt;font-family:verdana;" type="submit" value="&#1054;&#1090;&#1087;&#1088;&#1072;&#1074;&#1080;&#1090;&#1100;" onclick="return text_kontrol();" /> 
+				  <input style="width: 100px;font-size:8pt;font-family:verdana;" type="reset" value="&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100;" /> <br />
 				</td>
 			</tr>
-		</TBODY>
-	</TABLE>
-</FORM>
+		</tbody>
+	</table>
+</form>
 		
 <?php }
 					

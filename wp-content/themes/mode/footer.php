@@ -21,7 +21,7 @@
 </div>
 <?php */ ?>
 <div class="vertical_tabs">
-	<?php query_posts('cat=34&showposts=16'); while (have_posts()) : the_post(); ?>
+	<?php query_posts('cat=34&showposts=32'); while (have_posts()) : the_post(); ?>
 	<div class="vertical_post">
 		<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title() ?></a></div>
 		<div class="post_content"><p><?php print $content = get_the_excerpt(); ?></p></div>

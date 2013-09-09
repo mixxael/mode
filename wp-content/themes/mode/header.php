@@ -66,10 +66,19 @@ jQuery(document).ready(function() {
 <?php //if (!is_front_page()) {echo '<div class="fon">&nbsp;</div>';} ?>
 <div id="page">
 	<div class="fixed">
+		<div class="banner_header">
+			<?php print do_shortcode('[monoslideshow id=9 w=160 h=80]'); ?>
+		</div>
 		<div class="logo"><a href="/" title="кухни на заказ, шкафы купе на заказ"><img  src="/wp-content/themes/mode/images/logo.png" alt="шкафы купе на заказ, кухни на заказ" style="margin-left: -10px; margin-top:10px;" /></a></div>
 		<div class="description"><?php bloginfo('description'); ?></div>
 		<?php /*if (is_front_page()) { ?> <a href="/slovo-dizajnera/" title="Войти на сайт"><img  align="right" valign="bottom" src="/wp-content/themes/mode/images/entry.png"  class="enter" /> </a><?php }
 		*/ ?>
+		<div class="contacts">
+			тел.: 044 227-14-43<br />
+			тел.: 068 126-74-51 Киевстар<br />
+			тел.: 050 077-42-45 МТС<br />
+			тел.: 063 639-48-41 Лайф
+		</div>
 		<div id="header">
 
 			<?php //wp_list_categories('title_li='); ?>

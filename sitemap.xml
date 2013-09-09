@@ -1,209 +1,216 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://mode.ua/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/2.9.2" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://mode/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/2.9.2" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.4" -->
-<!-- generated-on="12 May 2012 17:59" -->
+<!-- generated-on="23 October 2012 6:24" -->
 <!-- Debug: Total comment count: 48 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>http://mode.ua/</loc>
+		<loc>http://mode/</loc>
 		<lastmod>2010-06-20T10:20:16+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 498: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/kontakty/</loc>
-		<lastmod>2012-05-12T17:58:19+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-<!-- Debug: Priority report of postID 475: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/kuxnya-mechty-%e2%80%93-kuxni-na-zakaz-ot-td-mode/</loc>
-		<lastmod>2012-03-25T13:22:29+00:00</lastmod>
+		<loc>http://mode/mezhkomnatnye-peregorodki/</loc>
+		<lastmod>2012-10-23T06:23:04+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 472: Comments: 0 of 48 = 0 points -->
+<!-- Debug: Priority report of postID 34: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/shkafy-kupe-na-zakaz-glavnoe-funkcionalnost/</loc>
-		<lastmod>2012-03-13T15:19:17+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 468: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/kak-vybrat-shkaf-kupe-na-zakaz/</loc>
-		<lastmod>2012-03-13T15:16:29+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 165: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/kollekcii/</loc>
-		<lastmod>2011-12-18T11:52:54+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 147: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/kuxni/</loc>
-		<lastmod>2011-12-18T11:51:17+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 300: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/kuxni-v-stile-provans-derevenskom-stile-kuxni-kantri/</loc>
-		<lastmod>2011-12-18T11:32:21+00:00</lastmod>
+		<loc>http://mode/garderobnye/</loc>
+		<lastmod>2012-10-23T06:08:23+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 145: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/shkafy-kupe/</loc>
-		<lastmod>2011-12-18T11:24:32+00:00</lastmod>
+		<loc>http://mode/shkafy-kupe/</loc>
+		<lastmod>2012-10-23T06:02:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 228: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/shkafy-kupe-2/</loc>
+		<lastmod>2012-10-23T06:00:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 147: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/kuxni/</loc>
+		<lastmod>2012-10-22T20:02:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 233: Comments: 5 of 48 = 0.1 points -->
+	<url>
+		<loc>http://mode/kak-sdelat-pravilnyj-vybor-i-ne-dopustit-oshibok/</loc>
+		<lastmod>2012-10-22T19:06:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 239: Comments: 4 of 48 = 0.1 points -->
+	<url>
+		<loc>http://mode/udobnyj-i-effektnyj-uglovoj-shkaf/</loc>
+		<lastmod>2012-10-22T19:06:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 242: Comments: 10 of 48 = 0.2 points -->
+	<url>
+		<loc>http://mode/dostoinstva-i-nedostatki-mebelnyx-materialov/</loc>
+		<lastmod>2012-10-22T19:06:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 245: Comments: 3 of 48 = 0.1 points -->
+	<url>
+		<loc>http://mode/vragi-kuxonnoj-mebeli/</loc>
+		<lastmod>2012-10-22T19:06:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 300: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/kuxni-v-stile-provans-derevenskom-stile-kuxni-kantri/</loc>
+		<lastmod>2012-10-22T19:06:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 472: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/shkafy-kupe-na-zakaz-glavnoe-funkcionalnost/</loc>
+		<lastmod>2012-10-22T19:05:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 475: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/kuxnya-mechty-%e2%80%93-kuxni-na-zakaz-ot-td-mode/</loc>
+		<lastmod>2012-10-22T19:05:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 468: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/kak-vybrat-shkaf-kupe-na-zakaz/</loc>
+		<lastmod>2012-10-22T18:55:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://mode.ua/sotrudnichestvo/</loc>
+		<loc>http://mode/kontakty/</loc>
+		<lastmod>2012-05-12T17:58:19+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 165: Comments: 0 of 48 = 0 points -->
+	<url>
+		<loc>http://mode/kollekcii/</loc>
+		<lastmod>2011-12-18T11:52:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://mode/sotrudnichestvo/</loc>
 		<lastmod>2011-10-01T17:44:53+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 <!-- Debug: Priority report of postID 206: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/kredit-na-mebel-pod-0-ot-td-mode/</loc>
+		<loc>http://mode/kredit-na-mebel-pod-0-ot-td-mode/</loc>
 		<lastmod>2011-04-24T07:27:17+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 231: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/vybor-i-rasstanovka-mebeli-po-fen-shuj/</loc>
+		<loc>http://mode/vybor-i-rasstanovka-mebeli-po-fen-shuj/</loc>
 		<lastmod>2011-03-13T21:03:47+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://mode.ua/slovo-dizajnera/</loc>
+		<loc>http://mode/slovo-dizajnera/</loc>
 		<lastmod>2011-03-09T11:29:07+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-<!-- Debug: Priority report of postID 34: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/garderobnye/</loc>
-		<lastmod>2011-03-08T11:23:13+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 <!-- Debug: Priority report of postID 225: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/shkaf-%e2%80%93-kupe-kak-zhe-vybrat-idealnyj/</loc>
+		<loc>http://mode/shkaf-%e2%80%93-kupe-kak-zhe-vybrat-idealnyj/</loc>
 		<lastmod>2011-03-08T11:11:37+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 228: Comments: 0 of 48 = 0 points -->
-	<url>
-		<loc>http://mode.ua/shkafy-kupe-2/</loc>
-		<lastmod>2011-03-08T11:04:37+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 355: Comments: 6 of 48 = 0.1 points -->
 	<url>
-		<loc>http://mode.ua/provans/</loc>
+		<loc>http://mode/provans/</loc>
 		<lastmod>2011-03-08T11:01:26+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 357: Comments: 2 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/modern/</loc>
+		<loc>http://mode/modern/</loc>
 		<lastmod>2011-03-08T10:49:53+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 245: Comments: 3 of 48 = 0.1 points -->
-	<url>
-		<loc>http://mode.ua/vragi-kuxonnoj-mebeli/</loc>
-		<lastmod>2011-03-08T10:26:34+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 178: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/glavnaya-novost/</loc>
+		<loc>http://mode/glavnaya-novost/</loc>
 		<lastmod>2011-03-04T20:55:05+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 366: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/art-deko/</loc>
+		<loc>http://mode/art-deko/</loc>
 		<lastmod>2011-03-04T18:57:31+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 359: Comments: 8 of 48 = 0.2 points -->
 	<url>
-		<loc>http://mode.ua/xaj-tek/</loc>
+		<loc>http://mode/xaj-tek/</loc>
 		<lastmod>2011-03-03T21:55:07+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 233: Comments: 5 of 48 = 0.1 points -->
-	<url>
-		<loc>http://mode.ua/kak-sdelat-pravilnyj-vybor-i-ne-dopustit-oshibok/</loc>
-		<lastmod>2011-01-12T15:23:57+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 236: Comments: 10 of 48 = 0.2 points -->
 	<url>
-		<loc>http://mode.ua/magiya-mebeli/</loc>
+		<loc>http://mode/magiya-mebeli/</loc>
 		<lastmod>2011-01-12T15:00:42+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 239: Comments: 4 of 48 = 0.1 points -->
 	<url>
-		<loc>http://mode.ua/udobnyj-i-effektnyj-uglovoj-shkaf/</loc>
-		<lastmod>2011-01-12T14:32:18+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 242: Comments: 10 of 48 = 0.2 points -->
-	<url>
-		<loc>http://mode.ua/dostoinstva-i-nedostatki-mebelnyx-materialov/</loc>
-		<lastmod>2011-01-12T12:05:50+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://mode.ua/about/</loc>
+		<loc>http://mode/about/</loc>
 		<lastmod>2010-12-04T18:35:04+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 <!-- Debug: Priority report of postID 222: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/kak-pravilno-vybrat-kuxnyu/</loc>
+		<loc>http://mode/kak-pravilno-vybrat-kuxnyu/</loc>
 		<lastmod>2010-09-04T19:42:56+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 186: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/186/</loc>
+		<loc>http://mode/186/</loc>
 		<lastmod>2010-08-15T19:08:14+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 <!-- Debug: Priority report of postID 183: Comments: 0 of 48 = 0 points -->
 	<url>
-		<loc>http://mode.ua/183/</loc>
+		<loc>http://mode/183/</loc>
 		<lastmod>2010-08-15T18:55:56+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>

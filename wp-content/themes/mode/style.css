@@ -82,6 +82,18 @@ small {
 	font-weight: bold;
 }
 #header {height: 31px; padding: 1px 0 20px 0; margin-top: 10px;}
+.banner_header{
+	top: 10px;
+	position: absolute;
+	left: 15px;
+}
+.contacts{
+	top: 10px;
+	position: absolute;
+	right: 15px;
+	line-height: 20px;
+}
+
 #header ul li a {color: #d0c8a5; font-size: 16px;}
 #header ul li {list-style: inline; list-style-type: none;}
 #headerimg 	{
@@ -89,7 +101,7 @@ small {
 	height: 192px;
 	width: 740px;
 	}
-#mainmenu {position: relative;}
+#mainmenu {position: relative; height: 27px;text-align: center; margin:3px 0px 0 0px; padding:0 10px;}
 #header #mainmenu a {font-size:12px; font-weight: bold;text-transform: lowercase;}
 td.active { background: url('images/menu.png') no-repeat bottom center; width: 209px; margin-bottom: 5px; padding: 10px}
 td.active2 a{ color:#ffffff; font-size: 13px;}
@@ -338,6 +350,7 @@ width: 720px;
 height: 390px;
 padding-top: 5px;
 overflow: hidden;
+margin-bottom: 10px;
 }
 
 .scrollable_wrap {
